@@ -1,0 +1,43 @@
+module.exports = {
+    entry: ["whatwg-fetch", "./js/app.jsx"],
+    output: {
+        filename: "./js/out.js"
+    },
+    devServer: {
+        inline: true,
+        contentBase: './',
+        port: 3001
+    },
+    watch: true,
+
+    module: {
+        loaders: [{
+            test: /\.jsx$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+            query: {
+                presets: ['es2015','stage-2', 'react']
+            }
+        }, {
+            test: /\.scss$/,
+            loader: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[path][name].[ext]'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader'
+            }
+        ]
+    }
+};
