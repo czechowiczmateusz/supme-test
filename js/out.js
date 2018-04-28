@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 118);
+/******/ 	return __webpack_require__(__webpack_require__.s = 117);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1262,7 +1262,7 @@ module.exports = emptyFunction;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(145);
+  var ReactDebugTool = __webpack_require__(144);
   debugTool = ReactDebugTool;
 }
 
@@ -1586,7 +1586,7 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(222)();
+  module.exports = __webpack_require__(221)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -2866,14 +2866,14 @@ module.exports = PooledClass;
 var _assign = __webpack_require__(4);
 
 var ReactBaseClasses = __webpack_require__(71);
-var ReactChildren = __webpack_require__(121);
-var ReactDOMFactories = __webpack_require__(125);
+var ReactChildren = __webpack_require__(120);
+var ReactDOMFactories = __webpack_require__(124);
 var ReactElement = __webpack_require__(21);
-var ReactPropTypes = __webpack_require__(129);
-var ReactVersion = __webpack_require__(131);
+var ReactPropTypes = __webpack_require__(128);
+var ReactVersion = __webpack_require__(130);
 
-var createReactClass = __webpack_require__(132);
-var onlyChild = __webpack_require__(133);
+var createReactClass = __webpack_require__(131);
+var onlyChild = __webpack_require__(132);
 
 var createElement = ReactElement.createElement;
 var createFactory = ReactElement.createFactory;
@@ -3041,7 +3041,7 @@ module.exports = reactProdInvariant;
 
 
 
-var ReactRef = __webpack_require__(143);
+var ReactRef = __webpack_require__(142);
 var ReactInstrumentation = __webpack_require__(10);
 
 var warning = __webpack_require__(2);
@@ -5119,10 +5119,10 @@ module.exports = escapeTextContentForBrowser;
 var _assign = __webpack_require__(4);
 
 var EventPluginRegistry = __webpack_require__(37);
-var ReactEventEmitterMixin = __webpack_require__(169);
+var ReactEventEmitterMixin = __webpack_require__(168);
 var ViewportMetrics = __webpack_require__(87);
 
-var getVendorPrefixedEventName = __webpack_require__(170);
+var getVendorPrefixedEventName = __webpack_require__(169);
 var isEventSupported = __webpack_require__(50);
 
 /**
@@ -6074,7 +6074,7 @@ module.exports = getEventModifierState;
 
 
 var DOMLazyTree = __webpack_require__(26);
-var Danger = __webpack_require__(154);
+var Danger = __webpack_require__(153);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
@@ -7484,7 +7484,7 @@ function mapAsync(array, work, callback) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_create_react_class__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(227);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ContextUtils__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RouteUtils__ = __webpack_require__(19);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -7794,7 +7794,7 @@ exports.default = runTransitionHook;
 
 exports.__esModule = true;
 
-var _AsyncUtils = __webpack_require__(239);
+var _AsyncUtils = __webpack_require__(238);
 
 var _PathUtils = __webpack_require__(20);
 
@@ -8421,7 +8421,7 @@ var ReactCurrentOwner = __webpack_require__(11);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ReactElement = __webpack_require__(21);
 
-var checkReactTypeSpec = __webpack_require__(126);
+var checkReactTypeSpec = __webpack_require__(125);
 
 var canDefineProperty = __webpack_require__(35);
 var getIteratorFn = __webpack_require__(74);
@@ -8700,7 +8700,7 @@ var warning = __webpack_require__(2);
 var assign = __webpack_require__(4);
 
 var ReactPropTypesSecret = __webpack_require__(46);
-var checkPropTypes = __webpack_require__(130);
+var checkPropTypes = __webpack_require__(129);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -10935,7 +10935,7 @@ var DOMProperty = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
-var quoteAttributeValueForBrowser = __webpack_require__(168);
+var quoteAttributeValueForBrowser = __webpack_require__(167);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -11397,11 +11397,11 @@ module.exports = ReactDOMSelect;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var ReactCompositeComponent = __webpack_require__(176);
+var ReactCompositeComponent = __webpack_require__(175);
 var ReactEmptyComponent = __webpack_require__(96);
 var ReactHostComponent = __webpack_require__(97);
 
-var getNextDebugID = __webpack_require__(179);
+var getNextDebugID = __webpack_require__(178);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -11679,9 +11679,9 @@ module.exports = ReactHostComponent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(11);
-var REACT_ELEMENT_TYPE = __webpack_require__(180);
+var REACT_ELEMENT_TYPE = __webpack_require__(179);
 
-var getIteratorFn = __webpack_require__(181);
+var getIteratorFn = __webpack_require__(180);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(59);
 var warning = __webpack_require__(2);
@@ -11937,9 +11937,9 @@ module.exports = EventListener;
 
 
 
-var ReactDOMSelection = __webpack_require__(193);
+var ReactDOMSelection = __webpack_require__(192);
 
-var containsNode = __webpack_require__(195);
+var containsNode = __webpack_require__(194);
 var focusNode = __webpack_require__(89);
 var getActiveElement = __webpack_require__(101);
 
@@ -12113,12 +12113,12 @@ var React = __webpack_require__(23);
 var ReactBrowserEventEmitter = __webpack_require__(42);
 var ReactCurrentOwner = __webpack_require__(11);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMContainerInfo = __webpack_require__(210);
-var ReactDOMFeatureFlags = __webpack_require__(211);
+var ReactDOMContainerInfo = __webpack_require__(209);
+var ReactDOMFeatureFlags = __webpack_require__(210);
 var ReactFeatureFlags = __webpack_require__(84);
 var ReactInstanceMap = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMarkupChecksum = __webpack_require__(212);
+var ReactMarkupChecksum = __webpack_require__(211);
 var ReactReconciler = __webpack_require__(25);
 var ReactUpdateQueue = __webpack_require__(60);
 var ReactUpdates = __webpack_require__(12);
@@ -12672,11 +12672,11 @@ module.exports = getHostComponentFromComposite;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony export (immutable) */ __webpack_exports__["a"] = createTransitionManager;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routerWarning__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(226);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -13232,7 +13232,7 @@ var Redirect = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__);
 
 
@@ -13261,7 +13261,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _queryString = __webpack_require__(236);
+var _queryString = __webpack_require__(235);
 
 var _runTransitionHook = __webpack_require__(67);
 
@@ -13631,24 +13631,18 @@ module.exports = __webpack_require__.p + "styles/images/wave-01.svg";
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/appstores-640.jpg";
+module.exports = __webpack_require__.p + "styles/images/015-man.png";
 
 /***/ }),
 /* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/015-man.png";
+__webpack_require__(118);
+module.exports = __webpack_require__(119);
+
 
 /***/ }),
 /* 118 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(119);
-module.exports = __webpack_require__(120);
-
-
-/***/ }),
-/* 119 */
 /***/ (function(module, exports) {
 
 (function(self) {
@@ -14120,7 +14114,7 @@ module.exports = __webpack_require__(120);
 
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14132,11 +14126,11 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(134);
+var _reactDom = __webpack_require__(133);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouter = __webpack_require__(220);
+var _reactRouter = __webpack_require__(219);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14146,7 +14140,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-__webpack_require__(247);
+__webpack_require__(246);
 
 var HomePage = function (_React$Component) {
     _inherits(HomePage, _React$Component);
@@ -14301,7 +14295,7 @@ var HomePage = function (_React$Component) {
                     _react2.default.createElement(
                         "div",
                         { className: "phones" },
-                        _react2.default.createElement("img", { src: __webpack_require__(252) })
+                        _react2.default.createElement("img", { src: __webpack_require__(251) })
                     ),
                     _react2.default.createElement(
                         "div",
@@ -14315,8 +14309,7 @@ var HomePage = function (_React$Component) {
                             "p",
                             null,
                             "consectetur adipiscing elit."
-                        ),
-                        _react2.default.createElement("img", { src: __webpack_require__(116) })
+                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -14477,17 +14470,17 @@ var HomePage = function (_React$Component) {
                 _react2.default.createElement(
                     "section",
                     { className: "big" },
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(253) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(252) }),
                     _react2.default.createElement(
                         "div",
                         null,
-                        _react2.default.createElement("img", { src: __webpack_require__(254) })
+                        _react2.default.createElement("img", { src: __webpack_require__(253) })
                     )
                 ),
                 _react2.default.createElement(
                     "section",
                     { ref: "team", className: "team" },
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(255) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(254) }),
                     _react2.default.createElement(
                         "div",
                         { className: "container" },
@@ -14514,7 +14507,7 @@ var HomePage = function (_React$Component) {
                                 _react2.default.createElement(
                                     "div",
                                     { className: "photo" },
-                                    _react2.default.createElement("img", { src: __webpack_require__(117), alt: "" })
+                                    _react2.default.createElement("img", { src: __webpack_require__(116), alt: "" })
                                 ),
                                 _react2.default.createElement(
                                     "h4",
@@ -14533,7 +14526,7 @@ var HomePage = function (_React$Component) {
                                 _react2.default.createElement(
                                     "div",
                                     { className: "photo" },
-                                    _react2.default.createElement("img", { src: __webpack_require__(117), alt: "" })
+                                    _react2.default.createElement("img", { src: __webpack_require__(116), alt: "" })
                                 ),
                                 _react2.default.createElement(
                                     "h4",
@@ -14564,7 +14557,7 @@ var HomePage = function (_React$Component) {
                 _react2.default.createElement(
                     "section",
                     { className: "application" },
-                    _react2.default.createElement("img", { className: "chat", src: __webpack_require__(256), alt: "" }),
+                    _react2.default.createElement("img", { className: "chat", src: __webpack_require__(255), alt: "" }),
                     _react2.default.createElement(
                         "div",
                         { className: "download" },
@@ -14586,8 +14579,7 @@ var HomePage = function (_React$Component) {
                                 null,
                                 "Get App"
                             )
-                        ),
-                        _react2.default.createElement("img", { src: __webpack_require__(116), alt: "" })
+                        )
                     )
                 )
             );
@@ -14612,7 +14604,7 @@ var Footer = function (_React$Component2) {
             return _react2.default.createElement(
                 "footer",
                 null,
-                _react2.default.createElement("img", { className: "background", src: __webpack_require__(257) }),
+                _react2.default.createElement("img", { className: "background", src: __webpack_require__(256) }),
                 _react2.default.createElement(
                     "div",
                     { className: "socials" },
@@ -14812,7 +14804,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14826,11 +14818,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-var PooledClass = __webpack_require__(122);
+var PooledClass = __webpack_require__(121);
 var ReactElement = __webpack_require__(21);
 
 var emptyFunction = __webpack_require__(9);
-var traverseAllChildren = __webpack_require__(123);
+var traverseAllChildren = __webpack_require__(122);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -15006,7 +14998,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15122,7 +15114,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15143,7 +15135,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(73);
 
 var getIteratorFn = __webpack_require__(74);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(124);
+var KeyEscapeUtils = __webpack_require__(123);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -15302,7 +15294,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15364,7 +15356,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15537,7 +15529,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15553,8 +15545,8 @@ module.exports = ReactDOMFactories;
 
 var _prodInvariant = __webpack_require__(24);
 
-var ReactPropTypeLocationNames = __webpack_require__(127);
-var ReactPropTypesSecret = __webpack_require__(128);
+var ReactPropTypeLocationNames = __webpack_require__(126);
+var ReactPropTypesSecret = __webpack_require__(127);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -15628,7 +15620,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15657,7 +15649,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15677,7 +15669,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15699,7 +15691,7 @@ var factory = __webpack_require__(76);
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15766,7 +15758,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15783,7 +15775,7 @@ module.exports = checkPropTypes;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15809,7 +15801,7 @@ var factory = __webpack_require__(78);
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15851,17 +15843,17 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(135);
+module.exports = __webpack_require__(134);
 
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15878,15 +15870,15 @@ module.exports = __webpack_require__(135);
 
 
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDefaultInjection = __webpack_require__(136);
+var ReactDefaultInjection = __webpack_require__(135);
 var ReactMount = __webpack_require__(102);
 var ReactReconciler = __webpack_require__(25);
 var ReactUpdates = __webpack_require__(12);
-var ReactVersion = __webpack_require__(214);
+var ReactVersion = __webpack_require__(213);
 
-var findDOMNode = __webpack_require__(215);
+var findDOMNode = __webpack_require__(214);
 var getHostComponentFromComposite = __webpack_require__(103);
-var renderSubtreeIntoContainer = __webpack_require__(216);
+var renderSubtreeIntoContainer = __webpack_require__(215);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -15963,9 +15955,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(10);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(217);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(218);
-  var ReactDOMInvalidARIAHook = __webpack_require__(219);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(216);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(217);
+  var ReactDOMInvalidARIAHook = __webpack_require__(218);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -15976,7 +15968,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15990,25 +15982,25 @@ module.exports = ReactDOM;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(137);
-var BeforeInputEventPlugin = __webpack_require__(138);
-var ChangeEventPlugin = __webpack_require__(142);
-var DefaultEventPluginOrder = __webpack_require__(150);
-var EnterLeaveEventPlugin = __webpack_require__(151);
-var HTMLDOMPropertyConfig = __webpack_require__(152);
-var ReactComponentBrowserEnvironment = __webpack_require__(153);
-var ReactDOMComponent = __webpack_require__(159);
+var ARIADOMPropertyConfig = __webpack_require__(136);
+var BeforeInputEventPlugin = __webpack_require__(137);
+var ChangeEventPlugin = __webpack_require__(141);
+var DefaultEventPluginOrder = __webpack_require__(149);
+var EnterLeaveEventPlugin = __webpack_require__(150);
+var HTMLDOMPropertyConfig = __webpack_require__(151);
+var ReactComponentBrowserEnvironment = __webpack_require__(152);
+var ReactDOMComponent = __webpack_require__(158);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMEmptyComponent = __webpack_require__(185);
-var ReactDOMTreeTraversal = __webpack_require__(186);
-var ReactDOMTextComponent = __webpack_require__(187);
-var ReactDefaultBatchingStrategy = __webpack_require__(188);
-var ReactEventListener = __webpack_require__(189);
-var ReactInjection = __webpack_require__(191);
-var ReactReconcileTransaction = __webpack_require__(192);
-var SVGDOMPropertyConfig = __webpack_require__(198);
-var SelectEventPlugin = __webpack_require__(199);
-var SimpleEventPlugin = __webpack_require__(200);
+var ReactDOMEmptyComponent = __webpack_require__(184);
+var ReactDOMTreeTraversal = __webpack_require__(185);
+var ReactDOMTextComponent = __webpack_require__(186);
+var ReactDefaultBatchingStrategy = __webpack_require__(187);
+var ReactEventListener = __webpack_require__(188);
+var ReactInjection = __webpack_require__(190);
+var ReactReconcileTransaction = __webpack_require__(191);
+var SVGDOMPropertyConfig = __webpack_require__(197);
+var SelectEventPlugin = __webpack_require__(198);
+var SimpleEventPlugin = __webpack_require__(199);
 
 var alreadyInjected = false;
 
@@ -16065,7 +16057,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16142,7 +16134,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16158,9 +16150,9 @@ module.exports = ARIADOMPropertyConfig;
 
 var EventPropagators = __webpack_require__(30);
 var ExecutionEnvironment = __webpack_require__(6);
-var FallbackCompositionState = __webpack_require__(139);
-var SyntheticCompositionEvent = __webpack_require__(140);
-var SyntheticInputEvent = __webpack_require__(141);
+var FallbackCompositionState = __webpack_require__(138);
+var SyntheticCompositionEvent = __webpack_require__(139);
+var SyntheticInputEvent = __webpack_require__(140);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -16529,7 +16521,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16627,7 +16619,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16666,7 +16658,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16706,7 +16698,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17021,7 +17013,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17036,7 +17028,7 @@ module.exports = ChangeEventPlugin;
 
 
 
-var ReactOwner = __webpack_require__(144);
+var ReactOwner = __webpack_require__(143);
 
 var ReactRef = {};
 
@@ -17113,7 +17105,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17210,7 +17202,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17225,12 +17217,12 @@ module.exports = ReactOwner;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(146);
-var ReactHostOperationHistoryHook = __webpack_require__(147);
+var ReactInvalidSetStateWarningHook = __webpack_require__(145);
+var ReactHostOperationHistoryHook = __webpack_require__(146);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var performanceNow = __webpack_require__(148);
+var performanceNow = __webpack_require__(147);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -17575,7 +17567,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17616,7 +17608,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17653,7 +17645,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17668,7 +17660,7 @@ module.exports = ReactHostOperationHistoryHook;
  * @typechecks
  */
 
-var performance = __webpack_require__(149);
+var performance = __webpack_require__(148);
 
 var performanceNow;
 
@@ -17690,7 +17682,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17716,7 +17708,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17745,7 +17737,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17846,7 +17838,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18086,7 +18078,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18101,7 +18093,7 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 var DOMChildrenOperations = __webpack_require__(52);
-var ReactDOMIDOperations = __webpack_require__(158);
+var ReactDOMIDOperations = __webpack_require__(157);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -18117,7 +18109,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18136,7 +18128,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(26);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createNodesFromMarkup = __webpack_require__(155);
+var createNodesFromMarkup = __webpack_require__(154);
 var emptyFunction = __webpack_require__(9);
 var invariant = __webpack_require__(1);
 
@@ -18167,7 +18159,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18186,8 +18178,8 @@ module.exports = Danger;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createArrayFromMixed = __webpack_require__(156);
-var getMarkupWrap = __webpack_require__(157);
+var createArrayFromMixed = __webpack_require__(155);
+var getMarkupWrap = __webpack_require__(156);
 var invariant = __webpack_require__(1);
 
 /**
@@ -18255,7 +18247,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18386,7 +18378,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18485,7 +18477,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18521,7 +18513,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18540,8 +18532,8 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var AutoFocusUtils = __webpack_require__(160);
-var CSSPropertyOperations = __webpack_require__(161);
+var AutoFocusUtils = __webpack_require__(159);
+var CSSPropertyOperations = __webpack_require__(160);
 var DOMLazyTree = __webpack_require__(26);
 var DOMNamespaces = __webpack_require__(53);
 var DOMProperty = __webpack_require__(17);
@@ -18551,13 +18543,13 @@ var EventPluginRegistry = __webpack_require__(37);
 var ReactBrowserEventEmitter = __webpack_require__(42);
 var ReactDOMComponentFlags = __webpack_require__(79);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMInput = __webpack_require__(171);
-var ReactDOMOption = __webpack_require__(172);
+var ReactDOMInput = __webpack_require__(170);
+var ReactDOMOption = __webpack_require__(171);
 var ReactDOMSelect = __webpack_require__(93);
-var ReactDOMTextarea = __webpack_require__(173);
+var ReactDOMTextarea = __webpack_require__(172);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMultiChild = __webpack_require__(174);
-var ReactServerRenderingTransaction = __webpack_require__(183);
+var ReactMultiChild = __webpack_require__(173);
+var ReactServerRenderingTransaction = __webpack_require__(182);
 
 var emptyFunction = __webpack_require__(9);
 var escapeTextContentForBrowser = __webpack_require__(41);
@@ -19539,7 +19531,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19566,7 +19558,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19584,10 +19576,10 @@ var CSSProperty = __webpack_require__(90);
 var ExecutionEnvironment = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(10);
 
-var camelizeStyleName = __webpack_require__(162);
-var dangerousStyleValue = __webpack_require__(164);
-var hyphenateStyleName = __webpack_require__(165);
-var memoizeStringOnly = __webpack_require__(167);
+var camelizeStyleName = __webpack_require__(161);
+var dangerousStyleValue = __webpack_require__(163);
+var hyphenateStyleName = __webpack_require__(164);
+var memoizeStringOnly = __webpack_require__(166);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -19785,7 +19777,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19800,7 +19792,7 @@ module.exports = CSSPropertyOperations;
 
 
 
-var camelize = __webpack_require__(163);
+var camelize = __webpack_require__(162);
 
 var msPattern = /^-ms-/;
 
@@ -19828,7 +19820,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19863,7 +19855,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19946,7 +19938,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19961,7 +19953,7 @@ module.exports = dangerousStyleValue;
 
 
 
-var hyphenate = __webpack_require__(166);
+var hyphenate = __webpack_require__(165);
 
 var msPattern = /^ms-/;
 
@@ -19988,7 +19980,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20024,7 +20016,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20057,7 +20049,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20086,7 +20078,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20121,7 +20113,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20225,7 +20217,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20516,7 +20508,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20642,7 +20634,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20806,7 +20798,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20828,10 +20820,10 @@ var ReactInstrumentation = __webpack_require__(10);
 
 var ReactCurrentOwner = __webpack_require__(11);
 var ReactReconciler = __webpack_require__(25);
-var ReactChildReconciler = __webpack_require__(175);
+var ReactChildReconciler = __webpack_require__(174);
 
 var emptyFunction = __webpack_require__(9);
-var flattenChildren = __webpack_require__(182);
+var flattenChildren = __webpack_require__(181);
 var invariant = __webpack_require__(1);
 
 /**
@@ -21256,7 +21248,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21413,7 +21405,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21440,7 +21432,7 @@ var ReactNodeTypes = __webpack_require__(95);
 var ReactReconciler = __webpack_require__(25);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(177);
+  var checkReactTypeSpec = __webpack_require__(176);
 }
 
 var emptyObject = __webpack_require__(36);
@@ -22317,7 +22309,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22333,7 +22325,7 @@ module.exports = ReactCompositeComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(178);
+var ReactPropTypeLocationNames = __webpack_require__(177);
 var ReactPropTypesSecret = __webpack_require__(92);
 
 var invariant = __webpack_require__(1);
@@ -22408,7 +22400,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22437,7 +22429,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22461,7 +22453,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22484,7 +22476,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22528,7 +22520,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22608,7 +22600,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22627,7 +22619,7 @@ var _assign = __webpack_require__(4);
 var PooledClass = __webpack_require__(22);
 var Transaction = __webpack_require__(38);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactServerUpdateQueue = __webpack_require__(184);
+var ReactServerUpdateQueue = __webpack_require__(183);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -22702,7 +22694,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22845,7 +22837,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22908,7 +22900,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23048,7 +23040,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23214,7 +23206,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23285,7 +23277,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23308,7 +23300,7 @@ var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(12);
 
 var getEventTarget = __webpack_require__(49);
-var getUnboundedScrollPosition = __webpack_require__(190);
+var getUnboundedScrollPosition = __webpack_require__(189);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -23443,7 +23435,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23485,7 +23477,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23522,7 +23514,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23704,7 +23696,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23720,7 +23712,7 @@ module.exports = ReactReconcileTransaction;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var getNodeForCharacterOffset = __webpack_require__(194);
+var getNodeForCharacterOffset = __webpack_require__(193);
 var getTextContentAccessor = __webpack_require__(82);
 
 /**
@@ -23919,7 +23911,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23996,7 +23988,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24011,7 +24003,7 @@ module.exports = getNodeForCharacterOffset;
  * 
  */
 
-var isTextNode = __webpack_require__(196);
+var isTextNode = __webpack_require__(195);
 
 /*eslint-disable no-bitwise */
 
@@ -24039,7 +24031,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24054,7 +24046,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(197);
+var isNode = __webpack_require__(196);
 
 /**
  * @param {*} object The object to check.
@@ -24067,7 +24059,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24095,7 +24087,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24400,7 +24392,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24591,7 +24583,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24611,17 +24603,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(99);
 var EventPropagators = __webpack_require__(30);
 var ReactDOMComponentTree = __webpack_require__(5);
-var SyntheticAnimationEvent = __webpack_require__(201);
-var SyntheticClipboardEvent = __webpack_require__(202);
+var SyntheticAnimationEvent = __webpack_require__(200);
+var SyntheticClipboardEvent = __webpack_require__(201);
 var SyntheticEvent = __webpack_require__(15);
-var SyntheticFocusEvent = __webpack_require__(203);
-var SyntheticKeyboardEvent = __webpack_require__(204);
+var SyntheticFocusEvent = __webpack_require__(202);
+var SyntheticKeyboardEvent = __webpack_require__(203);
 var SyntheticMouseEvent = __webpack_require__(39);
-var SyntheticDragEvent = __webpack_require__(206);
-var SyntheticTouchEvent = __webpack_require__(207);
-var SyntheticTransitionEvent = __webpack_require__(208);
+var SyntheticDragEvent = __webpack_require__(205);
+var SyntheticTouchEvent = __webpack_require__(206);
+var SyntheticTransitionEvent = __webpack_require__(207);
 var SyntheticUIEvent = __webpack_require__(32);
-var SyntheticWheelEvent = __webpack_require__(209);
+var SyntheticWheelEvent = __webpack_require__(208);
 
 var emptyFunction = __webpack_require__(9);
 var getEventCharCode = __webpack_require__(62);
@@ -24821,7 +24813,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24863,7 +24855,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24904,7 +24896,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24943,7 +24935,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24960,7 +24952,7 @@ module.exports = SyntheticFocusEvent;
 var SyntheticUIEvent = __webpack_require__(32);
 
 var getEventCharCode = __webpack_require__(62);
-var getEventKey = __webpack_require__(205);
+var getEventKey = __webpack_require__(204);
 var getEventModifierState = __webpack_require__(51);
 
 /**
@@ -25030,7 +25022,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25145,7 +25137,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25184,7 +25176,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25232,7 +25224,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25274,7 +25266,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 209 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25328,7 +25320,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 210 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25365,7 +25357,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 211 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25387,7 +25379,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 212 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25401,7 +25393,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var adler32 = __webpack_require__(213);
+var adler32 = __webpack_require__(212);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -25440,7 +25432,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 213 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25487,7 +25479,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 214 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25504,7 +25496,7 @@ module.exports = adler32;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 215 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25568,7 +25560,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 216 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25587,7 +25579,7 @@ var ReactMount = __webpack_require__(102);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 217 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25703,7 +25695,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 218 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25750,7 +25742,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 219 */
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25847,26 +25839,26 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 220 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(220);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_0__Router__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Link__ = __webpack_require__(107);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_1__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(228);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexLink", function() { return __WEBPACK_IMPORTED_MODULE_2__IndexLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(229);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__withRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(231);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRedirect", function() { return __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(232);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRoute", function() { return __WEBPACK_IMPORTED_MODULE_5__IndexRoute__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(108);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(233);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__RouteUtils__ = __webpack_require__(19);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createRoutes", function() { return __WEBPACK_IMPORTED_MODULE_8__RouteUtils__["b"]; });
@@ -25875,17 +25867,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PropTypes__ = __webpack_require__(66);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "locationShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "routerShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(234);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "match", function() { return __WEBPACK_IMPORTED_MODULE_11__match__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__ = __webpack_require__(112);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "useRouterHistory", function() { return __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__PatternUtils__ = __webpack_require__(28);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "formatPattern", function() { return __WEBPACK_IMPORTED_MODULE_13__PatternUtils__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(239);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "applyRouterMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(240);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browserHistory", function() { return __WEBPACK_IMPORTED_MODULE_15__browserHistory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(243);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "hashHistory", function() { return __WEBPACK_IMPORTED_MODULE_16__hashHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__ = __webpack_require__(109);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createMemoryHistory", function() { return __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__["a"]; });
@@ -25936,7 +25928,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 221 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26106,7 +26098,7 @@ var propTypes = {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 222 */
+/* 221 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26171,7 +26163,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 223 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26248,7 +26240,7 @@ function computeChangedRoutes(prevState, nextState) {
 /* harmony default export */ __webpack_exports__["a"] = (computeChangedRoutes);
 
 /***/ }),
-/* 224 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26412,7 +26404,7 @@ function getTransitionUtils() {
 }
 
 /***/ }),
-/* 225 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26565,7 +26557,7 @@ function isActive(_ref, indexOnly, currentLocation, routes, params) {
 }
 
 /***/ }),
-/* 226 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26607,7 +26599,7 @@ function getComponents(nextState, callback) {
 /* harmony default export */ __webpack_exports__["a"] = (getComponents);
 
 /***/ }),
-/* 227 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26860,7 +26852,7 @@ function matchRoutes(routes, location, callback, remainingPathname) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 228 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26888,7 +26880,7 @@ function getRouteParams(route, params) {
 /* harmony default export */ __webpack_exports__["a"] = (getRouteParams);
 
 /***/ }),
-/* 229 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26917,7 +26909,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_1_create_react_class___default()({
 /* harmony default export */ __webpack_exports__["a"] = (IndexLink);
 
 /***/ }),
-/* 230 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26928,7 +26920,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_1_create_react_class___default()({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_create_react_class__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ContextUtils__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__PropTypes__ = __webpack_require__(66);
@@ -26993,7 +26985,7 @@ function withRouter(WrappedComponent, options) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 231 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -27071,7 +27063,7 @@ function withRouter(WrappedComponent, options) {
 
 
 /***/ }),
-/* 232 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27127,7 +27119,7 @@ var IndexRedirect = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 233 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27184,7 +27176,7 @@ var IndexRoute = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 234 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27238,7 +27230,7 @@ var Route = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 235 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27308,12 +27300,12 @@ function match(_ref, callback) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 236 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var strictUriEncode = __webpack_require__(237);
+var strictUriEncode = __webpack_require__(236);
 var objectAssign = __webpack_require__(4);
 
 function encoderForArrayFormat(opts) {
@@ -27520,7 +27512,7 @@ exports.stringify = function (obj, opts) {
 
 
 /***/ }),
-/* 237 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27533,7 +27525,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 238 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27680,7 +27672,7 @@ exports.default = createMemoryHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 239 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27742,7 +27734,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 };
 
 /***/ }),
-/* 240 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27794,11 +27786,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 241 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(241);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(114);
 
@@ -27806,7 +27798,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default.a));
 
 /***/ }),
-/* 242 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27826,7 +27818,7 @@ var _BrowserProtocol = __webpack_require__(70);
 
 var BrowserProtocol = _interopRequireWildcard(_BrowserProtocol);
 
-var _RefreshProtocol = __webpack_require__(243);
+var _RefreshProtocol = __webpack_require__(242);
 
 var RefreshProtocol = _interopRequireWildcard(_RefreshProtocol);
 
@@ -27906,7 +27898,7 @@ exports.default = createBrowserHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 243 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27949,11 +27941,11 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 };
 
 /***/ }),
-/* 244 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(244);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(114);
 
@@ -27961,7 +27953,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default.a));
 
 /***/ }),
-/* 245 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27983,7 +27975,7 @@ var _ExecutionEnvironment = __webpack_require__(69);
 
 var _DOMUtils = __webpack_require__(44);
 
-var _HashProtocol = __webpack_require__(246);
+var _HashProtocol = __webpack_require__(245);
 
 var HashProtocol = _interopRequireWildcard(_HashProtocol);
 
@@ -28115,7 +28107,7 @@ exports.default = createHashHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 246 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28258,13 +28250,13 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 247 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(248);
+var content = __webpack_require__(247);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -28272,7 +28264,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(250)(content, options);
+var update = __webpack_require__(249)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -28289,21 +28281,21 @@ if(false) {
 }
 
 /***/ }),
-/* 248 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(249)(false);
+exports = module.exports = __webpack_require__(248)(false);
 // imports
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n* {\n  box-sizing: border-box; }\n\nheader {\n  display: flex;\n  justify-content: flex-end;\n  height: 300px;\n  width: 100%;\n  color: white;\n  position: relative; }\n  header .container {\n    display: flex;\n    width: 53%;\n    justify-content: space-between;\n    position: absolute;\n    margin-top: -1%;\n    order: 1; }\n    header .container .logo {\n      height: 120px;\n      width: 100px; }\n    header .container nav {\n      width: 26%;\n      display: flex;\n      margin-right: 5.46%;\n      margin-top: 33px; }\n      header .container nav ul {\n        width: 100%;\n        height: 27px;\n        display: flex;\n        justify-content: space-between;\n        font-size: 20px;\n        font-family: 'Roboto Slab', serif;\n        font-weight: bold; }\n        header .container nav ul li {\n          cursor: pointer; }\n          header .container nav ul li .link {\n            color: white;\n            text-decoration: none; }\n      header .container nav div.mobile {\n        display: none; }\n  header .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n\nmain {\n  height: 1080px;\n  display: flex;\n  padding-top: 50px; }\n  main .phones {\n    width: 49%;\n    height: auto;\n    margin-left: 7.396%;\n    margin-right: 7.5%; }\n    main .phones img {\n      height: auto;\n      width: 100%; }\n  main .download {\n    width: 23%;\n    height: 383px;\n    margin-top: 107px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between; }\n    main .download h1 {\n      font-size: 60px;\n      font-family: 'Roboto Slab', serif;\n      font-weight: 400;\n      color: #6A67CE; }\n    main .download p {\n      font-size: 36px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1; }\n    main .download img {\n      height: 228px;\n      width: 320px;\n      margin-left: -20px; }\n\nsection.about {\n  height: 1080px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #F1F1F1; }\n  section.about .container {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    width: 1200px;\n    height: 391px; }\n    section.about .container h2 {\n      display: flex;\n      align-self: center;\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE; }\n    section.about .container p {\n      display: flex;\n      text-align: center;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: 400;\n      color: #D1D1D1; }\n    section.about .container button {\n      height: 60px;\n      width: 200px;\n      border: none;\n      border-radius: 30px;\n      color: #ffffff;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n      margin-bottom: 80px;\n      cursor: pointer;\n      transition: background 2s;\n      outline: none; }\n      section.about .container button:hover {\n        background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\nsection.info {\n  height: 1773px;\n  width: 100%;\n  background-color: #FFFFFF;\n  position: relative; }\n  section.info .box {\n    height: 405px;\n    width: 390px;\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center; }\n    section.info .box:first-of-type {\n      margin-top: 8.1%;\n      margin-left: 16.77%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 16%;\n      margin-left: 57.19%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 37%;\n      margin-left: 26.15%; }\n    section.info .box:last-of-type {\n      margin-top: 55.44%;\n      margin-left: 50%; }\n    section.info .box .circle {\n      width: 200px;\n      height: 200px;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center; }\n      section.info .box .circle.first {\n        box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.info .box .circle.second {\n        background-color: #7d00ca; }\n    section.info .box h3 {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: bold;\n      font-size: 36px;\n      text-align: center;\n      color: #6A67CE; }\n    section.info .box p {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      font-size: 24px;\n      text-align: center;\n      color: #D1D1D1; }\n\nsection.big {\n  height: 1080px;\n  width: 100%;\n  background-color: #ECF0F3;\n  position: relative;\n  display: flex; }\n  section.big .background {\n    width: 100%;\n    position: absolute;\n    top: -350px;\n    order: -1; }\n  section.big div {\n    width: 100%;\n    position: absolute; }\n    section.big div img {\n      height: 1080px;\n      width: 100%; }\n\nsection.team {\n  height: 1080px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n  color: #ffffff;\n  position: relative; }\n  section.team .background {\n    width: 100%;\n    position: absolute;\n    top: -360px;\n    order: -1; }\n  section.team .container {\n    width: 62.5%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; }\n    section.team .container h4 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      text-align: center;\n      font-weight: 400; }\n    section.team .container p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      text-align: center; }\n    section.team .container .description {\n      height: 213px;\n      margin-top: 83px;\n      margin-bottom: 35px; }\n      section.team .container .description h4 {\n        margin-bottom: 36px; }\n    section.team .container .people {\n      display: flex;\n      margin-bottom: 124px; }\n      section.team .container .people .person {\n        height: 437px;\n        width: 500px;\n        display: flex;\n        flex-direction: column;\n        align-items: center; }\n        section.team .container .people .person:first-of-type {\n          margin-right: 200px; }\n        section.team .container .people .person .photo {\n          height: 200px;\n          width: 200px;\n          border-radius: 50%;\n          margin-bottom: 47px; }\n          section.team .container .people .person .photo img {\n            height: 200px;\n            width: 200px; }\n    section.team .container .circles {\n      width: 200px;\n      height: 50px;\n      display: flex;\n      justify-content: space-between; }\n      section.team .container .circles .circle {\n        height: 50px;\n        width: 50px;\n        border-radius: 50%;\n        background-color: #FFFFFF; }\n\n.application {\n  display: flex;\n  height: 1600px;\n  width: 100%; }\n  .application .chat {\n    height: 903.5px;\n    max-width: 100%;\n    margin-left: 216px;\n    margin-top: 205px; }\n  .application .download {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 903.5px;\n    width: 1005px;\n    margin-top: 332px; }\n    .application .download .text {\n      height: 675px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: space-between; }\n      .application .download .text h5 {\n        font-size: 36px;\n        font-family: 'Roboto Slab', serif;\n        color: #6A67CE; }\n      .application .download .text p {\n        padding-top: 36px;\n        width: 391px;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: 400;\n        color: #AFAFAF; }\n      .application .download .text button {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        margin-bottom: 130px;\n        cursor: pointer;\n        transition: background 2s;\n        outline: none; }\n        .application .download .text button:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n    .application .download img {\n      height: 228px;\n      width: 320px; }\n\nfooter {\n  height: 360px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: relative; }\n  footer .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n  footer .socials {\n    position: absolute;\n    margin-top: 90px;\n    height: 187.5px;\n    width: 173.6px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    footer .socials .logo {\n      height: 106px;\n      width: 106px; }\n    footer .socials .media {\n      height: 31px; }\n      footer .socials .media svg {\n        width: 36px;\n        height: 30px; }\n\n@media only screen and (max-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        height: 100px;\n        width: 80px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center; }\n        header .container nav .hamburger {\n          width: 35px;\n          height: 7px;\n          background-color: #FFFFFF;\n          margin: 2px 0;\n          border-radius: 5px; }\n        header .container nav ul {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: 100%;\n        width: 90%;\n        min-width: 80%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 654px; }\n    section.about .container {\n      width: 90%; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 1962px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin: 0;\n        margin-bottom: 52px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .background {\n      top: -150px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    height: 300px; }\n    footer .socials {\n      height: 100px; } }\n\n@media only screen and (min-width: 769px) and (max-width: 1042px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1573px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\n@media only screen and (max-device-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        height: 100px;\n        width: 80px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: inline-block; }\n          header .container nav .menu div {\n            width: 35px;\n            height: 7px;\n            background-color: #FFFFFF;\n            margin: 2px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-4px, 2px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-4px, -2px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 30px;\n          margin-top: 300px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            width: 100%;\n            background-color: #7d00ca; }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 654px; }\n    section.about .container {\n      width: 90%; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: 680px;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    width: 100%; }\n    footer .socials {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; } }\n\n@media only screen and (min-width: 1042px) and (max-width: 1440px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 40%; }\n  main {\n    height: 700px; }\n  section.info .box:first-of-type {\n    margin-top: 8.1%;\n    margin-left: 16.77%; }\n  section.info .box:nth-of-type(2) {\n    margin-top: 16%;\n    margin-left: 57.19%; }\n  section.info .box:nth-of-type(3) {\n    margin-top: 57%;\n    margin-left: 16.77%; }\n  section.info .box:last-of-type {\n    margin-top: 64.9%;\n    margin-left: 57.19%; }\n  section.big img {\n    width: 140%; } }\n\n@media only screen and (min-width: 1042px) and (max-width: 1215px) {\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; } }\n\n@media only screen and (min-device-width: 769px) and (max-device-width: 1042px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1473px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\nsection.contact {\n  height: 1120px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center; }\n  section.contact .text {\n    width: 1200px;\n    height: 212px; }\n    section.contact .text h1 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE;\n      margin-bottom: 36px;\n      text-align: center; }\n    section.contact .text p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1;\n      text-align: center; }\n  section.contact form {\n    height: 617px;\n    width: 1053px; }\n    section.contact form input[type=text] {\n      height: 70px;\n      width: 499px;\n      padding-left: 37px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form input[type=text]:first-of-type {\n        margin-right: 53px; }\n      section.contact form input[type=text]:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form textarea {\n      resize: none;\n      height: 341.75px;\n      width: 100%;\n      padding-left: 37px;\n      padding-top: 24px;\n      margin-top: 80px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form textarea:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form div {\n      width: 100%;\n      display: flex;\n      justify-content: flex-end;\n      margin-top: 60px; }\n      section.contact form div input[type=submit] {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        cursor: pointer;\n        outline: none; }\n        section.contact form div input[type=submit]:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\n@media only screen and (max-device-width: 1042px) {\n  section.contact {\n    height: 1120px;\n    width: 100vw;\n    overflow: hidden; }\n    section.contact .text {\n      width: 80%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 80%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 80%; }\n      section.contact form div {\n        width: 80%; } }\n\n@media only screen and (max-width: 769px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 60%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 30%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 30%; }\n      section.contact form div {\n        width: 30%; } }\n\n@media only screen and (max-width: 1215px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 80%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 70%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 70%; }\n      section.contact form div {\n        width: 70%; } }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n* {\n  box-sizing: border-box; }\n\nheader {\n  display: flex;\n  justify-content: flex-end;\n  height: 300px;\n  width: 100%;\n  color: white;\n  position: relative; }\n  header .container {\n    display: flex;\n    width: 53%;\n    justify-content: space-between;\n    position: absolute;\n    margin-top: -1%;\n    order: 1; }\n    header .container .logo {\n      height: 120px;\n      width: 100px; }\n    header .container nav {\n      width: 26%;\n      display: flex;\n      margin-right: 5.46%;\n      margin-top: 33px; }\n      header .container nav ul {\n        width: 100%;\n        height: 27px;\n        display: flex;\n        justify-content: space-between;\n        font-size: 20px;\n        font-family: 'Roboto Slab', serif;\n        font-weight: bold; }\n        header .container nav ul li {\n          cursor: pointer; }\n          header .container nav ul li .link {\n            color: white;\n            text-decoration: none; }\n      header .container nav div.mobile {\n        display: none; }\n  header .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n\nmain {\n  height: 1080px;\n  display: flex;\n  padding-top: 50px; }\n  main .phones {\n    width: 49%;\n    height: auto;\n    margin-left: 7.396%;\n    margin-right: 7.5%; }\n    main .phones img {\n      height: auto;\n      width: 100%; }\n  main .download {\n    width: 23%;\n    height: 383px;\n    margin-top: 107px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between; }\n    main .download h1 {\n      font-size: 60px;\n      font-family: 'Roboto Slab', serif;\n      font-weight: 400;\n      color: #6A67CE; }\n    main .download p {\n      font-size: 36px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1; }\n    main .download img {\n      height: 228px;\n      width: 320px;\n      margin-left: -20px; }\n\nsection.about {\n  height: 1080px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #F1F1F1; }\n  section.about .container {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    width: 1200px;\n    height: 391px; }\n    section.about .container h2 {\n      display: flex;\n      align-self: center;\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE; }\n    section.about .container p {\n      display: flex;\n      text-align: center;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: 400;\n      color: #D1D1D1; }\n    section.about .container button {\n      height: 60px;\n      width: 200px;\n      border: none;\n      border-radius: 30px;\n      color: #ffffff;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n      margin-bottom: 80px;\n      cursor: pointer;\n      transition: background 2s;\n      outline: none; }\n      section.about .container button:hover {\n        background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\nsection.info {\n  height: 1773px;\n  width: 100%;\n  background-color: #FFFFFF;\n  position: relative; }\n  section.info .box {\n    height: 405px;\n    width: 390px;\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center; }\n    section.info .box:first-of-type {\n      margin-top: 8.1%;\n      margin-left: 16.77%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 16%;\n      margin-left: 57.19%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 37%;\n      margin-left: 26.15%; }\n    section.info .box:last-of-type {\n      margin-top: 55.44%;\n      margin-left: 50%; }\n    section.info .box .circle {\n      width: 200px;\n      height: 200px;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center; }\n      section.info .box .circle.first {\n        box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.info .box .circle.second {\n        background-color: #7d00ca; }\n    section.info .box h3 {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: bold;\n      font-size: 36px;\n      text-align: center;\n      color: #6A67CE; }\n    section.info .box p {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      font-size: 24px;\n      text-align: center;\n      color: #D1D1D1; }\n\nsection.big {\n  height: 1080px;\n  width: 100%;\n  background-color: #ECF0F3;\n  position: relative;\n  display: flex; }\n  section.big .background {\n    width: 100%;\n    position: absolute;\n    top: -350px;\n    order: -1; }\n  section.big div {\n    width: 100%;\n    position: absolute; }\n    section.big div img {\n      height: 1080px;\n      width: 100%; }\n\nsection.team {\n  height: 1080px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n  color: #ffffff;\n  position: relative; }\n  section.team .background {\n    width: 100%;\n    position: absolute;\n    top: -360px;\n    order: -1; }\n  section.team .container {\n    width: 62.5%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; }\n    section.team .container h4 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      text-align: center;\n      font-weight: 400; }\n    section.team .container p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      text-align: center; }\n    section.team .container .description {\n      height: 213px;\n      margin-top: 83px;\n      margin-bottom: 35px; }\n      section.team .container .description h4 {\n        margin-bottom: 36px; }\n    section.team .container .people {\n      display: flex;\n      margin-bottom: 124px; }\n      section.team .container .people .person {\n        height: 437px;\n        width: 500px;\n        display: flex;\n        flex-direction: column;\n        align-items: center; }\n        section.team .container .people .person:first-of-type {\n          margin-right: 200px; }\n        section.team .container .people .person .photo {\n          height: 200px;\n          width: 200px;\n          border-radius: 50%;\n          margin-bottom: 47px; }\n          section.team .container .people .person .photo img {\n            height: 200px;\n            width: 200px; }\n    section.team .container .circles {\n      width: 200px;\n      height: 50px;\n      display: flex;\n      justify-content: space-between; }\n      section.team .container .circles .circle {\n        height: 50px;\n        width: 50px;\n        border-radius: 50%;\n        background-color: #FFFFFF; }\n\n.application {\n  display: flex;\n  height: 1600px;\n  width: 100%; }\n  .application .chat {\n    height: 903.5px;\n    max-width: 100%;\n    margin-left: 216px;\n    margin-top: 205px; }\n  .application .download {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 903.5px;\n    width: 1005px;\n    margin-top: 332px; }\n    .application .download .text {\n      height: 675px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: space-between; }\n      .application .download .text h5 {\n        font-size: 36px;\n        font-family: 'Roboto Slab', serif;\n        color: #6A67CE; }\n      .application .download .text p {\n        padding-top: 36px;\n        width: 391px;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: 400;\n        color: #AFAFAF; }\n      .application .download .text button {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        margin-bottom: 130px;\n        cursor: pointer;\n        transition: background 2s;\n        outline: none; }\n        .application .download .text button:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n    .application .download img {\n      height: 228px;\n      width: 320px; }\n\nfooter {\n  height: 360px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: relative; }\n  footer .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n  footer .socials {\n    position: absolute;\n    margin-top: 90px;\n    height: 187.5px;\n    width: 173.6px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    footer .socials .logo {\n      height: 106px;\n      width: 106px; }\n    footer .socials .media {\n      height: 31px; }\n      footer .socials .media svg {\n        width: 36px;\n        height: 30px; }\n\n@media only screen and (max-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        height: 100px;\n        width: 80px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center; }\n        header .container nav .hamburger {\n          width: 35px;\n          height: 7px;\n          background-color: #FFFFFF;\n          margin: 2px 0;\n          border-radius: 5px; }\n        header .container nav ul {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: 100%;\n        width: 90%;\n        min-width: 80%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 654px; }\n    section.about .container {\n      width: 90%; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 1962px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin: 0;\n        margin-bottom: 52px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .background {\n      top: -150px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    height: 300px; }\n    footer .socials {\n      height: 100px; } }\n\n@media only screen and (min-width: 769px) and (max-width: 1042px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1573px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\n@media only screen and (max-device-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        margin-top: -30px;\n        height: 200px;\n        width: 180px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: inline-block;\n          margin-top: 10px;\n          margin-right: -20px; }\n          header .container nav .menu div {\n            width: 70px;\n            height: 14px;\n            background-color: #FFFFFF;\n            margin: 4px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-10px, 4px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-8px, -4px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 30px;\n          margin-top: 300px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            width: 100%;\n            background-color: #7d00ca; }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center;\n      justify-content: space-around; }\n      main .download h1 {\n        font-size: 60px; }\n      main .download p {\n        font-size: 40px;\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 654px; }\n    section.about .container {\n      width: 90%; }\n      section.about .container h2 {\n        font-size: 60px; }\n      section.about .container p {\n        font-size: 40px; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: 680px;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n      section.info .box h3 {\n        font-size: 60px; }\n      section.info .box p {\n        font-size: 40px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 2008px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container h4, section.team .container h5 {\n        font-size: 60px; }\n      section.team .container p {\n        font-size: 40px; }\n      section.team .container .description {\n        height: 400px; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n        section.application .download .text h5 {\n          font-size: 60px; }\n        section.application .download .text p {\n          font-size: 40px; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    width: 100%; }\n    footer .socials {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; } }\n\n@media only screen and (min-width: 1042px) and (max-width: 1440px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 40%; }\n  main {\n    height: 700px; }\n  section.info .box:first-of-type {\n    margin-top: 8.1%;\n    margin-left: 16.77%; }\n  section.info .box:nth-of-type(2) {\n    margin-top: 16%;\n    margin-left: 57.19%; }\n  section.info .box:nth-of-type(3) {\n    margin-top: 57%;\n    margin-left: 16.77%; }\n  section.info .box:last-of-type {\n    margin-top: 64.9%;\n    margin-left: 57.19%; }\n  section.big img {\n    width: 140%; } }\n\n@media only screen and (min-width: 1042px) and (max-width: 1215px) {\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; } }\n\n@media only screen and (min-device-width: 769px) and (max-device-width: 1042px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      display: flex;\n      justify-content: center; }\n      main .phones img {\n        height: auto;\n        width: 90%;\n        margin: 0; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1473px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\nsection.contact {\n  height: 1120px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center; }\n  section.contact .text {\n    width: 1200px;\n    height: 212px; }\n    section.contact .text h1 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE;\n      margin-bottom: 36px;\n      text-align: center; }\n    section.contact .text p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1;\n      text-align: center; }\n  section.contact form {\n    height: 617px;\n    width: 1053px; }\n    section.contact form input[type=text] {\n      height: 70px;\n      width: 499px;\n      padding-left: 37px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form input[type=text]:first-of-type {\n        margin-right: 53px; }\n      section.contact form input[type=text]:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form textarea {\n      resize: none;\n      height: 341.75px;\n      width: 100%;\n      padding-left: 37px;\n      padding-top: 24px;\n      margin-top: 80px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form textarea:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form div {\n      width: 100%;\n      display: flex;\n      justify-content: flex-end;\n      margin-top: 60px; }\n      section.contact form div input[type=submit] {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        cursor: pointer;\n        outline: none; }\n        section.contact form div input[type=submit]:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\n@media only screen and (max-device-width: 1042px) {\n  section.contact {\n    height: 1120px;\n    width: 100vw;\n    overflow: hidden; }\n    section.contact .text {\n      height: 450px;\n      width: 80%; }\n      section.contact .text h1 {\n        font-size: 60px; }\n      section.contact .text p {\n        font-size: 40px; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 80%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 80%; }\n      section.contact form div {\n        width: 80%; } }\n\n@media only screen and (max-width: 769px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 60%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 30%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 30%; }\n      section.contact form div {\n        width: 30%; } }\n\n@media only screen and (max-width: 1215px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 80%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 70%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 70%; }\n      section.contact form div {\n        width: 70%; } }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 249 */
+/* 248 */
 /***/ (function(module, exports) {
 
 /*
@@ -28385,7 +28377,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 250 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -28441,7 +28433,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(251);
+var	fixUrls = __webpack_require__(250);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -28757,7 +28749,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 251 */
+/* 250 */
 /***/ (function(module, exports) {
 
 
@@ -28852,37 +28844,37 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 252 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/1.jpg";
 
 /***/ }),
-/* 253 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/wave-03.svg";
 
 /***/ }),
-/* 254 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/2.jpg";
 
 /***/ }),
-/* 255 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/wave-02.svg";
 
 /***/ }),
-/* 256 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/Chat.jpg";
 
 /***/ }),
-/* 257 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "styles/images/wave-04.svg";

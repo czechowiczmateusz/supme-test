@@ -106,7 +106,6 @@ class HomePage extends React.Component {
                     <div className="download">
                         <h1>Lorem ipsum</h1>
                         <p>consectetur adipiscing elit.</p>
-                        <img src={require('./../styles/images/appstores-640.jpg')}/>
                     </div>
                 </main>
                 <section ref="about" className="about">
@@ -123,7 +122,7 @@ class HomePage extends React.Component {
                                      viewBox='0 0 97.054 97.054'>
                                     <g fill='#6a67ce'>
                                         <path d='M63.027,0h-29v29h29V0z M58.027,24h-19V5h19V24z' />
-                                        <rect x='46.026' y='33.952' width='5' height='28.845' />
+                                        <rect x='46.026' y='33.952' width='5' height='28.845'/>
                                         <path d='M48.527,66.804c-8.34,0-15.125,6.785-15.125,15.125c0,8.341,6.785,15.125,15.125,15.125s15.125-6.784,15.125-15.125 C63.652,73.589,56.867,66.804,48.527,66.804z M48.527,92.054c-5.583,0-10.125-4.542-10.125-10.125s4.542-10.125,10.125-10.125 s10.125,4.542,10.125,10.125S54.11,92.054,48.527,92.054z'
                                         />
                                     </g>
@@ -229,7 +228,6 @@ class HomePage extends React.Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, corporis culpa distinctio dolores eius est exercitationem explicabo impedit magni nulla pariatur perspiciatis quas repellat saepe sapiente ullam vero vitae voluptatem.</p>
                             <button>Get App</button>
                         </div>
-                        <img src={require('./../styles/images/appstores-640.jpg')} alt=""/>
                     </div>
                 </section>
             </div>

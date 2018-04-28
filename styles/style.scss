@@ -4,6 +4,8 @@ $mobile-breakpoint: 769px;
 $tablet-breakpoint: 1042px;
 $small-desktop-breakpoint: 1215px;
 $desktop-breakpoint: 1440px;
+$mobile-fontsize-h: 60px;
+$mobile-fontsize-p: 40px;
 
 header {
   display: flex;
@@ -701,8 +703,9 @@ footer {
       display: flex;
       justify-content: space-between;
       svg {
-        height: 100px;
-        width: 80px;
+        margin-top: -30px;
+        height: 200px;
+        width: 180px;
       }
       nav {
         margin-top: -3%;
@@ -713,19 +716,21 @@ footer {
         position: relative;
         .menu {
           display: inline-block;
+          margin-top: 10px;
+          margin-right: -20px;
           div {
-            width: 35px;
-            height: 7px;
+            width: 70px;
+            height: 14px;
             background-color: #FFFFFF;
-            margin: 2px 0;
+            margin: 4px 0;
             border-radius: 5px;
             transition: 0.4s;
           }
           .change:first-of-type {
-            transform: rotate(-45deg) translate(-4px, 2px);
+            transform: rotate(-45deg) translate(-10px, 4px);
           }
           .change:last-of-type {
-            transform: rotate(45deg) translate(-4px, -2px);
+            transform: rotate(45deg) translate(-8px, -4px);
           }
         }
         ul {
@@ -776,10 +781,12 @@ footer {
       width: 90%;
       margin: 0;
       align-items: center;
+      justify-content: space-around;
       h1 {
-        font-size: 30px;
+        font-size: $mobile-fontsize-h;
       }
       p {
+        font-size: $mobile-fontsize-p;
         text-align: center;
       }
     }
@@ -789,6 +796,12 @@ footer {
     height: 654px;
     .container {
       width: 90%;
+      h2 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
       button {
         margin: 0;
       }
@@ -833,6 +846,12 @@ footer {
           height: 200px;
         }
       }
+      h3 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
     }
   }
   section.big {
@@ -840,9 +859,18 @@ footer {
   }
   section.team {
     width: 100%;
-    height: 1708px;
+    height: 2008px;
     .container {
       width: 90%;
+      h4, h5 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
+      .description {
+        height: 400px;
+      }
       .people {
         flex-direction: column;
         align-items: center;
@@ -885,6 +913,12 @@ footer {
       align-items: center;
       .text {
         justify-content: flex-start;
+        h5 {
+          font-size: $mobile-fontsize-h;
+        }
+        p {
+          font-size: $mobile-fontsize-p;
+        }
       }
       button {
         display: none;
@@ -1177,7 +1211,14 @@ section.contact {
     width: 100vw;
     overflow: hidden;
     .text {
+      height: 450px;
       width: 80%;
+      h1 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
     }
     form {
       display: flex;
