@@ -21,9 +21,9 @@ module.exports = {
         }, {
             test: /\.scss$/,
             loader: ['style-loader', 'css-loader', 'sass-loader']
-            },
+        },
             {
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(jpe?g|png|gif|svg)$/i,
                 exclude: /node_modules/,
                 use: [
                     {
@@ -33,10 +33,6 @@ module.exports = {
                         }
                     }
                 ]
-            },
-            {
-                test: /\.svg$/,
-                loader: 'svg-inline-loader'
             }
         ]
     }
