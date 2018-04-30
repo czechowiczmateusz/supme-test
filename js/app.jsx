@@ -104,14 +104,15 @@ class HomePage extends React.Component {
                         <img src={require('./../styles/images/1.jpg?noresize')}/>
                     </div>
                     <div className="download">
-                        <h1>Lorem ipsum</h1>
-                        <p>consectetur adipiscing elit.</p>
+                        <h1>Supme.io</h1>
+                        <p>We are starting crowdfunding soon.</p>
                     </div>
                 </main>
                 <section ref="about" className="about">
                     <div className="container">
                         <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis odit praesentium ut. Deserunt eos fugit nemo quas, quia quos repudiandae rerum vitae! A mollitia, nesciunt provident quo repellendus sapiente unde.</p>
+                        <p>Supme is the ultimate Client to Business app to start chat conversation with any business.</p>
+                        <video width="720" height="480" controls src="https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4" type="video/mp4"></video>
                         <button>Play</button>
                     </div>
                 </section>
@@ -129,7 +130,7 @@ class HomePage extends React.Component {
                                 </svg>
                             </div>
                             <h3>Simple to use</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>You can start chat with just a few clicks.</p>
                         </div>
                         <div className="box" data-aos="fade-down">
                             <div className="circle second">
@@ -148,7 +149,7 @@ class HomePage extends React.Component {
                                 </svg>
                             </div>
                             <h3>Secure</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>All the conversations and messages are secure and private</p>
                         </div>
                         <div className="box" data-aos="fade-down">
                             <div className="circle second">
@@ -169,7 +170,7 @@ class HomePage extends React.Component {
                                 </svg>
                             </div>
                             <h3>Keeps track of all chat history</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>All the interactions are logged in the application for the future reference</p>
                         </div>
                         <div className="box" data-aos="fade-down">
                             <div className="circle first">
@@ -180,17 +181,17 @@ class HomePage extends React.Component {
                                 </svg>
                             </div>
                             <h3>Easiest way to find chat support</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Use search option to find, the organization you are looking for and just start chatting.</p>
                         </div>
                 </section>
                 <section className="big">
-                    <img className="background" src={require('./../styles/images/wave-03.svg')} />
+                    <img className="background" src={require('./../styles/images/wave-03.png')} />
                     <div>
                         <img src={require('./../styles/images/2.jpg')}/>
                     </div>
                 </section>
                 <section ref="team" className="team">
-                    <img className="background" src={require('./../styles/images/wave-02.svg')} />
+                    <img className="background" src={require('./../styles/images/wave-02.png')} />
                     <div className="container">
                         <div className="description">
                             <h4>Team</h4>
@@ -199,13 +200,13 @@ class HomePage extends React.Component {
                         <div className="people">
                             <div className="person">
                                     <div className="photo"><img src={require('./../styles/images/015-man.png')} alt=""/></div>
-                                    <h4>Jan Nowak</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. Curabitur sodales eget magna ac venenatis. Donec bibendum viverra consectetur. Phasellus et condimentum</p>
+                                    <h4>Leszek Wojnarski</h4>
+                                    <p>Leszek has more than 10 year experiance and great passion to Unified Communication sollutions, with the strong push to changing, simplify this area of technology. Leszek has worked with vendors that deliver and use work class communication solution to expand and fulfill enterpise' needs.</p>
                             </div>
                             <div className="person">
                                     <div className="photo"><img src={require('./../styles/images/015-man.png')} alt=""/></div>
-                                    <h4>Jan Nowak</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipscing elit. Curabitur sodales eget magna ac venenatis. Donec bibendum viverra consectetur. Phasellus et condimentum</p>
+                                    <h4>Software House</h4>
+                                    <p>Team of young and creative people who have experience not only in creating excellent graphic design but also in implementing the newest leading solutions, ensuring both highest quality of our projects and satisfaction of our clients. </p>
                             </div>
                         </div>
                         <div className="circles">
@@ -221,11 +222,14 @@ class HomePage extends React.Component {
                     </div>
                 </section>
                 <section className="application">
-                    <img className="chat" src={require('./../styles/images/Chat.jpg')} alt=""/>
+                    <div className="chat"><img src={require('./../styles/images/Chat.png')} alt=""/></div>
                     <div className="download">
                         <div className="text">
-                            <h5>Lorem ipsum</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, corporis culpa distinctio dolores eius est exercitationem explicabo impedit magni nulla pariatur perspiciatis quas repellat saepe sapiente ullam vero vitae voluptatem.</p>
+                            <h5>Supme.io Application</h5>
+                            <p>Open an app, login with your google or Facebook account, or continue without login.</p>
+                            <p>Share your location details.</p>
+                            <p>                               Search for the company you want to communicate with (verified companies have a "verified" icon next to it), pick the subject, and simply start chatting.
+                                If the business supports attachments, voice/video call escalation, etc. it is also supported from supme application.</p>
                             <button>Get App</button>
                         </div>
                     </div>
@@ -281,6 +285,28 @@ class Footer extends React.Component {
 }
 
 class Contact extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: ''
+        }
+    }
+
+    handleSubmit = (e) => {
+        e.preventDefault();
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    };
+
+    handleName = () => {
+      if(this.state.name.length === 0) {
+          this.setState({
+              error: 'nie tak'
+          })
+      }
+    };
+
     render() {
         return (
             <div>
@@ -310,12 +336,14 @@ class Contact extends React.Component {
                     <form>
                         <input
                             autoFocus
+                            value={this.state.name}
+                            onChange={this.handleName}
                             type="text"
-                            placeholder="Name"
+                            placeholder="Name & Surname"
                         />
-                        <input type="text" placeholder="Surname"/>
-                        <textarea placeholder="Message"></textarea>
-                        <div><input type="submit" value="Send"/></div>
+                        <input value={this.state.email} type="text" placeholder="E-mail"/>
+                        <textarea  value={this.state.message} placeholder="Message"></textarea>
+                        <div><input onSubmit={this.handleSubmit} type="submit" value="Send"/></div>
                     </form>
                 </section>
             </div>

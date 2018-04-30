@@ -1,7 +1,7 @@
 @import "reset";
 
 $mobile-breakpoint: 769px;
-$tablet-breakpoint: 1042px;
+$tablet-breakpoint: 1055px;
 $small-desktop-breakpoint: 1215px;
 $desktop-breakpoint: 1440px;
 $mobile-fontsize-h: 60px;
@@ -68,22 +68,24 @@ main {
     margin-left: 7.396%;
     margin-right: 7.5%;
     img {
+      vertical-align: middle;
+      display: block;
       height: auto;
-      width: 100%;
+      max-width: 100%;
     }
   }
   .download {
-    width: 23%;
+    width: 25%;
     height: 383px;
     margin-top: 107px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     h1 {
       font-size: 60px;
       font-family: 'Roboto Slab', serif;
       font-weight: 400;
       color: #6A67CE;
+      margin-bottom: 20px;
     }
     p {
       font-size: 36px;
@@ -110,7 +112,7 @@ section.about {
     justify-content: space-between;
     align-items: center;
     width: 1200px;
-    height: 391px;
+    height: 791px;
     h2 {
       display: flex;
       align-self: center;
@@ -212,7 +214,6 @@ section.big {
   width: 100%;
   background-color: #ECF0F3;
   position: relative;
-  display: flex;
   .background {
     width: 100%;
     position: absolute;
@@ -220,11 +221,11 @@ section.big {
     order: -1;
   }
   div {
+    height: 100%;
     width: 100%;
     position: absolute;
     img {
-      height: 1080px;
-      width: 100%;
+      max-width: 100%;
     }
   }
 }
@@ -310,10 +311,11 @@ section.team {
 
 .application {
   display: flex;
-  height: 1600px;
+  justify-content: space-between;
+  height: 1300px;
   width: 100%;
   .chat {
-    height: 903.5px;
+    max-height: 100%;
     max-width: 100%;
     margin-left: 216px;
     margin-top: 205px;
@@ -324,9 +326,10 @@ section.team {
     align-items: center;
     height: 903.5px;
     width: 1005px;
-    margin-top: 332px;
+    margin-top: 232px;
     .text {
-      height: 675px;
+      width: 100%;
+      height: 775px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -405,179 +408,21 @@ footer {
   }
 }
 
-@media only screen and (max-width: $mobile-breakpoint) {
-  header {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    .container {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      svg {
-        height: 100px;
-        width: 80px;
-      }
-      nav {
-        margin-top: -3%;
-        margin-right: 3%;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-        .hamburger {
-          width: 35px;
-          height: 7px;
-          background-color: #FFFFFF;
-          margin: 2px 0;
-          border-radius: 5px;
-        }
-        ul {
-          display: none;
-        }
-      }
-    }
-  }
-  main {
-    width: 100%;
-    height: 1080px;
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-    .phones {
-      height: 60%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      img {
-        height: 100%;
-        width: 90%;
-        min-width: 80%;
-        margin: 0;
-      }
-    }
-    .download {
-      height: 317px;
-      width: 90%;
-      margin: 0;
-      align-items: center;
-      h1 {
-        font-size: 30px;
-      }
-      p {
-        text-align: center;
-      }
-    }
-  }
-  section.about {
-    width: 100%;
-    height: 654px;
-    .container {
-      width: 90%;
-      button {
-        margin: 0;
-      }
-    }
-  }
-  section.info {
-    width: 100%;
-    height: 1962px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    position: static;
-    .box {
-      position: static;
-      &:first-of-type {
-        margin: 0;
-        margin-top: 61px;
-        margin-bottom: 52px;
-      }
-      &:nth-of-type(2) {
-        margin: 0;
-        margin-bottom: 52px;
-      }
-      &:nth-of-type(3) {
-        margin: 0;
-        margin-bottom: 52px;
-      }
-      &:last-of-type {
-        margin: 0;
-        margin-bottom: 52px;
-      }
-    }
-  }
-  section.big {
-    display: none;
-  }
-  section.team {
-    width: 100%;
-    height: 1708px;
-    .background {
-      top: -150px;
-    }
-    .container {
-      width: 90%;
-      .people {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        .person {
-          height: 628px;
-          &:first-of-type {
-            margin: 0;
-          }
-        }
-      }
-    }
-  }
-  section.application {
-    width: 100%;
-    height: 1500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .chat {
-      margin-top: 75px;
-      margin-bottom: 75.5px;
-      margin-left: 0;
-    }
-    .download {
-      width: 90%;
-      height: 657px;
-      margin-top: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .text {
-        justify-content: flex-start;
-      }
-      button {
-        display: none;
-      }
-      img {
-        margin: 0;
-      }
-    }
-  }
-  footer {
-    height: 300px;
-    .socials {
-      height: 100px;
-    }
-  }
-}
-
 @media only screen and (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
   header {
     width: 100%;
     .container {
-      width: 53%;
+      width: 50%;
       margin-top: -2%;
       nav {
         width: 45%;
-        margin-right: 10%;
+        margin-right: 5%;
+        margin-top: 6%;
+      }
+      svg {
+        width: 70%;
+        margin-right: 5%;
+        margin-top: 6%;
       }
     }
   }
@@ -591,13 +436,6 @@ footer {
     .phones {
       height: 60%;
       width: 100%;
-      display: flex;
-      justify-content: center;
-      img {
-        height: auto;
-        width: 90%;
-        margin: 0;
-      }
     }
     .download {
       height: 317px;
@@ -768,13 +606,7 @@ footer {
     .phones {
       height: 60%;
       width: 100%;
-      display: flex;
       justify-content: center;
-      img {
-        height: auto;
-        width: 90%;
-        margin: 0;
-      }
     }
     .download {
       height: 317px;
@@ -793,7 +625,6 @@ footer {
   }
   section.about {
     width: 100%;
-    height: 654px;
     .container {
       width: 90%;
       h2 {
@@ -859,7 +690,7 @@ footer {
   }
   section.team {
     width: 100%;
-    height: 2008px;
+    height: 2108px;
     .container {
       width: 90%;
       h4, h5 {
@@ -876,7 +707,7 @@ footer {
         align-items: center;
         margin: 0;
         .person {
-          height: 628px;
+          height: 728px;
           width: 100%;
           &:first-of-type {
             margin: 0;
@@ -895,7 +726,7 @@ footer {
   }
   section.application {
     width: 100%;
-    height: 1500px;
+    height: 1600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -912,11 +743,13 @@ footer {
       flex-direction: column;
       align-items: center;
       .text {
+        width: 100%;
         justify-content: flex-start;
         h5 {
           font-size: $mobile-fontsize-h;
         }
         p {
+          width: 100%;
           font-size: $mobile-fontsize-p;
         }
       }
@@ -939,7 +772,34 @@ footer {
   }
 }
 
-@media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+@media only screen and (max-width: $tablet-breakpoint) {
+  footer {
+    height: 270px;
+    .socials {
+      position: absolute;
+      margin-top: 40px;
+      height: 157.5px;
+      width: 143.6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .logo {
+        height: 106px;
+        width: 106px;
+      }
+      .media {
+        height: 31px;
+        svg {
+          width: 36px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $tablet-breakpoint + 1px) and (max-width: $desktop-breakpoint) {
   header {
     width: 100%;
     .container {
@@ -1022,13 +882,6 @@ footer {
     .phones {
       height: 60%;
       width: 100%;
-      display: flex;
-      justify-content: center;
-      img {
-        height: auto;
-        width: 90%;
-        margin: 0;
-      }
     }
     .download {
       height: 317px;
@@ -1311,4 +1164,277 @@ section.contact {
   }
 }
 
+@media only screen and (max-width: $mobile-breakpoint) {
+  header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      svg {
+        margin-top: -20px;
+        height: 100px;
+        width: 90px;
+      }
+      nav {
+        margin-top: -3%;
+        margin-right: 3%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        .menu {
+          display: inline-block;
+          margin-top: -50px;
+          margin-right: -10px;
+          div {
+            width: 40px;
+            height: 10px;
+            background-color: #FFFFFF;
+            margin: 4px 0;
+            border-radius: 5px;
+            transition: 0.4s;
+          }
+          .change:first-of-type {
+            transform: rotate(-45deg) translate(-5px, 2px);
+          }
+          .change:last-of-type {
+            transform: rotate(45deg) translate(-8px, -4px);
+          }
+        }
+        ul {
+          flex-direction: column;
+          align-items: center;
+          height: 300px;
+          width: 100vw;
+          opacity: 0.7;
+          margin-left: 30px;
+          margin-top: 300px;
+          position: absolute;
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            height: 100px;
+            width: 100%;
+            background-color: #7d00ca;
+          }
+        }
+        .desktop {
+          display: none;
+        }
+      }
+    }
+  }
+  main {
+    width: 100%;
+    height: 1080px;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .phones {
+      height: 60%;
+      width: 100%;
+    }
+    .download {
+      height: 317px;
+      width: 90%;
+      margin: 0;
+      align-items: center;
+      justify-content: space-around;
+      h1 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+        text-align: center;
+      }
+    }
+  }
+  section.about {
+    width: 100%;
+    height: 1084px;
+    .container {
+      height: 70%;
+      width: 90%;
+      h2 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
+      button {
+        margin: 0;
+      }
+    }
+  }
+  section.info {
+    width: 100%;
+    height: 3350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    .box {
+      height: 710px;
+      width: auto;
+      position: static;
+      &:first-of-type {
+        margin: 0;
+        margin-top: 61px;
+        margin-bottom: 52px;
+      }
+      &:nth-of-type(2) {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 52px;
+      }
+      &:nth-of-type(3) {
+        margin-top: 0;
+        margin-bottom: 52px;
+        margin-left: 0;
+      }
+      &:last-of-type {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 52px;
+      }
+      .circle {
+        height: 400px;
+        width: 400px;
+        svg {
+          width: 300px;
+          height: 200px;
+        }
+      }
+      h3 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
+    }
+  }
+  section.big {
+    display: none;
+  }
+  section.team {
+    width: 100%;
+    height: 2808px;
+    .background {
+      margin-top: 150px;
+    }
+    .container {
+      width: 90%;
+      h4, h5 {
+        font-size: $mobile-fontsize-h;
+      }
+      p {
+        font-size: $mobile-fontsize-p;
+      }
+      .description {
+        height: 700px;
+      }
+      .people {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        .person {
+          height: 928px;
+          width: 100%;
+          &:first-of-type {
+            margin: 0;
+          }
+          .photo {
+            height: 300px;
+            width: 300px;
+            img {
+              height: 300px;
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.application {
+    width: 100%;
+    height: 1900px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .chat {
+      margin-top: 75px;
+      margin-bottom: 75.5px;
+      margin-left: 0;
+    }
+    .download {
+      width: 90%;
+      height: 757px;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .text {
+        width: 100%;
+        justify-content: flex-start;
+        h5 {
+          font-size: $mobile-fontsize-h;
+          text-align: center;
+        }
+        p {
+          width: 90%;
+          font-size: $mobile-fontsize-p;
+        }
+      }
+      button {
+        display: none;
+      }
+      img {
+        margin: 0;
+      }
+    }
+  }
+  footer {
+    height: 170px;
+    width: 100%;
+    .socials {
+      position: absolute;
+      margin-top: 30px;
+      height: 107.5px;
+      width: 103.6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .logo {
+        height: 86px;
+        width: 86px;
+      }
+      .media {
+        height: 31px;
+        svg {
+          width: 26px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
 
+@media only screen and (max-width: 595px) {
+  section.team {
+    width: 100%;
+    height: 2808px;
+    .background {
+      margin-top: 250px;
+    }
+  }
+}
