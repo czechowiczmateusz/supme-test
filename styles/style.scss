@@ -59,13 +59,12 @@ header {
 }
 
 main {
-  height: 1080px;
+  height: 80vh;
   display: flex;
-  padding-top: 50px;
   .phones {
-    width: 49%;
+    width: 50%;
     height: auto;
-    margin-left: 7.396%;
+    margin-left: 7.5%;
     margin-right: 7.5%;
     img {
       vertical-align: middle;
@@ -85,7 +84,7 @@ main {
       font-family: 'Roboto Slab', serif;
       font-weight: 400;
       color: #6A67CE;
-      margin-bottom: 20px;
+      margin-bottom: 36px;
     }
     p {
       font-size: 36px;
@@ -109,7 +108,6 @@ section.about {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 1200px;
     height: 791px;
@@ -119,6 +117,7 @@ section.about {
       font-size: 36px;
       font-family: 'Roboto Slab', serif;
       color: #6A67CE;
+      margin-bottom: 36px;
     }
     p {
       display: flex;
@@ -138,13 +137,16 @@ section.about {
       font-family: 'Open Sans', sans-serif;
       font-weight: lighter;
       background: linear-gradient(to right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
-      margin-bottom: 80px;
+      margin-top: 36px;
       cursor: pointer;
       transition: background 2s;
       outline:none;
       &:hover {
         background: linear-gradient(to left, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
       }
+    }
+    video {
+      margin-top: 36px;
     }
   }
 }
@@ -160,7 +162,6 @@ section.info {
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     &:first-of-type {
       margin-top: 8.1%;
@@ -193,6 +194,8 @@ section.info {
       }
     }
     h3 {
+      margin-top: 50px;
+      margin-bottom: 36px;
       font-family: 'Open Sans', sans-serif;
       font-weight: bold;
       font-size: 36px;
@@ -255,6 +258,7 @@ section.team {
       font-family: 'Roboto Slab', serif;
       text-align: center;
       font-weight: 400;
+      margin-bottom: 36px;
     }
     p {
       font-size: 24px;
@@ -263,7 +267,7 @@ section.team {
       text-align: center;
     }
     .description {
-      height: 213px;
+      height: 150px;
       margin-top: 83px;
       margin-bottom: 35px;
       h4 {
@@ -333,7 +337,6 @@ section.team {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
       h5 {
         font-size: 36px;
         font-family: 'Roboto Slab', serif;
@@ -352,6 +355,7 @@ section.team {
         width: 200px;
         border: none;
         border-radius: 30px;
+        margin-top: 36px;
         color: #ffffff;
         font-size: 24px;
         font-family: 'Open Sans', sans-serif;
@@ -534,16 +538,19 @@ footer {
 @media only screen and (max-device-width: $mobile-breakpoint) {
   header {
     width: 100%;
-    height: 150px;
+    height: 220px;
     display: flex;
+    margin-bottom: 7%;
+    .background {
+      height: 230%;
+    }
     .container {
       width: 100%;
       display: flex;
       justify-content: space-between;
       svg {
-        margin-top: -30px;
-        height: 200px;
-        width: 180px;
+        margin-top: 0;
+        width: 200px;
       }
       nav {
         margin-top: -3%;
@@ -553,22 +560,22 @@ footer {
         justify-content: center;
         position: relative;
         .menu {
-          display: inline-block;
-          margin-top: 10px;
-          margin-right: -20px;
+          display: block;
+          margin-top: 70px;
+          margin-right: 0;
           div {
-            width: 70px;
-            height: 14px;
+            width: 130px;
+            height: 20px;
             background-color: #FFFFFF;
             margin: 4px 0;
             border-radius: 5px;
             transition: 0.4s;
           }
           .change:first-of-type {
-            transform: rotate(-45deg) translate(-10px, 4px);
+            transform: rotate(-45deg) translate(-12px, 4px);
           }
           .change:last-of-type {
-            transform: rotate(45deg) translate(-8px, -4px);
+            transform: rotate(45deg) translate(-12px, -4px);
           }
         }
         ul {
@@ -578,7 +585,7 @@ footer {
           width: 100vw;
           opacity: 0.7;
           margin-left: 30px;
-          margin-top: 300px;
+          margin-top: 500px;
           position: absolute;
           li {
             display: flex;
@@ -586,8 +593,14 @@ footer {
             align-items: center;
             font-size: 60px;
             height: 100px;
+            overflow: hidden;
             width: 100%;
             background-color: #7d00ca;
+            animation: menuanimation 1s;
+          }
+          @keyframes menuanimation {
+            from {height: 0;}
+            to {height: 100px;}
           }
         }
         .desktop {
@@ -598,22 +611,20 @@ footer {
   }
   main {
     width: 100%;
-    height: 1080px;
+    height: 980px;
     padding: 0;
     margin: 0;
     flex-direction: column;
-    align-items: center;
     .phones {
       height: 60%;
       width: 100%;
-      justify-content: center;
+      margin-bottom: 100px;
     }
     .download {
       height: 317px;
       width: 90%;
       margin: 0;
       align-items: center;
-      justify-content: space-around;
       h1 {
         font-size: $mobile-fontsize-h;
       }
@@ -690,7 +701,7 @@ footer {
   }
   section.team {
     width: 100%;
-    height: 2108px;
+    height: 2008px;
     .container {
       width: 90%;
       h4, h5 {
@@ -700,14 +711,14 @@ footer {
         font-size: $mobile-fontsize-p;
       }
       .description {
-        height: 400px;
+        height: 100px;
       }
       .people {
         flex-direction: column;
         align-items: center;
         margin: 0;
         .person {
-          height: 728px;
+          height: 828px;
           width: 100%;
           &:first-of-type {
             margin: 0;
@@ -1167,16 +1178,19 @@ section.contact {
 @media only screen and (max-width: $mobile-breakpoint) {
   header {
     width: 100%;
-    height: 150px;
+    height: 220px;
     display: flex;
+    margin-bottom: 7%;
+    .background {
+      height: 230%;
+    }
     .container {
       width: 100%;
       display: flex;
       justify-content: space-between;
       svg {
-        margin-top: -20px;
-        height: 100px;
-        width: 90px;
+        margin-top: 0;
+        width: 200px;
       }
       nav {
         margin-top: -3%;
@@ -1186,22 +1200,22 @@ section.contact {
         justify-content: center;
         position: relative;
         .menu {
-          display: inline-block;
-          margin-top: -50px;
-          margin-right: -10px;
+          display: block;
+          margin-top: 70px;
+          margin-right: 0;
           div {
-            width: 40px;
-            height: 10px;
+            width: 130px;
+            height: 20px;
             background-color: #FFFFFF;
             margin: 4px 0;
             border-radius: 5px;
             transition: 0.4s;
           }
           .change:first-of-type {
-            transform: rotate(-45deg) translate(-5px, 2px);
+            transform: rotate(-45deg) translate(-12px, 4px);
           }
           .change:last-of-type {
-            transform: rotate(45deg) translate(-8px, -4px);
+            transform: rotate(45deg) translate(-12px, -4px);
           }
         }
         ul {
@@ -1210,8 +1224,8 @@ section.contact {
           height: 300px;
           width: 100vw;
           opacity: 0.7;
-          margin-left: 30px;
-          margin-top: 300px;
+          margin-left: 22px;
+          margin-top: 500px;
           position: absolute;
           li {
             display: flex;
@@ -1219,8 +1233,14 @@ section.contact {
             align-items: center;
             font-size: 60px;
             height: 100px;
+            overflow: hidden;
             width: 100%;
             background-color: #7d00ca;
+            animation: menuanimation 1s;
+          }
+          @keyframes menuanimation {
+            from {height: 0;}
+            to {height: 100px;}
           }
         }
         .desktop {
@@ -1236,10 +1256,10 @@ section.contact {
     margin: 0;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
     .phones {
       height: 60%;
       width: 100%;
+      justify-content: center;
     }
     .download {
       height: 317px;
@@ -1326,7 +1346,7 @@ section.contact {
   }
   section.team {
     width: 100%;
-    height: 2808px;
+    height: 2208px;
     .background {
       margin-top: 150px;
     }
@@ -1339,7 +1359,7 @@ section.contact {
         font-size: $mobile-fontsize-p;
       }
       .description {
-        height: 700px;
+        height: 100px;
       }
       .people {
         flex-direction: column;

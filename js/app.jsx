@@ -7,6 +7,7 @@ import { Router,
     IndexRoute,
     hashHistory
 } from 'react-router';
+import AOS from 'aos';
 require('.././styles/style.scss');
 
 class HomePage extends React.Component {
@@ -62,7 +63,7 @@ class HomePage extends React.Component {
         return (
             <div>
                 <header>
-                    <img className="background" src={require('./../styles/images/wave-01.svg')} />
+                    <img className="background" src={require('./../styles/images/wave-011.svg')} />
                     <div className="container">
                         <div className="logo">
                             <Link onClick={this.handleLink} className="link" to="/">
@@ -112,7 +113,7 @@ class HomePage extends React.Component {
                     <div className="container">
                         <h2>About</h2>
                         <p>Supme is the ultimate Client to Business app to start chat conversation with any business.</p>
-                        <video width="720" height="480" controls src="https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4" type="video/mp4"></video>
+                        <video controls width="720" height="480" src="https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4" type="video/mp4" poster={require('./../styles/images/SUPME-KOLOR.png')}></video>
                         <button>Play</button>
                     </div>
                 </section>
@@ -195,7 +196,6 @@ class HomePage extends React.Component {
                     <div className="container">
                         <div className="description">
                             <h4>Team</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi assumenda culpa ea, est ex harum inventore ipsam laborum modi nam necessitatibus praesentium rerum unde veritatis vero voluptate. Culpa, ipsam?</p>
                         </div>
                         <div className="people">
                             <div className="person">

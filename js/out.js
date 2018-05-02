@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 117);
+/******/ 	return __webpack_require__(__webpack_require__.s = 116);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1262,7 +1262,7 @@ module.exports = emptyFunction;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(144);
+  var ReactDebugTool = __webpack_require__(143);
   debugTool = ReactDebugTool;
 }
 
@@ -1586,7 +1586,7 @@ if (process.env.NODE_ENV !== 'production') {
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(221)();
+  module.exports = __webpack_require__(220)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -2866,14 +2866,14 @@ module.exports = PooledClass;
 var _assign = __webpack_require__(4);
 
 var ReactBaseClasses = __webpack_require__(71);
-var ReactChildren = __webpack_require__(120);
-var ReactDOMFactories = __webpack_require__(124);
+var ReactChildren = __webpack_require__(119);
+var ReactDOMFactories = __webpack_require__(123);
 var ReactElement = __webpack_require__(21);
-var ReactPropTypes = __webpack_require__(128);
-var ReactVersion = __webpack_require__(130);
+var ReactPropTypes = __webpack_require__(127);
+var ReactVersion = __webpack_require__(129);
 
-var createReactClass = __webpack_require__(131);
-var onlyChild = __webpack_require__(132);
+var createReactClass = __webpack_require__(130);
+var onlyChild = __webpack_require__(131);
 
 var createElement = ReactElement.createElement;
 var createFactory = ReactElement.createFactory;
@@ -3041,7 +3041,7 @@ module.exports = reactProdInvariant;
 
 
 
-var ReactRef = __webpack_require__(142);
+var ReactRef = __webpack_require__(141);
 var ReactInstrumentation = __webpack_require__(10);
 
 var warning = __webpack_require__(2);
@@ -5119,10 +5119,10 @@ module.exports = escapeTextContentForBrowser;
 var _assign = __webpack_require__(4);
 
 var EventPluginRegistry = __webpack_require__(37);
-var ReactEventEmitterMixin = __webpack_require__(168);
+var ReactEventEmitterMixin = __webpack_require__(167);
 var ViewportMetrics = __webpack_require__(87);
 
-var getVendorPrefixedEventName = __webpack_require__(169);
+var getVendorPrefixedEventName = __webpack_require__(168);
 var isEventSupported = __webpack_require__(50);
 
 /**
@@ -6074,7 +6074,7 @@ module.exports = getEventModifierState;
 
 
 var DOMLazyTree = __webpack_require__(26);
-var Danger = __webpack_require__(153);
+var Danger = __webpack_require__(152);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
@@ -7484,7 +7484,7 @@ function mapAsync(array, work, callback) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_create_react_class__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ContextUtils__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RouteUtils__ = __webpack_require__(19);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -7794,7 +7794,7 @@ exports.default = runTransitionHook;
 
 exports.__esModule = true;
 
-var _AsyncUtils = __webpack_require__(238);
+var _AsyncUtils = __webpack_require__(237);
 
 var _PathUtils = __webpack_require__(20);
 
@@ -8421,7 +8421,7 @@ var ReactCurrentOwner = __webpack_require__(11);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ReactElement = __webpack_require__(21);
 
-var checkReactTypeSpec = __webpack_require__(125);
+var checkReactTypeSpec = __webpack_require__(124);
 
 var canDefineProperty = __webpack_require__(35);
 var getIteratorFn = __webpack_require__(74);
@@ -8700,7 +8700,7 @@ var warning = __webpack_require__(2);
 var assign = __webpack_require__(4);
 
 var ReactPropTypesSecret = __webpack_require__(46);
-var checkPropTypes = __webpack_require__(129);
+var checkPropTypes = __webpack_require__(128);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -10935,7 +10935,7 @@ var DOMProperty = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
-var quoteAttributeValueForBrowser = __webpack_require__(167);
+var quoteAttributeValueForBrowser = __webpack_require__(166);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -11397,11 +11397,11 @@ module.exports = ReactDOMSelect;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var ReactCompositeComponent = __webpack_require__(175);
+var ReactCompositeComponent = __webpack_require__(174);
 var ReactEmptyComponent = __webpack_require__(96);
 var ReactHostComponent = __webpack_require__(97);
 
-var getNextDebugID = __webpack_require__(178);
+var getNextDebugID = __webpack_require__(177);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -11679,9 +11679,9 @@ module.exports = ReactHostComponent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(11);
-var REACT_ELEMENT_TYPE = __webpack_require__(179);
+var REACT_ELEMENT_TYPE = __webpack_require__(178);
 
-var getIteratorFn = __webpack_require__(180);
+var getIteratorFn = __webpack_require__(179);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(59);
 var warning = __webpack_require__(2);
@@ -11937,9 +11937,9 @@ module.exports = EventListener;
 
 
 
-var ReactDOMSelection = __webpack_require__(192);
+var ReactDOMSelection = __webpack_require__(191);
 
-var containsNode = __webpack_require__(194);
+var containsNode = __webpack_require__(193);
 var focusNode = __webpack_require__(89);
 var getActiveElement = __webpack_require__(101);
 
@@ -12113,12 +12113,12 @@ var React = __webpack_require__(23);
 var ReactBrowserEventEmitter = __webpack_require__(42);
 var ReactCurrentOwner = __webpack_require__(11);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMContainerInfo = __webpack_require__(209);
-var ReactDOMFeatureFlags = __webpack_require__(210);
+var ReactDOMContainerInfo = __webpack_require__(208);
+var ReactDOMFeatureFlags = __webpack_require__(209);
 var ReactFeatureFlags = __webpack_require__(84);
 var ReactInstanceMap = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMarkupChecksum = __webpack_require__(211);
+var ReactMarkupChecksum = __webpack_require__(210);
 var ReactReconciler = __webpack_require__(25);
 var ReactUpdateQueue = __webpack_require__(60);
 var ReactUpdates = __webpack_require__(12);
@@ -12672,11 +12672,11 @@ module.exports = getHostComponentFromComposite;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony export (immutable) */ __webpack_exports__["a"] = createTransitionManager;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routerWarning__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(225);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -13232,7 +13232,7 @@ var Redirect = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__);
 
 
@@ -13261,7 +13261,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _queryString = __webpack_require__(235);
+var _queryString = __webpack_require__(234);
 
 var _runTransitionHook = __webpack_require__(67);
 
@@ -13625,24 +13625,18 @@ function createRouterHistory(createHistory) {
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/wave-01.svg";
+module.exports = __webpack_require__.p + "styles/images/015-man.png";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/015-man.png";
+__webpack_require__(117);
+module.exports = __webpack_require__(118);
+
 
 /***/ }),
 /* 117 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(118);
-module.exports = __webpack_require__(119);
-
-
-/***/ }),
-/* 118 */
 /***/ (function(module, exports) {
 
 (function(self) {
@@ -14114,7 +14108,7 @@ module.exports = __webpack_require__(119);
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14126,11 +14120,15 @@ var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(133);
+var _reactDom = __webpack_require__(132);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouter = __webpack_require__(219);
+var _reactRouter = __webpack_require__(218);
+
+var _aos = __webpack_require__(245);
+
+var _aos2 = _interopRequireDefault(_aos);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14199,14 +14197,14 @@ var HomePage = function (_React$Component) {
     _createClass(HomePage, [{
         key: "render",
         value: function render() {
-            AOS.init();
+            _aos2.default.init();
             return _react2.default.createElement(
                 "div",
                 null,
                 _react2.default.createElement(
                     "header",
                     null,
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(115) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(251) }),
                     _react2.default.createElement(
                         "div",
                         { className: "container" },
@@ -14295,7 +14293,7 @@ var HomePage = function (_React$Component) {
                     _react2.default.createElement(
                         "div",
                         { className: "phones" },
-                        _react2.default.createElement("img", { src: __webpack_require__(251) })
+                        _react2.default.createElement("img", { src: __webpack_require__(252) })
                     ),
                     _react2.default.createElement(
                         "div",
@@ -14328,7 +14326,7 @@ var HomePage = function (_React$Component) {
                             null,
                             "Supme is the ultimate Client to Business app to start chat conversation with any business."
                         ),
-                        _react2.default.createElement("video", { width: "720", height: "480", controls: true, src: "https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4", type: "video/mp4" }),
+                        _react2.default.createElement("video", { controls: true, width: "720", height: "480", src: "https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4", type: "video/mp4", poster: __webpack_require__(253) }),
                         _react2.default.createElement(
                             "button",
                             null,
@@ -14471,17 +14469,17 @@ var HomePage = function (_React$Component) {
                 _react2.default.createElement(
                     "section",
                     { className: "big" },
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(252) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(254) }),
                     _react2.default.createElement(
                         "div",
                         null,
-                        _react2.default.createElement("img", { src: __webpack_require__(253) })
+                        _react2.default.createElement("img", { src: __webpack_require__(255) })
                     )
                 ),
                 _react2.default.createElement(
                     "section",
                     { ref: "team", className: "team" },
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(254) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(256) }),
                     _react2.default.createElement(
                         "div",
                         { className: "container" },
@@ -14492,11 +14490,6 @@ var HomePage = function (_React$Component) {
                                 "h4",
                                 null,
                                 "Team"
-                            ),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi assumenda culpa ea, est ex harum inventore ipsam laborum modi nam necessitatibus praesentium rerum unde veritatis vero voluptate. Culpa, ipsam?"
                             )
                         ),
                         _react2.default.createElement(
@@ -14508,7 +14501,7 @@ var HomePage = function (_React$Component) {
                                 _react2.default.createElement(
                                     "div",
                                     { className: "photo" },
-                                    _react2.default.createElement("img", { src: __webpack_require__(116), alt: "" })
+                                    _react2.default.createElement("img", { src: __webpack_require__(115), alt: "" })
                                 ),
                                 _react2.default.createElement(
                                     "h4",
@@ -14527,7 +14520,7 @@ var HomePage = function (_React$Component) {
                                 _react2.default.createElement(
                                     "div",
                                     { className: "photo" },
-                                    _react2.default.createElement("img", { src: __webpack_require__(116), alt: "" })
+                                    _react2.default.createElement("img", { src: __webpack_require__(115), alt: "" })
                                 ),
                                 _react2.default.createElement(
                                     "h4",
@@ -14561,7 +14554,7 @@ var HomePage = function (_React$Component) {
                     _react2.default.createElement(
                         "div",
                         { className: "chat" },
-                        _react2.default.createElement("img", { src: __webpack_require__(255), alt: "" })
+                        _react2.default.createElement("img", { src: __webpack_require__(257), alt: "" })
                     ),
                     _react2.default.createElement(
                         "div",
@@ -14619,7 +14612,7 @@ var Footer = function (_React$Component2) {
             return _react2.default.createElement(
                 "footer",
                 null,
-                _react2.default.createElement("img", { className: "background", src: __webpack_require__(256) }),
+                _react2.default.createElement("img", { className: "background", src: __webpack_require__(258) }),
                 _react2.default.createElement(
                     "div",
                     { className: "socials" },
@@ -14714,7 +14707,7 @@ var Contact = function (_React$Component3) {
                 _react2.default.createElement(
                     "header",
                     null,
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(115) }),
+                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(259) }),
                     _react2.default.createElement(
                         "div",
                         { className: "container" },
@@ -14841,7 +14834,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14855,11 +14848,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-var PooledClass = __webpack_require__(121);
+var PooledClass = __webpack_require__(120);
 var ReactElement = __webpack_require__(21);
 
 var emptyFunction = __webpack_require__(9);
-var traverseAllChildren = __webpack_require__(122);
+var traverseAllChildren = __webpack_require__(121);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -15035,7 +15028,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15151,7 +15144,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15172,7 +15165,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(73);
 
 var getIteratorFn = __webpack_require__(74);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(123);
+var KeyEscapeUtils = __webpack_require__(122);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -15331,7 +15324,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15393,7 +15386,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15566,7 +15559,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15582,8 +15575,8 @@ module.exports = ReactDOMFactories;
 
 var _prodInvariant = __webpack_require__(24);
 
-var ReactPropTypeLocationNames = __webpack_require__(126);
-var ReactPropTypesSecret = __webpack_require__(127);
+var ReactPropTypeLocationNames = __webpack_require__(125);
+var ReactPropTypesSecret = __webpack_require__(126);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -15657,7 +15650,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15686,7 +15679,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15706,7 +15699,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15728,7 +15721,7 @@ var factory = __webpack_require__(76);
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15795,7 +15788,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15812,7 +15805,7 @@ module.exports = checkPropTypes;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15838,7 +15831,7 @@ var factory = __webpack_require__(78);
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15880,17 +15873,17 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(134);
+module.exports = __webpack_require__(133);
 
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15907,15 +15900,15 @@ module.exports = __webpack_require__(134);
 
 
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDefaultInjection = __webpack_require__(135);
+var ReactDefaultInjection = __webpack_require__(134);
 var ReactMount = __webpack_require__(102);
 var ReactReconciler = __webpack_require__(25);
 var ReactUpdates = __webpack_require__(12);
-var ReactVersion = __webpack_require__(213);
+var ReactVersion = __webpack_require__(212);
 
-var findDOMNode = __webpack_require__(214);
+var findDOMNode = __webpack_require__(213);
 var getHostComponentFromComposite = __webpack_require__(103);
-var renderSubtreeIntoContainer = __webpack_require__(215);
+var renderSubtreeIntoContainer = __webpack_require__(214);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -15992,9 +15985,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(10);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(216);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(217);
-  var ReactDOMInvalidARIAHook = __webpack_require__(218);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(215);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(216);
+  var ReactDOMInvalidARIAHook = __webpack_require__(217);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -16005,7 +15998,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16019,25 +16012,25 @@ module.exports = ReactDOM;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(136);
-var BeforeInputEventPlugin = __webpack_require__(137);
-var ChangeEventPlugin = __webpack_require__(141);
-var DefaultEventPluginOrder = __webpack_require__(149);
-var EnterLeaveEventPlugin = __webpack_require__(150);
-var HTMLDOMPropertyConfig = __webpack_require__(151);
-var ReactComponentBrowserEnvironment = __webpack_require__(152);
-var ReactDOMComponent = __webpack_require__(158);
+var ARIADOMPropertyConfig = __webpack_require__(135);
+var BeforeInputEventPlugin = __webpack_require__(136);
+var ChangeEventPlugin = __webpack_require__(140);
+var DefaultEventPluginOrder = __webpack_require__(148);
+var EnterLeaveEventPlugin = __webpack_require__(149);
+var HTMLDOMPropertyConfig = __webpack_require__(150);
+var ReactComponentBrowserEnvironment = __webpack_require__(151);
+var ReactDOMComponent = __webpack_require__(157);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMEmptyComponent = __webpack_require__(184);
-var ReactDOMTreeTraversal = __webpack_require__(185);
-var ReactDOMTextComponent = __webpack_require__(186);
-var ReactDefaultBatchingStrategy = __webpack_require__(187);
-var ReactEventListener = __webpack_require__(188);
-var ReactInjection = __webpack_require__(190);
-var ReactReconcileTransaction = __webpack_require__(191);
-var SVGDOMPropertyConfig = __webpack_require__(197);
-var SelectEventPlugin = __webpack_require__(198);
-var SimpleEventPlugin = __webpack_require__(199);
+var ReactDOMEmptyComponent = __webpack_require__(183);
+var ReactDOMTreeTraversal = __webpack_require__(184);
+var ReactDOMTextComponent = __webpack_require__(185);
+var ReactDefaultBatchingStrategy = __webpack_require__(186);
+var ReactEventListener = __webpack_require__(187);
+var ReactInjection = __webpack_require__(189);
+var ReactReconcileTransaction = __webpack_require__(190);
+var SVGDOMPropertyConfig = __webpack_require__(196);
+var SelectEventPlugin = __webpack_require__(197);
+var SimpleEventPlugin = __webpack_require__(198);
 
 var alreadyInjected = false;
 
@@ -16094,7 +16087,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16171,7 +16164,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16187,9 +16180,9 @@ module.exports = ARIADOMPropertyConfig;
 
 var EventPropagators = __webpack_require__(30);
 var ExecutionEnvironment = __webpack_require__(6);
-var FallbackCompositionState = __webpack_require__(138);
-var SyntheticCompositionEvent = __webpack_require__(139);
-var SyntheticInputEvent = __webpack_require__(140);
+var FallbackCompositionState = __webpack_require__(137);
+var SyntheticCompositionEvent = __webpack_require__(138);
+var SyntheticInputEvent = __webpack_require__(139);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -16558,7 +16551,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16656,7 +16649,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16695,7 +16688,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16735,7 +16728,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17050,7 +17043,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17065,7 +17058,7 @@ module.exports = ChangeEventPlugin;
 
 
 
-var ReactOwner = __webpack_require__(143);
+var ReactOwner = __webpack_require__(142);
 
 var ReactRef = {};
 
@@ -17142,7 +17135,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17239,7 +17232,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17254,12 +17247,12 @@ module.exports = ReactOwner;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(145);
-var ReactHostOperationHistoryHook = __webpack_require__(146);
+var ReactInvalidSetStateWarningHook = __webpack_require__(144);
+var ReactHostOperationHistoryHook = __webpack_require__(145);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var performanceNow = __webpack_require__(147);
+var performanceNow = __webpack_require__(146);
 var warning = __webpack_require__(2);
 
 var hooks = [];
@@ -17604,7 +17597,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17645,7 +17638,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17682,7 +17675,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17697,7 +17690,7 @@ module.exports = ReactHostOperationHistoryHook;
  * @typechecks
  */
 
-var performance = __webpack_require__(148);
+var performance = __webpack_require__(147);
 
 var performanceNow;
 
@@ -17719,7 +17712,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17745,7 +17738,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17774,7 +17767,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17875,7 +17868,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18115,7 +18108,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18130,7 +18123,7 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 var DOMChildrenOperations = __webpack_require__(52);
-var ReactDOMIDOperations = __webpack_require__(157);
+var ReactDOMIDOperations = __webpack_require__(156);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -18146,7 +18139,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18165,7 +18158,7 @@ var _prodInvariant = __webpack_require__(3);
 var DOMLazyTree = __webpack_require__(26);
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createNodesFromMarkup = __webpack_require__(154);
+var createNodesFromMarkup = __webpack_require__(153);
 var emptyFunction = __webpack_require__(9);
 var invariant = __webpack_require__(1);
 
@@ -18196,7 +18189,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18215,8 +18208,8 @@ module.exports = Danger;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var createArrayFromMixed = __webpack_require__(155);
-var getMarkupWrap = __webpack_require__(156);
+var createArrayFromMixed = __webpack_require__(154);
+var getMarkupWrap = __webpack_require__(155);
 var invariant = __webpack_require__(1);
 
 /**
@@ -18284,7 +18277,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18415,7 +18408,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18514,7 +18507,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18550,7 +18543,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18569,8 +18562,8 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var AutoFocusUtils = __webpack_require__(159);
-var CSSPropertyOperations = __webpack_require__(160);
+var AutoFocusUtils = __webpack_require__(158);
+var CSSPropertyOperations = __webpack_require__(159);
 var DOMLazyTree = __webpack_require__(26);
 var DOMNamespaces = __webpack_require__(53);
 var DOMProperty = __webpack_require__(17);
@@ -18580,13 +18573,13 @@ var EventPluginRegistry = __webpack_require__(37);
 var ReactBrowserEventEmitter = __webpack_require__(42);
 var ReactDOMComponentFlags = __webpack_require__(79);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMInput = __webpack_require__(170);
-var ReactDOMOption = __webpack_require__(171);
+var ReactDOMInput = __webpack_require__(169);
+var ReactDOMOption = __webpack_require__(170);
 var ReactDOMSelect = __webpack_require__(93);
-var ReactDOMTextarea = __webpack_require__(172);
+var ReactDOMTextarea = __webpack_require__(171);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMultiChild = __webpack_require__(173);
-var ReactServerRenderingTransaction = __webpack_require__(182);
+var ReactMultiChild = __webpack_require__(172);
+var ReactServerRenderingTransaction = __webpack_require__(181);
 
 var emptyFunction = __webpack_require__(9);
 var escapeTextContentForBrowser = __webpack_require__(41);
@@ -19568,7 +19561,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19595,7 +19588,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19613,10 +19606,10 @@ var CSSProperty = __webpack_require__(90);
 var ExecutionEnvironment = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(10);
 
-var camelizeStyleName = __webpack_require__(161);
-var dangerousStyleValue = __webpack_require__(163);
-var hyphenateStyleName = __webpack_require__(164);
-var memoizeStringOnly = __webpack_require__(166);
+var camelizeStyleName = __webpack_require__(160);
+var dangerousStyleValue = __webpack_require__(162);
+var hyphenateStyleName = __webpack_require__(163);
+var memoizeStringOnly = __webpack_require__(165);
 var warning = __webpack_require__(2);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -19814,7 +19807,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19829,7 +19822,7 @@ module.exports = CSSPropertyOperations;
 
 
 
-var camelize = __webpack_require__(162);
+var camelize = __webpack_require__(161);
 
 var msPattern = /^-ms-/;
 
@@ -19857,7 +19850,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19892,7 +19885,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19975,7 +19968,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19990,7 +19983,7 @@ module.exports = dangerousStyleValue;
 
 
 
-var hyphenate = __webpack_require__(165);
+var hyphenate = __webpack_require__(164);
 
 var msPattern = /^ms-/;
 
@@ -20017,7 +20010,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20053,7 +20046,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20086,7 +20079,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20115,7 +20108,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20150,7 +20143,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20254,7 +20247,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20545,7 +20538,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20671,7 +20664,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20835,7 +20828,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20857,10 +20850,10 @@ var ReactInstrumentation = __webpack_require__(10);
 
 var ReactCurrentOwner = __webpack_require__(11);
 var ReactReconciler = __webpack_require__(25);
-var ReactChildReconciler = __webpack_require__(174);
+var ReactChildReconciler = __webpack_require__(173);
 
 var emptyFunction = __webpack_require__(9);
-var flattenChildren = __webpack_require__(181);
+var flattenChildren = __webpack_require__(180);
 var invariant = __webpack_require__(1);
 
 /**
@@ -21285,7 +21278,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21442,7 +21435,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21469,7 +21462,7 @@ var ReactNodeTypes = __webpack_require__(95);
 var ReactReconciler = __webpack_require__(25);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(176);
+  var checkReactTypeSpec = __webpack_require__(175);
 }
 
 var emptyObject = __webpack_require__(36);
@@ -22346,7 +22339,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22362,7 +22355,7 @@ module.exports = ReactCompositeComponent;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(177);
+var ReactPropTypeLocationNames = __webpack_require__(176);
 var ReactPropTypesSecret = __webpack_require__(92);
 
 var invariant = __webpack_require__(1);
@@ -22437,7 +22430,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22466,7 +22459,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22490,7 +22483,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22513,7 +22506,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22557,7 +22550,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22637,7 +22630,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22656,7 +22649,7 @@ var _assign = __webpack_require__(4);
 var PooledClass = __webpack_require__(22);
 var Transaction = __webpack_require__(38);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactServerUpdateQueue = __webpack_require__(183);
+var ReactServerUpdateQueue = __webpack_require__(182);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -22731,7 +22724,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22874,7 +22867,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22937,7 +22930,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23077,7 +23070,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23243,7 +23236,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23314,7 +23307,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23337,7 +23330,7 @@ var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(12);
 
 var getEventTarget = __webpack_require__(49);
-var getUnboundedScrollPosition = __webpack_require__(189);
+var getUnboundedScrollPosition = __webpack_require__(188);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -23472,7 +23465,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23514,7 +23507,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23551,7 +23544,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23733,7 +23726,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23749,7 +23742,7 @@ module.exports = ReactReconcileTransaction;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var getNodeForCharacterOffset = __webpack_require__(193);
+var getNodeForCharacterOffset = __webpack_require__(192);
 var getTextContentAccessor = __webpack_require__(82);
 
 /**
@@ -23948,7 +23941,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24025,7 +24018,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24040,7 +24033,7 @@ module.exports = getNodeForCharacterOffset;
  * 
  */
 
-var isTextNode = __webpack_require__(195);
+var isTextNode = __webpack_require__(194);
 
 /*eslint-disable no-bitwise */
 
@@ -24068,7 +24061,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24083,7 +24076,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(196);
+var isNode = __webpack_require__(195);
 
 /**
  * @param {*} object The object to check.
@@ -24096,7 +24089,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24124,7 +24117,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24429,7 +24422,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24620,7 +24613,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24640,17 +24633,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(99);
 var EventPropagators = __webpack_require__(30);
 var ReactDOMComponentTree = __webpack_require__(5);
-var SyntheticAnimationEvent = __webpack_require__(200);
-var SyntheticClipboardEvent = __webpack_require__(201);
+var SyntheticAnimationEvent = __webpack_require__(199);
+var SyntheticClipboardEvent = __webpack_require__(200);
 var SyntheticEvent = __webpack_require__(15);
-var SyntheticFocusEvent = __webpack_require__(202);
-var SyntheticKeyboardEvent = __webpack_require__(203);
+var SyntheticFocusEvent = __webpack_require__(201);
+var SyntheticKeyboardEvent = __webpack_require__(202);
 var SyntheticMouseEvent = __webpack_require__(39);
-var SyntheticDragEvent = __webpack_require__(205);
-var SyntheticTouchEvent = __webpack_require__(206);
-var SyntheticTransitionEvent = __webpack_require__(207);
+var SyntheticDragEvent = __webpack_require__(204);
+var SyntheticTouchEvent = __webpack_require__(205);
+var SyntheticTransitionEvent = __webpack_require__(206);
 var SyntheticUIEvent = __webpack_require__(32);
-var SyntheticWheelEvent = __webpack_require__(208);
+var SyntheticWheelEvent = __webpack_require__(207);
 
 var emptyFunction = __webpack_require__(9);
 var getEventCharCode = __webpack_require__(62);
@@ -24850,7 +24843,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24892,7 +24885,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24933,7 +24926,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24972,7 +24965,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24989,7 +24982,7 @@ module.exports = SyntheticFocusEvent;
 var SyntheticUIEvent = __webpack_require__(32);
 
 var getEventCharCode = __webpack_require__(62);
-var getEventKey = __webpack_require__(204);
+var getEventKey = __webpack_require__(203);
 var getEventModifierState = __webpack_require__(51);
 
 /**
@@ -25059,7 +25052,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25174,7 +25167,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25213,7 +25206,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25261,7 +25254,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25303,7 +25296,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25357,7 +25350,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 209 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25394,7 +25387,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 210 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25416,7 +25409,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 211 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25430,7 +25423,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var adler32 = __webpack_require__(212);
+var adler32 = __webpack_require__(211);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -25469,7 +25462,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 212 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25516,7 +25509,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 213 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25533,7 +25526,7 @@ module.exports = adler32;
 module.exports = '15.6.2';
 
 /***/ }),
-/* 214 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25597,7 +25590,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 215 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25616,7 +25609,7 @@ var ReactMount = __webpack_require__(102);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 216 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25732,7 +25725,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 217 */
+/* 216 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25779,7 +25772,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 218 */
+/* 217 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25876,26 +25869,26 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 219 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(219);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_0__Router__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Link__ = __webpack_require__(107);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_1__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(227);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexLink", function() { return __WEBPACK_IMPORTED_MODULE_2__IndexLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(228);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__withRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(230);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRedirect", function() { return __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(231);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRoute", function() { return __WEBPACK_IMPORTED_MODULE_5__IndexRoute__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(108);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(232);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__RouteUtils__ = __webpack_require__(19);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createRoutes", function() { return __WEBPACK_IMPORTED_MODULE_8__RouteUtils__["b"]; });
@@ -25904,17 +25897,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PropTypes__ = __webpack_require__(66);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "locationShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "routerShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(233);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "match", function() { return __WEBPACK_IMPORTED_MODULE_11__match__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__ = __webpack_require__(112);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "useRouterHistory", function() { return __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__PatternUtils__ = __webpack_require__(28);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "formatPattern", function() { return __WEBPACK_IMPORTED_MODULE_13__PatternUtils__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(238);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "applyRouterMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(239);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browserHistory", function() { return __WEBPACK_IMPORTED_MODULE_15__browserHistory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(242);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "hashHistory", function() { return __WEBPACK_IMPORTED_MODULE_16__hashHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__ = __webpack_require__(109);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createMemoryHistory", function() { return __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__["a"]; });
@@ -25965,7 +25958,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 220 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26135,7 +26128,7 @@ var propTypes = {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 221 */
+/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26200,7 +26193,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 222 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26277,7 +26270,7 @@ function computeChangedRoutes(prevState, nextState) {
 /* harmony default export */ __webpack_exports__["a"] = (computeChangedRoutes);
 
 /***/ }),
-/* 223 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26441,7 +26434,7 @@ function getTransitionUtils() {
 }
 
 /***/ }),
-/* 224 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26594,7 +26587,7 @@ function isActive(_ref, indexOnly, currentLocation, routes, params) {
 }
 
 /***/ }),
-/* 225 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26636,7 +26629,7 @@ function getComponents(nextState, callback) {
 /* harmony default export */ __webpack_exports__["a"] = (getComponents);
 
 /***/ }),
-/* 226 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26889,7 +26882,7 @@ function matchRoutes(routes, location, callback, remainingPathname) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 227 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26917,7 +26910,7 @@ function getRouteParams(route, params) {
 /* harmony default export */ __webpack_exports__["a"] = (getRouteParams);
 
 /***/ }),
-/* 228 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26946,7 +26939,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_1_create_react_class___default()({
 /* harmony default export */ __webpack_exports__["a"] = (IndexLink);
 
 /***/ }),
-/* 229 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26957,7 +26950,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_1_create_react_class___default()({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_create_react_class__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_hoist_non_react_statics__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ContextUtils__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__PropTypes__ = __webpack_require__(66);
@@ -27022,7 +27015,7 @@ function withRouter(WrappedComponent, options) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 230 */
+/* 229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -27100,7 +27093,7 @@ function withRouter(WrappedComponent, options) {
 
 
 /***/ }),
-/* 231 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27156,7 +27149,7 @@ var IndexRedirect = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 232 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27213,7 +27206,7 @@ var IndexRoute = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 233 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27267,7 +27260,7 @@ var Route = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 234 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27337,12 +27330,12 @@ function match(_ref, callback) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 235 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var strictUriEncode = __webpack_require__(236);
+var strictUriEncode = __webpack_require__(235);
 var objectAssign = __webpack_require__(4);
 
 function encoderForArrayFormat(opts) {
@@ -27549,7 +27542,7 @@ exports.stringify = function (obj, opts) {
 
 
 /***/ }),
-/* 236 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27562,7 +27555,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 237 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27709,7 +27702,7 @@ exports.default = createMemoryHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 238 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27771,7 +27764,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 };
 
 /***/ }),
-/* 239 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27823,11 +27816,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
-/* 240 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(240);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(114);
 
@@ -27835,7 +27828,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default.a));
 
 /***/ }),
-/* 241 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27855,7 +27848,7 @@ var _BrowserProtocol = __webpack_require__(70);
 
 var BrowserProtocol = _interopRequireWildcard(_BrowserProtocol);
 
-var _RefreshProtocol = __webpack_require__(242);
+var _RefreshProtocol = __webpack_require__(241);
 
 var RefreshProtocol = _interopRequireWildcard(_RefreshProtocol);
 
@@ -27935,7 +27928,7 @@ exports.default = createBrowserHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 242 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27978,11 +27971,11 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 };
 
 /***/ }),
-/* 243 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(114);
 
@@ -27990,7 +27983,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default.a));
 
 /***/ }),
-/* 244 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28012,7 +28005,7 @@ var _ExecutionEnvironment = __webpack_require__(69);
 
 var _DOMUtils = __webpack_require__(44);
 
-var _HashProtocol = __webpack_require__(245);
+var _HashProtocol = __webpack_require__(244);
 
 var HashProtocol = _interopRequireWildcard(_HashProtocol);
 
@@ -28144,7 +28137,7 @@ exports.default = createHashHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 245 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28287,6 +28280,13 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
+/* 245 */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.AOS=t():e.AOS=t()}(this,function(){return function(e){function t(o){if(n[o])return n[o].exports;var i=n[o]={exports:{},id:o,loaded:!1};return e[o].call(i.exports,i,i.exports,t),i.loaded=!0,i.exports}var n={};return t.m=e,t.c=n,t.p="dist/",t(0)}([function(e,t,n){"use strict";function o(e){return e&&e.__esModule?e:{default:e}}var i=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o])}return e},r=n(1),a=(o(r),n(6)),u=o(a),c=n(7),f=o(c),s=n(8),d=o(s),l=n(9),p=o(l),m=n(10),b=o(m),v=n(11),y=o(v),g=n(14),h=o(g),w=[],k=!1,x=document.all&&!window.atob,j={offset:120,delay:0,easing:"ease",duration:400,disable:!1,once:!1,startEvent:"DOMContentLoaded"},O=function(){var e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];if(e&&(k=!0),k)return w=(0,y.default)(w,j),(0,b.default)(w,j.once),w},S=function(){w=(0,h.default)(),O()},_=function(){w.forEach(function(e,t){e.node.removeAttribute("data-aos"),e.node.removeAttribute("data-aos-easing"),e.node.removeAttribute("data-aos-duration"),e.node.removeAttribute("data-aos-delay")})},E=function(e){return e===!0||"mobile"===e&&p.default.mobile()||"phone"===e&&p.default.phone()||"tablet"===e&&p.default.tablet()||"function"==typeof e&&e()===!0},z=function(e){return j=i(j,e),w=(0,h.default)(),E(j.disable)||x?_():(document.querySelector("body").setAttribute("data-aos-easing",j.easing),document.querySelector("body").setAttribute("data-aos-duration",j.duration),document.querySelector("body").setAttribute("data-aos-delay",j.delay),"DOMContentLoaded"===j.startEvent&&["complete","interactive"].indexOf(document.readyState)>-1?O(!0):"load"===j.startEvent?window.addEventListener(j.startEvent,function(){O(!0)}):document.addEventListener(j.startEvent,function(){O(!0)}),window.addEventListener("resize",(0,f.default)(O,50,!0)),window.addEventListener("orientationchange",(0,f.default)(O,50,!0)),window.addEventListener("scroll",(0,u.default)(function(){(0,b.default)(w,j.once)},99)),document.addEventListener("DOMNodeRemoved",function(e){var t=e.target;t&&1===t.nodeType&&t.hasAttribute&&t.hasAttribute("data-aos")&&(0,f.default)(S,50,!0)}),(0,d.default)("[data-aos]",S),w)};e.exports={init:z,refresh:O,refreshHard:S}},function(e,t){},,,,,function(e,t){(function(t){"use strict";function n(e,t,n){function o(t){var n=b,o=v;return b=v=void 0,k=t,g=e.apply(o,n)}function r(e){return k=e,h=setTimeout(s,t),S?o(e):g}function a(e){var n=e-w,o=e-k,i=t-n;return _?j(i,y-o):i}function c(e){var n=e-w,o=e-k;return void 0===w||n>=t||n<0||_&&o>=y}function s(){var e=O();return c(e)?d(e):void(h=setTimeout(s,a(e)))}function d(e){return h=void 0,E&&b?o(e):(b=v=void 0,g)}function l(){void 0!==h&&clearTimeout(h),k=0,b=w=v=h=void 0}function p(){return void 0===h?g:d(O())}function m(){var e=O(),n=c(e);if(b=arguments,v=this,w=e,n){if(void 0===h)return r(w);if(_)return h=setTimeout(s,t),o(w)}return void 0===h&&(h=setTimeout(s,t)),g}var b,v,y,g,h,w,k=0,S=!1,_=!1,E=!0;if("function"!=typeof e)throw new TypeError(f);return t=u(t)||0,i(n)&&(S=!!n.leading,_="maxWait"in n,y=_?x(u(n.maxWait)||0,t):y,E="trailing"in n?!!n.trailing:E),m.cancel=l,m.flush=p,m}function o(e,t,o){var r=!0,a=!0;if("function"!=typeof e)throw new TypeError(f);return i(o)&&(r="leading"in o?!!o.leading:r,a="trailing"in o?!!o.trailing:a),n(e,t,{leading:r,maxWait:t,trailing:a})}function i(e){var t="undefined"==typeof e?"undefined":c(e);return!!e&&("object"==t||"function"==t)}function r(e){return!!e&&"object"==("undefined"==typeof e?"undefined":c(e))}function a(e){return"symbol"==("undefined"==typeof e?"undefined":c(e))||r(e)&&k.call(e)==d}function u(e){if("number"==typeof e)return e;if(a(e))return s;if(i(e)){var t="function"==typeof e.valueOf?e.valueOf():e;e=i(t)?t+"":t}if("string"!=typeof e)return 0===e?e:+e;e=e.replace(l,"");var n=m.test(e);return n||b.test(e)?v(e.slice(2),n?2:8):p.test(e)?s:+e}var c="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},f="Expected a function",s=NaN,d="[object Symbol]",l=/^\s+|\s+$/g,p=/^[-+]0x[0-9a-f]+$/i,m=/^0b[01]+$/i,b=/^0o[0-7]+$/i,v=parseInt,y="object"==("undefined"==typeof t?"undefined":c(t))&&t&&t.Object===Object&&t,g="object"==("undefined"==typeof self?"undefined":c(self))&&self&&self.Object===Object&&self,h=y||g||Function("return this")(),w=Object.prototype,k=w.toString,x=Math.max,j=Math.min,O=function(){return h.Date.now()};e.exports=o}).call(t,function(){return this}())},function(e,t){(function(t){"use strict";function n(e,t,n){function i(t){var n=b,o=v;return b=v=void 0,O=t,g=e.apply(o,n)}function r(e){return O=e,h=setTimeout(s,t),S?i(e):g}function u(e){var n=e-w,o=e-O,i=t-n;return _?x(i,y-o):i}function f(e){var n=e-w,o=e-O;return void 0===w||n>=t||n<0||_&&o>=y}function s(){var e=j();return f(e)?d(e):void(h=setTimeout(s,u(e)))}function d(e){return h=void 0,E&&b?i(e):(b=v=void 0,g)}function l(){void 0!==h&&clearTimeout(h),O=0,b=w=v=h=void 0}function p(){return void 0===h?g:d(j())}function m(){var e=j(),n=f(e);if(b=arguments,v=this,w=e,n){if(void 0===h)return r(w);if(_)return h=setTimeout(s,t),i(w)}return void 0===h&&(h=setTimeout(s,t)),g}var b,v,y,g,h,w,O=0,S=!1,_=!1,E=!0;if("function"!=typeof e)throw new TypeError(c);return t=a(t)||0,o(n)&&(S=!!n.leading,_="maxWait"in n,y=_?k(a(n.maxWait)||0,t):y,E="trailing"in n?!!n.trailing:E),m.cancel=l,m.flush=p,m}function o(e){var t="undefined"==typeof e?"undefined":u(e);return!!e&&("object"==t||"function"==t)}function i(e){return!!e&&"object"==("undefined"==typeof e?"undefined":u(e))}function r(e){return"symbol"==("undefined"==typeof e?"undefined":u(e))||i(e)&&w.call(e)==s}function a(e){if("number"==typeof e)return e;if(r(e))return f;if(o(e)){var t="function"==typeof e.valueOf?e.valueOf():e;e=o(t)?t+"":t}if("string"!=typeof e)return 0===e?e:+e;e=e.replace(d,"");var n=p.test(e);return n||m.test(e)?b(e.slice(2),n?2:8):l.test(e)?f:+e}var u="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},c="Expected a function",f=NaN,s="[object Symbol]",d=/^\s+|\s+$/g,l=/^[-+]0x[0-9a-f]+$/i,p=/^0b[01]+$/i,m=/^0o[0-7]+$/i,b=parseInt,v="object"==("undefined"==typeof t?"undefined":u(t))&&t&&t.Object===Object&&t,y="object"==("undefined"==typeof self?"undefined":u(self))&&self&&self.Object===Object&&self,g=v||y||Function("return this")(),h=Object.prototype,w=h.toString,k=Math.max,x=Math.min,j=function(){return g.Date.now()};e.exports=n}).call(t,function(){return this}())},function(e,t){"use strict";function n(e,t){a.push({selector:e,fn:t}),!u&&r&&(u=new r(o),u.observe(i.documentElement,{childList:!0,subtree:!0,removedNodes:!0})),o()}function o(){for(var e,t,n=0,o=a.length;n<o;n++){e=a[n],t=i.querySelectorAll(e.selector);for(var r,u=0,c=t.length;u<c;u++)r=t[u],r.ready||(r.ready=!0,e.fn.call(r,r))}}Object.defineProperty(t,"__esModule",{value:!0});var i=window.document,r=window.MutationObserver||window.WebKitMutationObserver,a=[],u=void 0;t.default=n},function(e,t){"use strict";function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function o(){return navigator.userAgent||navigator.vendor||window.opera||""}Object.defineProperty(t,"__esModule",{value:!0});var i=function(){function e(e,t){for(var n=0;n<t.length;n++){var o=t[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(e,o.key,o)}}return function(t,n,o){return n&&e(t.prototype,n),o&&e(t,o),t}}(),r=/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i,a=/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i,u=/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i,c=/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i,f=function(){function e(){n(this,e)}return i(e,[{key:"phone",value:function(){var e=o();return!(!r.test(e)&&!a.test(e.substr(0,4)))}},{key:"mobile",value:function(){var e=o();return!(!u.test(e)&&!c.test(e.substr(0,4)))}},{key:"tablet",value:function(){return this.mobile()&&!this.phone()}}]),e}();t.default=new f},function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=function(e,t,n){var o=e.node.getAttribute("data-aos-once");t>e.position?e.node.classList.add("aos-animate"):"undefined"!=typeof o&&("false"===o||!n&&"true"!==o)&&e.node.classList.remove("aos-animate")},o=function(e,t){var o=window.pageYOffset,i=window.innerHeight;e.forEach(function(e,r){n(e,i+o,t)})};t.default=o},function(e,t,n){"use strict";function o(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var i=n(12),r=o(i),a=function(e,t){return e.forEach(function(e,n){e.node.classList.add("aos-init"),e.position=(0,r.default)(e.node,t.offset)}),e};t.default=a},function(e,t,n){"use strict";function o(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var i=n(13),r=o(i),a=function(e,t){var n=0,o=0,i=window.innerHeight,a={offset:e.getAttribute("data-aos-offset"),anchor:e.getAttribute("data-aos-anchor"),anchorPlacement:e.getAttribute("data-aos-anchor-placement")};switch(a.offset&&!isNaN(a.offset)&&(o=parseInt(a.offset)),a.anchor&&document.querySelectorAll(a.anchor)&&(e=document.querySelectorAll(a.anchor)[0]),n=(0,r.default)(e).top,a.anchorPlacement){case"top-bottom":break;case"center-bottom":n+=e.offsetHeight/2;break;case"bottom-bottom":n+=e.offsetHeight;break;case"top-center":n+=i/2;break;case"bottom-center":n+=i/2+e.offsetHeight;break;case"center-center":n+=i/2+e.offsetHeight/2;break;case"top-top":n+=i;break;case"bottom-top":n+=e.offsetHeight+i;break;case"center-top":n+=e.offsetHeight/2+i}return a.anchorPlacement||a.offset||isNaN(t)||(o=t),n+o};t.default=a},function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=function(e){for(var t=0,n=0;e&&!isNaN(e.offsetLeft)&&!isNaN(e.offsetTop);)t+=e.offsetLeft-("BODY"!=e.tagName?e.scrollLeft:0),n+=e.offsetTop-("BODY"!=e.tagName?e.scrollTop:0),e=e.offsetParent;return{top:n,left:t}};t.default=n},function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=function(e){e=e||document.querySelectorAll("[data-aos]");var t=[];return[].forEach.call(e,function(e,n){t.push({node:e})}),t};t.default=n}])});
+//# sourceMappingURL=aos.js.map
+
+/***/ }),
 /* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28326,7 +28326,7 @@ exports = module.exports = __webpack_require__(248)(false);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n* {\n  box-sizing: border-box; }\n\nheader {\n  display: flex;\n  justify-content: flex-end;\n  height: 300px;\n  width: 100%;\n  color: white;\n  position: relative; }\n  header .container {\n    display: flex;\n    width: 53%;\n    justify-content: space-between;\n    position: absolute;\n    margin-top: -1%;\n    order: 1; }\n    header .container .logo {\n      height: 120px;\n      width: 100px; }\n    header .container nav {\n      width: 26%;\n      display: flex;\n      margin-right: 5.46%;\n      margin-top: 33px; }\n      header .container nav ul {\n        width: 100%;\n        height: 27px;\n        display: flex;\n        justify-content: space-between;\n        font-size: 20px;\n        font-family: 'Roboto Slab', serif;\n        font-weight: bold; }\n        header .container nav ul li {\n          cursor: pointer; }\n          header .container nav ul li .link {\n            color: white;\n            text-decoration: none; }\n      header .container nav div.mobile {\n        display: none; }\n  header .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n\nmain {\n  height: 1080px;\n  display: flex;\n  padding-top: 50px; }\n  main .phones {\n    width: 49%;\n    height: auto;\n    margin-left: 7.396%;\n    margin-right: 7.5%; }\n    main .phones img {\n      vertical-align: middle;\n      display: block;\n      height: auto;\n      max-width: 100%; }\n  main .download {\n    width: 25%;\n    height: 383px;\n    margin-top: 107px;\n    display: flex;\n    flex-direction: column; }\n    main .download h1 {\n      font-size: 60px;\n      font-family: 'Roboto Slab', serif;\n      font-weight: 400;\n      color: #6A67CE;\n      margin-bottom: 20px; }\n    main .download p {\n      font-size: 36px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1; }\n    main .download img {\n      height: 228px;\n      width: 320px;\n      margin-left: -20px; }\n\nsection.about {\n  height: 1080px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #F1F1F1; }\n  section.about .container {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    align-items: center;\n    width: 1200px;\n    height: 791px; }\n    section.about .container h2 {\n      display: flex;\n      align-self: center;\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE; }\n    section.about .container p {\n      display: flex;\n      text-align: center;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: 400;\n      color: #D1D1D1; }\n    section.about .container button {\n      height: 60px;\n      width: 200px;\n      border: none;\n      border-radius: 30px;\n      color: #ffffff;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n      margin-bottom: 80px;\n      cursor: pointer;\n      transition: background 2s;\n      outline: none; }\n      section.about .container button:hover {\n        background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\nsection.info {\n  height: 1773px;\n  width: 100%;\n  background-color: #FFFFFF;\n  position: relative; }\n  section.info .box {\n    height: 405px;\n    width: 390px;\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center; }\n    section.info .box:first-of-type {\n      margin-top: 8.1%;\n      margin-left: 16.77%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 16%;\n      margin-left: 57.19%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 37%;\n      margin-left: 26.15%; }\n    section.info .box:last-of-type {\n      margin-top: 55.44%;\n      margin-left: 50%; }\n    section.info .box .circle {\n      width: 200px;\n      height: 200px;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center; }\n      section.info .box .circle.first {\n        box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.info .box .circle.second {\n        background-color: #7d00ca; }\n    section.info .box h3 {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: bold;\n      font-size: 36px;\n      text-align: center;\n      color: #6A67CE; }\n    section.info .box p {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      font-size: 24px;\n      text-align: center;\n      color: #D1D1D1; }\n\nsection.big {\n  height: 1080px;\n  width: 100%;\n  background-color: #ECF0F3;\n  position: relative; }\n  section.big .background {\n    width: 100%;\n    position: absolute;\n    top: -350px;\n    order: -1; }\n  section.big div {\n    height: 100%;\n    width: 100%;\n    position: absolute; }\n    section.big div img {\n      max-width: 100%; }\n\nsection.team {\n  height: 1080px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n  color: #ffffff;\n  position: relative; }\n  section.team .background {\n    width: 100%;\n    position: absolute;\n    top: -360px;\n    order: -1; }\n  section.team .container {\n    width: 62.5%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; }\n    section.team .container h4 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      text-align: center;\n      font-weight: 400; }\n    section.team .container p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      text-align: center; }\n    section.team .container .description {\n      height: 213px;\n      margin-top: 83px;\n      margin-bottom: 35px; }\n      section.team .container .description h4 {\n        margin-bottom: 36px; }\n    section.team .container .people {\n      display: flex;\n      margin-bottom: 124px; }\n      section.team .container .people .person {\n        height: 437px;\n        width: 500px;\n        display: flex;\n        flex-direction: column;\n        align-items: center; }\n        section.team .container .people .person:first-of-type {\n          margin-right: 200px; }\n        section.team .container .people .person .photo {\n          height: 200px;\n          width: 200px;\n          border-radius: 50%;\n          margin-bottom: 47px; }\n          section.team .container .people .person .photo img {\n            height: 200px;\n            width: 200px; }\n    section.team .container .circles {\n      width: 200px;\n      height: 50px;\n      display: flex;\n      justify-content: space-between; }\n      section.team .container .circles .circle {\n        height: 50px;\n        width: 50px;\n        border-radius: 50%;\n        background-color: #FFFFFF; }\n\n.application {\n  display: flex;\n  justify-content: space-between;\n  height: 1300px;\n  width: 100%; }\n  .application .chat {\n    max-height: 100%;\n    max-width: 100%;\n    margin-left: 216px;\n    margin-top: 205px; }\n  .application .download {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 903.5px;\n    width: 1005px;\n    margin-top: 232px; }\n    .application .download .text {\n      width: 100%;\n      height: 775px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: space-between; }\n      .application .download .text h5 {\n        font-size: 36px;\n        font-family: 'Roboto Slab', serif;\n        color: #6A67CE; }\n      .application .download .text p {\n        padding-top: 36px;\n        width: 391px;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: 400;\n        color: #AFAFAF; }\n      .application .download .text button {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        margin-bottom: 130px;\n        cursor: pointer;\n        transition: background 2s;\n        outline: none; }\n        .application .download .text button:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n    .application .download img {\n      height: 228px;\n      width: 320px; }\n\nfooter {\n  height: 360px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: relative; }\n  footer .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n  footer .socials {\n    position: absolute;\n    margin-top: 90px;\n    height: 187.5px;\n    width: 173.6px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    footer .socials .logo {\n      height: 106px;\n      width: 106px; }\n    footer .socials .media {\n      height: 31px; }\n      footer .socials .media svg {\n        width: 36px;\n        height: 30px; }\n\n@media only screen and (min-width: 769px) and (max-width: 1055px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 5%;\n        margin-top: 6%; }\n      header .container svg {\n        width: 70%;\n        margin-right: 5%;\n        margin-top: 6%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1573px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\n@media only screen and (max-device-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        margin-top: -30px;\n        height: 200px;\n        width: 180px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: inline-block;\n          margin-top: 10px;\n          margin-right: -20px; }\n          header .container nav .menu div {\n            width: 70px;\n            height: 14px;\n            background-color: #FFFFFF;\n            margin: 4px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-10px, 4px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-8px, -4px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 30px;\n          margin-top: 300px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            width: 100%;\n            background-color: #7d00ca; }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      justify-content: center; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center;\n      justify-content: space-around; }\n      main .download h1 {\n        font-size: 60px; }\n      main .download p {\n        font-size: 40px;\n        text-align: center; }\n  section.about {\n    width: 100%; }\n    section.about .container {\n      width: 90%; }\n      section.about .container h2 {\n        font-size: 60px; }\n      section.about .container p {\n        font-size: 40px; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: 680px;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n      section.info .box h3 {\n        font-size: 60px; }\n      section.info .box p {\n        font-size: 40px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 2108px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container h4, section.team .container h5 {\n        font-size: 60px; }\n      section.team .container p {\n        font-size: 40px; }\n      section.team .container .description {\n        height: 400px; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 728px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        width: 100%;\n        justify-content: flex-start; }\n        section.application .download .text h5 {\n          font-size: 60px; }\n        section.application .download .text p {\n          width: 100%;\n          font-size: 40px; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    width: 100%; }\n    footer .socials {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; } }\n\n@media only screen and (max-width: 1055px) {\n  footer {\n    height: 270px; }\n    footer .socials {\n      position: absolute;\n      margin-top: 40px;\n      height: 157.5px;\n      width: 143.6px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .socials .logo {\n        height: 106px;\n        width: 106px; }\n      footer .socials .media {\n        height: 31px; }\n        footer .socials .media svg {\n          width: 36px;\n          height: 30px; } }\n\n@media only screen and (min-width: 1056px) and (max-width: 1440px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 40%; }\n  main {\n    height: 700px; }\n  section.info .box:first-of-type {\n    margin-top: 8.1%;\n    margin-left: 16.77%; }\n  section.info .box:nth-of-type(2) {\n    margin-top: 16%;\n    margin-left: 57.19%; }\n  section.info .box:nth-of-type(3) {\n    margin-top: 57%;\n    margin-left: 16.77%; }\n  section.info .box:last-of-type {\n    margin-top: 64.9%;\n    margin-left: 57.19%; }\n  section.big img {\n    width: 140%; } }\n\n@media only screen and (min-width: 1055px) and (max-width: 1215px) {\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; } }\n\n@media only screen and (min-device-width: 769px) and (max-device-width: 1055px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1473px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\nsection.contact {\n  height: 1120px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center; }\n  section.contact .text {\n    width: 1200px;\n    height: 212px; }\n    section.contact .text h1 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE;\n      margin-bottom: 36px;\n      text-align: center; }\n    section.contact .text p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1;\n      text-align: center; }\n  section.contact form {\n    height: 617px;\n    width: 1053px; }\n    section.contact form input[type=text] {\n      height: 70px;\n      width: 499px;\n      padding-left: 37px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form input[type=text]:first-of-type {\n        margin-right: 53px; }\n      section.contact form input[type=text]:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form textarea {\n      resize: none;\n      height: 341.75px;\n      width: 100%;\n      padding-left: 37px;\n      padding-top: 24px;\n      margin-top: 80px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form textarea:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form div {\n      width: 100%;\n      display: flex;\n      justify-content: flex-end;\n      margin-top: 60px; }\n      section.contact form div input[type=submit] {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        cursor: pointer;\n        outline: none; }\n        section.contact form div input[type=submit]:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\n@media only screen and (max-device-width: 1055px) {\n  section.contact {\n    height: 1120px;\n    width: 100vw;\n    overflow: hidden; }\n    section.contact .text {\n      height: 450px;\n      width: 80%; }\n      section.contact .text h1 {\n        font-size: 60px; }\n      section.contact .text p {\n        font-size: 40px; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 80%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 80%; }\n      section.contact form div {\n        width: 80%; } }\n\n@media only screen and (max-width: 769px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 60%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 30%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 30%; }\n      section.contact form div {\n        width: 30%; } }\n\n@media only screen and (max-width: 1215px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 80%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 70%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 70%; }\n      section.contact form div {\n        width: 70%; } }\n\n@media only screen and (max-width: 769px) {\n  header {\n    width: 100%;\n    height: 150px;\n    display: flex; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        margin-top: -20px;\n        height: 100px;\n        width: 90px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: inline-block;\n          margin-top: -50px;\n          margin-right: -10px; }\n          header .container nav .menu div {\n            width: 40px;\n            height: 10px;\n            background-color: #FFFFFF;\n            margin: 4px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-5px, 2px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-8px, -4px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 30px;\n          margin-top: 300px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            width: 100%;\n            background-color: #7d00ca; }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-start; }\n    main .phones {\n      height: 60%;\n      width: 100%; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center;\n      justify-content: space-around; }\n      main .download h1 {\n        font-size: 60px; }\n      main .download p {\n        font-size: 40px;\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 1084px; }\n    section.about .container {\n      height: 70%;\n      width: 90%; }\n      section.about .container h2 {\n        font-size: 60px; }\n      section.about .container p {\n        font-size: 40px; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: auto;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px;\n        margin-left: 0; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n      section.info .box h3 {\n        font-size: 60px; }\n      section.info .box p {\n        font-size: 40px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 2808px; }\n    section.team .background {\n      margin-top: 150px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container h4, section.team .container h5 {\n        font-size: 60px; }\n      section.team .container p {\n        font-size: 40px; }\n      section.team .container .description {\n        height: 700px; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 928px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1900px;\n    justify-content: flex-start;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 757px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        width: 100%;\n        justify-content: flex-start; }\n        section.application .download .text h5 {\n          font-size: 60px;\n          text-align: center; }\n        section.application .download .text p {\n          width: 90%;\n          font-size: 40px; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    height: 170px;\n    width: 100%; }\n    footer .socials {\n      position: absolute;\n      margin-top: 30px;\n      height: 107.5px;\n      width: 103.6px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .socials .logo {\n        height: 86px;\n        width: 86px; }\n      footer .socials .media {\n        height: 31px; }\n        footer .socials .media svg {\n          width: 26px;\n          height: 20px; } }\n\n@media only screen and (max-width: 595px) {\n  section.team {\n    width: 100%;\n    height: 2808px; }\n    section.team .background {\n      margin-top: 250px; } }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n* {\n  box-sizing: border-box; }\n\nheader {\n  display: flex;\n  justify-content: flex-end;\n  height: 300px;\n  width: 100%;\n  color: white;\n  position: relative; }\n  header .container {\n    display: flex;\n    width: 53%;\n    justify-content: space-between;\n    position: absolute;\n    margin-top: -1%;\n    order: 1; }\n    header .container .logo {\n      height: 120px;\n      width: 100px; }\n    header .container nav {\n      width: 26%;\n      display: flex;\n      margin-right: 5.46%;\n      margin-top: 33px; }\n      header .container nav ul {\n        width: 100%;\n        height: 27px;\n        display: flex;\n        justify-content: space-between;\n        font-size: 20px;\n        font-family: 'Roboto Slab', serif;\n        font-weight: bold; }\n        header .container nav ul li {\n          cursor: pointer; }\n          header .container nav ul li .link {\n            color: white;\n            text-decoration: none; }\n      header .container nav div.mobile {\n        display: none; }\n  header .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n\nmain {\n  height: 80vh;\n  display: flex; }\n  main .phones {\n    width: 50%;\n    height: auto;\n    margin-left: 7.5%;\n    margin-right: 7.5%; }\n    main .phones img {\n      vertical-align: middle;\n      display: block;\n      height: auto;\n      max-width: 100%; }\n  main .download {\n    width: 25%;\n    height: 383px;\n    margin-top: 107px;\n    display: flex;\n    flex-direction: column; }\n    main .download h1 {\n      font-size: 60px;\n      font-family: 'Roboto Slab', serif;\n      font-weight: 400;\n      color: #6A67CE;\n      margin-bottom: 36px; }\n    main .download p {\n      font-size: 36px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1; }\n    main .download img {\n      height: 228px;\n      width: 320px;\n      margin-left: -20px; }\n\nsection.about {\n  height: 1080px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #F1F1F1; }\n  section.about .container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 1200px;\n    height: 791px; }\n    section.about .container h2 {\n      display: flex;\n      align-self: center;\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE;\n      margin-bottom: 36px; }\n    section.about .container p {\n      display: flex;\n      text-align: center;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: 400;\n      color: #D1D1D1; }\n    section.about .container button {\n      height: 60px;\n      width: 200px;\n      border: none;\n      border-radius: 30px;\n      color: #ffffff;\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n      margin-top: 36px;\n      cursor: pointer;\n      transition: background 2s;\n      outline: none; }\n      section.about .container button:hover {\n        background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n    section.about .container video {\n      margin-top: 36px; }\n\nsection.info {\n  height: 1773px;\n  width: 100%;\n  background-color: #FFFFFF;\n  position: relative; }\n  section.info .box {\n    height: 405px;\n    width: 390px;\n    position: absolute;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.info .box:first-of-type {\n      margin-top: 8.1%;\n      margin-left: 16.77%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 16%;\n      margin-left: 57.19%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 37%;\n      margin-left: 26.15%; }\n    section.info .box:last-of-type {\n      margin-top: 55.44%;\n      margin-left: 50%; }\n    section.info .box .circle {\n      width: 200px;\n      height: 200px;\n      border-radius: 50%;\n      display: flex;\n      justify-content: center;\n      align-items: center; }\n      section.info .box .circle.first {\n        box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.info .box .circle.second {\n        background-color: #7d00ca; }\n    section.info .box h3 {\n      margin-top: 50px;\n      margin-bottom: 36px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: bold;\n      font-size: 36px;\n      text-align: center;\n      color: #6A67CE; }\n    section.info .box p {\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      font-size: 24px;\n      text-align: center;\n      color: #D1D1D1; }\n\nsection.big {\n  height: 1080px;\n  width: 100%;\n  background-color: #ECF0F3;\n  position: relative; }\n  section.big .background {\n    width: 100%;\n    position: absolute;\n    top: -350px;\n    order: -1; }\n  section.big div {\n    height: 100%;\n    width: 100%;\n    position: absolute; }\n    section.big div img {\n      max-width: 100%; }\n\nsection.team {\n  height: 1080px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n  color: #ffffff;\n  position: relative; }\n  section.team .background {\n    width: 100%;\n    position: absolute;\n    top: -360px;\n    order: -1; }\n  section.team .container {\n    width: 62.5%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; }\n    section.team .container h4 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      text-align: center;\n      font-weight: 400;\n      margin-bottom: 36px; }\n    section.team .container p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      font-weight: lighter;\n      text-align: center; }\n    section.team .container .description {\n      height: 150px;\n      margin-top: 83px;\n      margin-bottom: 35px; }\n      section.team .container .description h4 {\n        margin-bottom: 36px; }\n    section.team .container .people {\n      display: flex;\n      margin-bottom: 124px; }\n      section.team .container .people .person {\n        height: 437px;\n        width: 500px;\n        display: flex;\n        flex-direction: column;\n        align-items: center; }\n        section.team .container .people .person:first-of-type {\n          margin-right: 200px; }\n        section.team .container .people .person .photo {\n          height: 200px;\n          width: 200px;\n          border-radius: 50%;\n          margin-bottom: 47px; }\n          section.team .container .people .person .photo img {\n            height: 200px;\n            width: 200px; }\n    section.team .container .circles {\n      width: 200px;\n      height: 50px;\n      display: flex;\n      justify-content: space-between; }\n      section.team .container .circles .circle {\n        height: 50px;\n        width: 50px;\n        border-radius: 50%;\n        background-color: #FFFFFF; }\n\n.application {\n  display: flex;\n  justify-content: space-between;\n  height: 1300px;\n  width: 100%; }\n  .application .chat {\n    max-height: 100%;\n    max-width: 100%;\n    margin-left: 216px;\n    margin-top: 205px; }\n  .application .download {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 903.5px;\n    width: 1005px;\n    margin-top: 232px; }\n    .application .download .text {\n      width: 100%;\n      height: 775px;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      .application .download .text h5 {\n        font-size: 36px;\n        font-family: 'Roboto Slab', serif;\n        color: #6A67CE; }\n      .application .download .text p {\n        padding-top: 36px;\n        width: 391px;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: 400;\n        color: #AFAFAF; }\n      .application .download .text button {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        margin-top: 36px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        margin-bottom: 130px;\n        cursor: pointer;\n        transition: background 2s;\n        outline: none; }\n        .application .download .text button:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n    .application .download img {\n      height: 228px;\n      width: 320px; }\n\nfooter {\n  height: 360px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  position: relative; }\n  footer .background {\n    width: 100%;\n    position: absolute;\n    order: -1; }\n  footer .socials {\n    position: absolute;\n    margin-top: 90px;\n    height: 187.5px;\n    width: 173.6px;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    footer .socials .logo {\n      height: 106px;\n      width: 106px; }\n    footer .socials .media {\n      height: 31px; }\n      footer .socials .media svg {\n        width: 36px;\n        height: 30px; }\n\n@media only screen and (min-width: 769px) and (max-width: 1055px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 5%;\n        margin-top: 6%; }\n      header .container svg {\n        width: 70%;\n        margin-right: 5%;\n        margin-top: 6%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1573px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\n@media only screen and (max-device-width: 769px) {\n  header {\n    width: 100%;\n    height: 220px;\n    display: flex;\n    margin-bottom: 7%; }\n    header .background {\n      height: 230%; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        margin-top: 0;\n        width: 200px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: block;\n          margin-top: 70px;\n          margin-right: 0; }\n          header .container nav .menu div {\n            width: 130px;\n            height: 20px;\n            background-color: #FFFFFF;\n            margin: 4px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-12px, 4px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-12px, -4px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 30px;\n          margin-top: 500px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            overflow: hidden;\n            width: 100%;\n            background-color: #7d00ca;\n            animation: menuanimation 1s; }\n  @keyframes menuanimation {\n    from {\n      height: 0; }\n    to {\n      height: 100px; } }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 980px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      margin-bottom: 100px; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 60px; }\n      main .download p {\n        font-size: 40px;\n        text-align: center; }\n  section.about {\n    width: 100%; }\n    section.about .container {\n      width: 90%; }\n      section.about .container h2 {\n        font-size: 60px; }\n      section.about .container p {\n        font-size: 40px; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: 680px;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n      section.info .box h3 {\n        font-size: 60px; }\n      section.info .box p {\n        font-size: 40px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 2008px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container h4, section.team .container h5 {\n        font-size: 60px; }\n      section.team .container p {\n        font-size: 40px; }\n      section.team .container .description {\n        height: 100px; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 828px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        width: 100%;\n        justify-content: flex-start; }\n        section.application .download .text h5 {\n          font-size: 60px; }\n        section.application .download .text p {\n          width: 100%;\n          font-size: 40px; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    width: 100%; }\n    footer .socials {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; } }\n\n@media only screen and (max-width: 1055px) {\n  footer {\n    height: 270px; }\n    footer .socials {\n      position: absolute;\n      margin-top: 40px;\n      height: 157.5px;\n      width: 143.6px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .socials .logo {\n        height: 106px;\n        width: 106px; }\n      footer .socials .media {\n        height: 31px; }\n        footer .socials .media svg {\n          width: 36px;\n          height: 30px; } }\n\n@media only screen and (min-width: 1056px) and (max-width: 1440px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 50%;\n      margin-top: -2%; }\n      header .container nav {\n        width: 40%; }\n  main {\n    height: 700px; }\n  section.info .box:first-of-type {\n    margin-top: 8.1%;\n    margin-left: 16.77%; }\n  section.info .box:nth-of-type(2) {\n    margin-top: 16%;\n    margin-left: 57.19%; }\n  section.info .box:nth-of-type(3) {\n    margin-top: 57%;\n    margin-left: 16.77%; }\n  section.info .box:last-of-type {\n    margin-top: 64.9%;\n    margin-left: 57.19%; }\n  section.big img {\n    width: 140%; } }\n\n@media only screen and (min-width: 1055px) and (max-width: 1215px) {\n  section.team {\n    width: 100%;\n    height: 1708px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; } }\n\n@media only screen and (min-device-width: 769px) and (max-device-width: 1055px) {\n  header {\n    width: 100%; }\n    header .container {\n      width: 53%; }\n      header .container nav {\n        width: 45%;\n        margin-right: 10%; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center; }\n      main .download h1 {\n        font-size: 30px; }\n      main .download p {\n        text-align: center; }\n  section.info {\n    height: 1473px;\n    width: 100%; }\n    section.info .box:first-of-type {\n      margin-top: 5%;\n      margin-left: 1%; }\n    section.info .box:nth-of-type(2) {\n      margin-top: 25%;\n      margin-left: 47%; }\n    section.info .box:nth-of-type(3) {\n      margin-top: 65%;\n      margin-left: 1%; }\n    section.info .box:last-of-type {\n      margin-top: 85%;\n      margin-left: 47%; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 1708px;\n    position: relative; }\n    section.team .background {\n      width: 100%;\n      position: absolute;\n      top: -220px;\n      order: -1; }\n    section.team .container {\n      width: 90%; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 628px; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n  section.application {\n    width: 100%;\n    height: 1500px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 657px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        justify-content: flex-start; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; } }\n\nsection.contact {\n  height: 1120px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center; }\n  section.contact .text {\n    width: 1200px;\n    height: 212px; }\n    section.contact .text h1 {\n      font-size: 36px;\n      font-family: 'Roboto Slab', serif;\n      color: #6A67CE;\n      margin-bottom: 36px;\n      text-align: center; }\n    section.contact .text p {\n      font-size: 24px;\n      font-family: 'Open Sans', sans-serif;\n      color: #D1D1D1;\n      text-align: center; }\n  section.contact form {\n    height: 617px;\n    width: 1053px; }\n    section.contact form input[type=text] {\n      height: 70px;\n      width: 499px;\n      padding-left: 37px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form input[type=text]:first-of-type {\n        margin-right: 53px; }\n      section.contact form input[type=text]:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form textarea {\n      resize: none;\n      height: 341.75px;\n      width: 100%;\n      padding-left: 37px;\n      padding-top: 24px;\n      margin-top: 80px;\n      border: none;\n      border-radius: 30px;\n      box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1); }\n      section.contact form textarea:focus {\n        outline: none;\n        border: 2px solid #6A67CE; }\n    section.contact form div {\n      width: 100%;\n      display: flex;\n      justify-content: flex-end;\n      margin-top: 60px; }\n      section.contact form div input[type=submit] {\n        height: 60px;\n        width: 200px;\n        border: none;\n        border-radius: 30px;\n        color: #ffffff;\n        font-size: 24px;\n        font-family: 'Open Sans', sans-serif;\n        font-weight: lighter;\n        background: linear-gradient(to right, #6a67ce 0%, #be00ff 100%);\n        cursor: pointer;\n        outline: none; }\n        section.contact form div input[type=submit]:hover {\n          background: linear-gradient(to left, #6a67ce 0%, #be00ff 100%); }\n\n@media only screen and (max-device-width: 1055px) {\n  section.contact {\n    height: 1120px;\n    width: 100vw;\n    overflow: hidden; }\n    section.contact .text {\n      height: 450px;\n      width: 80%; }\n      section.contact .text h1 {\n        font-size: 60px; }\n      section.contact .text p {\n        font-size: 40px; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 80%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 80%; }\n      section.contact form div {\n        width: 80%; } }\n\n@media only screen and (max-width: 769px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 60%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 30%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 30%; }\n      section.contact form div {\n        width: 30%; } }\n\n@media only screen and (max-width: 1215px) {\n  section.contact {\n    height: 1120px;\n    width: 100%;\n    overflow: hidden; }\n    section.contact .text {\n      width: 80%; }\n    section.contact form {\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.contact form input[type=text] {\n        height: 50px;\n        width: 70%;\n        margin-bottom: 30px; }\n        section.contact form input[type=text]:first-of-type {\n          margin-right: 0; }\n      section.contact form textarea {\n        margin-top: 0;\n        margin-bottom: 30px;\n        height: 200px;\n        width: 70%; }\n      section.contact form div {\n        width: 70%; } }\n\n@media only screen and (max-width: 769px) {\n  header {\n    width: 100%;\n    height: 220px;\n    display: flex;\n    margin-bottom: 7%; }\n    header .background {\n      height: 230%; }\n    header .container {\n      width: 100%;\n      display: flex;\n      justify-content: space-between; }\n      header .container svg {\n        margin-top: 0;\n        width: 200px; }\n      header .container nav {\n        margin-top: -3%;\n        margin-right: 3%;\n        flex-direction: column;\n        align-items: flex-end;\n        justify-content: center;\n        position: relative; }\n        header .container nav .menu {\n          display: block;\n          margin-top: 70px;\n          margin-right: 0; }\n          header .container nav .menu div {\n            width: 130px;\n            height: 20px;\n            background-color: #FFFFFF;\n            margin: 4px 0;\n            border-radius: 5px;\n            transition: 0.4s; }\n          header .container nav .menu .change:first-of-type {\n            transform: rotate(-45deg) translate(-12px, 4px); }\n          header .container nav .menu .change:last-of-type {\n            transform: rotate(45deg) translate(-12px, -4px); }\n        header .container nav ul {\n          flex-direction: column;\n          align-items: center;\n          height: 300px;\n          width: 100vw;\n          opacity: 0.7;\n          margin-left: 22px;\n          margin-top: 500px;\n          position: absolute; }\n          header .container nav ul li {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 60px;\n            height: 100px;\n            overflow: hidden;\n            width: 100%;\n            background-color: #7d00ca;\n            animation: menuanimation 1s; }\n  @keyframes menuanimation {\n    from {\n      height: 0; }\n    to {\n      height: 100px; } }\n        header .container nav .desktop {\n          display: none; }\n  main {\n    width: 100%;\n    height: 1080px;\n    padding: 0;\n    margin: 0;\n    flex-direction: column;\n    align-items: center; }\n    main .phones {\n      height: 60%;\n      width: 100%;\n      justify-content: center; }\n    main .download {\n      height: 317px;\n      width: 90%;\n      margin: 0;\n      align-items: center;\n      justify-content: space-around; }\n      main .download h1 {\n        font-size: 60px; }\n      main .download p {\n        font-size: 40px;\n        text-align: center; }\n  section.about {\n    width: 100%;\n    height: 1084px; }\n    section.about .container {\n      height: 70%;\n      width: 90%; }\n      section.about .container h2 {\n        font-size: 60px; }\n      section.about .container p {\n        font-size: 40px; }\n      section.about .container button {\n        margin: 0; }\n  section.info {\n    width: 100%;\n    height: 3350px;\n    display: flex;\n    flex-wrap: wrap;\n    flex-direction: column;\n    align-items: center;\n    position: static; }\n    section.info .box {\n      height: 710px;\n      width: auto;\n      position: static; }\n      section.info .box:first-of-type {\n        margin: 0;\n        margin-top: 61px;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(2) {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box:nth-of-type(3) {\n        margin-top: 0;\n        margin-bottom: 52px;\n        margin-left: 0; }\n      section.info .box:last-of-type {\n        margin-top: 0;\n        margin-left: 0;\n        margin-bottom: 52px; }\n      section.info .box .circle {\n        height: 400px;\n        width: 400px; }\n        section.info .box .circle svg {\n          width: 300px;\n          height: 200px; }\n      section.info .box h3 {\n        font-size: 60px; }\n      section.info .box p {\n        font-size: 40px; }\n  section.big {\n    display: none; }\n  section.team {\n    width: 100%;\n    height: 2208px; }\n    section.team .background {\n      margin-top: 150px; }\n    section.team .container {\n      width: 90%; }\n      section.team .container h4, section.team .container h5 {\n        font-size: 60px; }\n      section.team .container p {\n        font-size: 40px; }\n      section.team .container .description {\n        height: 100px; }\n      section.team .container .people {\n        flex-direction: column;\n        align-items: center;\n        margin: 0; }\n        section.team .container .people .person {\n          height: 928px;\n          width: 100%; }\n          section.team .container .people .person:first-of-type {\n            margin: 0; }\n          section.team .container .people .person .photo {\n            height: 300px;\n            width: 300px; }\n            section.team .container .people .person .photo img {\n              height: 300px;\n              width: 300px; }\n  section.application {\n    width: 100%;\n    height: 1900px;\n    justify-content: flex-start;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    section.application .chat {\n      margin-top: 75px;\n      margin-bottom: 75.5px;\n      margin-left: 0; }\n    section.application .download {\n      width: 90%;\n      height: 757px;\n      margin-top: 0;\n      display: flex;\n      flex-direction: column;\n      align-items: center; }\n      section.application .download .text {\n        width: 100%;\n        justify-content: flex-start; }\n        section.application .download .text h5 {\n          font-size: 60px;\n          text-align: center; }\n        section.application .download .text p {\n          width: 90%;\n          font-size: 40px; }\n      section.application .download button {\n        display: none; }\n      section.application .download img {\n        margin: 0; }\n  footer {\n    height: 170px;\n    width: 100%; }\n    footer .socials {\n      position: absolute;\n      margin-top: 30px;\n      height: 107.5px;\n      width: 103.6px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center; }\n      footer .socials .logo {\n        height: 86px;\n        width: 86px; }\n      footer .socials .media {\n        height: 31px; }\n        footer .socials .media svg {\n          width: 26px;\n          height: 20px; } }\n\n@media only screen and (max-width: 595px) {\n  section.team {\n    width: 100%;\n    height: 2808px; }\n    section.team .background {\n      margin-top: 250px; } }\n", ""]);
 
 // exports
 
@@ -28884,37 +28884,55 @@ module.exports = function (css) {
 /* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/1.jpg";
+module.exports = __webpack_require__.p + "styles/images/wave-011.svg";
 
 /***/ }),
 /* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/wave-03.png";
+module.exports = __webpack_require__.p + "styles/images/1.jpg";
 
 /***/ }),
 /* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/2.jpg";
+module.exports = __webpack_require__.p + "styles/images/SUPME-KOLOR.png";
 
 /***/ }),
 /* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/wave-02.png";
+module.exports = __webpack_require__.p + "styles/images/wave-03.png";
 
 /***/ }),
 /* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "styles/images/Chat.png";
+module.exports = __webpack_require__.p + "styles/images/2.jpg";
 
 /***/ }),
 /* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "styles/images/wave-02.png";
+
+/***/ }),
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/Chat.png";
+
+/***/ }),
+/* 258 */
+/***/ (function(module, exports, __webpack_require__) {
+
 module.exports = __webpack_require__.p + "styles/images/wave-04.svg";
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "styles/images/wave-01.svg";
 
 /***/ })
 /******/ ]);
