@@ -311,7 +311,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <header>
-                    <img className="background" src={require('./../styles/images/wave-01.svg')} />
+                    <img className="background" src={require('./../styles/images/wave-011.svg')} />
                     <div className="container">
                         <div className="logo">
                             <Link onClick={this.handleLink} className="link" to="/">
