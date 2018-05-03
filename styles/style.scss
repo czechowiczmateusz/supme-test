@@ -476,16 +476,25 @@ section.team {
         background: linear-gradient(to right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
         margin-bottom: 130px;
         cursor: pointer;
-        -webkit-transition: background 2s;
-        -o-transition: background 2s;
-        transition: background 2s;
         outline:none;
         &:hover {
-          background: -webkit-gradient(linear, right top, left top, from(rgba(106,103,206,1)), to(rgba(190,0,255,1)));
-          background: -webkit-linear-gradient(right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
-          background: -o-linear-gradient(right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
-          background: linear-gradient(to left, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
+          .tooltip {
+            visibility: visible;
+          }
         }
+      }
+      .tooltip {
+        visibility: hidden;
+        width: 200px;
+        background-color: #6A67CE;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: -5px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
       }
     }
   }
@@ -1414,51 +1423,6 @@ section.contact {
   }
 }
 
-@media only screen and (max-device-width: $tablet-breakpoint) {
-  section.contact {
-    width: 100vw;
-    overflow: hidden;
-    .text {
-      width: 80%;
-      h1 {
-        font-size: $mobile-fontsize-h;
-      }
-      p {
-        font-size: $mobile-fontsize-p;
-      }
-    }
-    form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      input[type=text] {
-        height: 50px;
-        width: 80%;
-        margin-bottom: 30px;
-        &:first-of-type {
-          margin-right: 0;
-        }
-      }
-      textarea {
-        margin-top: 0;
-        margin-bottom: 30px;
-        height: 200px;
-        width: 80%;
-      }
-      div {
-        width: 80%;
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: $mobile-breakpoint) {
   section.contact {
     width: 100%;
@@ -1533,6 +1497,50 @@ section.contact {
       }
       div {
         width: 70%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: $tablet-breakpoint) {
+  section.contact {
+    height: 1080px;
+    width: 100vw;
+    overflow: hidden;
+    .text {
+      width: 80%;
+      h1 {
+        font-size: $mobile-fontsize-h;
+      }
+    }
+    form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: $fontfamily-h;
+      input[type=text] {
+        height: 80px;
+        width: 85%;
+        margin-bottom: 30px;
+        &:first-of-type {
+          margin-right: 0;
+        }
+      }
+      textarea {
+        margin-top: 0;
+        margin-bottom: 30px;
+        height: 300px;
+        width: 85%;
+      }
+      div {
+        width: 85%;
       }
     }
   }

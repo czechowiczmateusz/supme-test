@@ -12,7 +12,7 @@ class Application extends React.Component {
                         <p>Share your location details.</p>
                         <p>                               Search for the company you want to communicate with (verified companies have a "verified" icon next to it), pick the subject, and simply start chatting.
                             If the business supports attachments, voice/video call escalation, etc. it is also supported from supme application.</p>
-                        <button>Get App</button>
+                        <button>Get App<div className="tooltip">App will be available soon</div></button>
                     </div>
                 </div>
             </section>
