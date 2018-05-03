@@ -14,13 +14,13 @@ module.exports = {
         loaders: [{
             test: /\.jsx$/,
             exclude: /node_modules/,
-            loader: 'babel-loader',
+            loader: 'babel-loader?cacheDirectory=true',
             query: {
                 presets: ['es2015','stage-2', 'react']
             }
         }, {
             test: /\.scss$/,
-            loader: ['style-loader', 'css-loader', 'sass-loader']
+            loader: ['style-loader', { loader: 'css-loader', options: { minimize: true } } , 'sass-loader',]
         },
             {
                 test: /\.(jpe?g|png|gif|svg)$/i,

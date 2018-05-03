@@ -6,6 +6,11 @@ $small-desktop-breakpoint: 1215px;
 $desktop-breakpoint: 1440px;
 $mobile-fontsize-h: 60px;
 $mobile-fontsize-p: 40px;
+$fontsize-h: 36px;
+$fontsize-p: 24px;
+$color-p: #7a7a7a;
+$fontfamily-h: 'Roboto Slab', serif;
+$fontfamily-p: 'Open Sans', sans-serif;
 
 header {
   display: flex;
@@ -36,7 +41,7 @@ header {
         display: flex;
         justify-content: space-between;
         font-size: 20px;
-        font-family: 'Roboto Slab', serif;
+        font-family: $fontfamily-h;
         font-weight: bold;
         li {
           cursor: pointer;
@@ -80,21 +85,17 @@ main {
     display: flex;
     flex-direction: column;
     h1 {
-      font-size: 60px;
-      font-family: 'Roboto Slab', serif;
+      font-size: $mobile-fontsize-h;
+      font-family: $fontfamily-h;
       font-weight: 400;
       color: #6A67CE;
       margin-bottom: 36px;
     }
     p {
-      font-size: 36px;
-      font-family: 'Open Sans', sans-serif;
-      color: #D1D1D1;
-    }
-    img {
-      height: 228px;
-      width: 320px;
-      margin-left: -20px;
+      font-size: $fontsize-p;
+      font-family: $fontfamily-p;
+      color: $color-p;
+      line-height: 120%;
     }
   }
 }
@@ -114,18 +115,17 @@ section.about {
     h2 {
       display: flex;
       align-self: center;
-      font-size: 36px;
-      font-family: 'Roboto Slab', serif;
+      font-size: $fontsize-h;
+      font-family: $fontfamily-h;
       color: #6A67CE;
       margin-bottom: 36px;
     }
     p {
       display: flex;
       text-align: center;
-      font-size: 24px;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 400;
-      color: #D1D1D1;
+      font-size: $fontsize-p;
+      font-family: $fontfamily-p;
+      color: $color-p;
     }
     button {
       height: 60px;
@@ -133,8 +133,8 @@ section.about {
       border: none;
       border-radius: 30px;
       color: #ffffff;
-      font-size: 24px;
-      font-family: 'Open Sans', sans-serif;
+      font-size: $fontsize-p;
+      font-family: $fontfamily-p;
       font-weight: lighter;
       background: linear-gradient(to right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
       margin-top: 36px;
@@ -157,7 +157,7 @@ section.info {
   background-color: #FFFFFF;
   position: relative;
   .box {
-    height: 405px;
+    height: 450px;
     width: 390px;
     position: absolute;
     display: flex;
@@ -195,19 +195,19 @@ section.info {
     }
     h3 {
       margin-top: 50px;
-      margin-bottom: 36px;
-      font-family: 'Open Sans', sans-serif;
+      margin-bottom: $fontsize-h;
+      font-family: $fontfamily-p;
       font-weight: bold;
       font-size: 36px;
       text-align: center;
       color: #6A67CE;
     }
     p {
-      font-family: 'Open Sans', sans-serif;
+      font-family: $fontfamily-p;
       font-weight: lighter;
-      font-size: 24px;
+      font-size: $fontsize-p;
       text-align: center;
-      color: #D1D1D1;
+      color: $color-p;
     }
   }
 }
@@ -254,15 +254,15 @@ section.team {
     align-items: center;
     position: absolute;
     h4 {
-      font-size: 36px;
-      font-family: 'Roboto Slab', serif;
+      font-size: $fontsize-h;
+      font-family: $fontfamily-h;
       text-align: center;
       font-weight: 400;
       margin-bottom: 36px;
     }
     p {
-      font-size: 24px;
-      font-family: 'Open Sans', sans-serif;
+      font-size: $fontsize-p;
+      font-family: $fontfamily-p;
       font-weight: lighter;
       text-align: center;
     }
@@ -303,6 +303,7 @@ section.team {
       height: 50px;
       display: flex;
       justify-content: space-between;
+      margin-top: 100px;
       .circle {
         height: 50px;
         width: 50px;
@@ -333,22 +334,22 @@ section.team {
     margin-top: 232px;
     .text {
       width: 100%;
-      height: 775px;
+      height: 975px;
       display: flex;
       flex-direction: column;
       align-items: center;
       h5 {
-        font-size: 36px;
-        font-family: 'Roboto Slab', serif;
+        font-size: $fontsize-h;
+        font-family: $fontfamily-h;
         color: #6A67CE;
       }
       p {
         padding-top: 36px;
         width: 391px;
-        font-size: 24px;
-        font-family: 'Open Sans', sans-serif;
+        font-size: $fontsize-p;
+        font-family: $fontfamily-p;
         font-weight: 400;
-        color: #AFAFAF;
+        color: $color-p;
       }
       button {
         height: 60px;
@@ -357,8 +358,8 @@ section.team {
         border-radius: 30px;
         margin-top: 36px;
         color: #ffffff;
-        font-size: 24px;
-        font-family: 'Open Sans', sans-serif;
+        font-size: $fontsize-p;
+        font-family: $fontfamily-p;
         font-weight: lighter;
         background: linear-gradient(to right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
         margin-bottom: 130px;
@@ -369,10 +370,6 @@ section.team {
           background: linear-gradient(to left, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
         }
       }
-    }
-    img {
-      height: 228px;
-      width: 320px;
     }
   }
 }
@@ -542,7 +539,7 @@ footer {
     display: flex;
     margin-bottom: 7%;
     .background {
-      height: 230%;
+      height: 170%;
     }
     .container {
       width: 100%;
@@ -562,14 +559,14 @@ footer {
         .menu {
           display: block;
           margin-top: 70px;
-          margin-right: 0;
+          margin-right: 30px;
           div {
             width: 130px;
             height: 20px;
             background-color: #FFFFFF;
             margin: 4px 0;
             border-radius: 5px;
-            transition: 0.4s;
+            transition: 0.2s;
           }
           .change:first-of-type {
             transform: rotate(-45deg) translate(-12px, 4px);
@@ -596,7 +593,7 @@ footer {
             overflow: hidden;
             width: 100%;
             background-color: #7d00ca;
-            animation: menuanimation 1s;
+            animation: menuanimation 0.5s;
           }
           @keyframes menuanimation {
             from {height: 0;}
@@ -989,25 +986,17 @@ footer {
 }
 
 section.contact {
-  height: 1120px;
+  height: 820px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   .text {
     width: 1200px;
-    height: 212px;
     h1 {
-      font-size: 36px;
-      font-family: 'Roboto Slab', serif;
+      font-size: $fontsize-h;
+      font-family: $fontfamily-h;
       color: #6A67CE;
-      margin-bottom: 36px;
-      text-align: center;
-    }
-    p {
-      font-size: 24px;
-      font-family: 'Open Sans', sans-serif;
-      color: #D1D1D1;
       text-align: center;
     }
   }
@@ -1021,6 +1010,7 @@ section.contact {
       border: none;
       border-radius: 30px;
       box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.1);
+      font-size: 20px;
       &:first-of-type {
         margin-right: 53px;
       }
@@ -1030,8 +1020,10 @@ section.contact {
       }
     }
     textarea {
+      font-family: $fontfamily-p;
       resize: none;
       height: 341.75px;
+      font-size: 20px;
       width: 100%;
       padding-left: 37px;
       padding-top: 24px;
@@ -1056,7 +1048,7 @@ section.contact {
         border-radius: 30px;
         color: #ffffff;
         font-size: 24px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $fontfamily-p;
         font-weight: lighter;
         background: linear-gradient(to right, rgba(106,103,206,1) 0%, rgba(190,0,255,1) 100%);
         cursor: pointer;
@@ -1075,7 +1067,6 @@ section.contact {
     width: 100vw;
     overflow: hidden;
     .text {
-      height: 450px;
       width: 80%;
       h1 {
         font-size: $mobile-fontsize-h;
