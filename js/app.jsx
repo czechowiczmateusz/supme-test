@@ -16,6 +16,7 @@ import Info from "./components/Info/";
 import BigPhone from "./components/BigPhone/";
 import Team from "./components/Team/";
 import Application from "./components/Application/";
+import videojs from "video.js";
 
 class HomePage extends React.Component {
     constructor(props){
