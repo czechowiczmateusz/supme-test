@@ -38317,41 +38317,17 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 
 var _reactRouter = __webpack_require__(224);
 
-var _aos = __webpack_require__(71);
+var _HomePage = __webpack_require__(283);
 
-var _aos2 = _interopRequireDefault(_aos);
+var _HomePage2 = _interopRequireDefault(_HomePage);
 
-var _Footer = __webpack_require__(251);
+var _Template = __webpack_require__(285);
 
-var _Footer2 = _interopRequireDefault(_Footer);
+var _Template2 = _interopRequireDefault(_Template);
 
-var _Main = __webpack_require__(253);
+var _Contact = __webpack_require__(284);
 
-var _Main2 = _interopRequireDefault(_Main);
-
-var _About = __webpack_require__(255);
-
-var _About2 = _interopRequireDefault(_About);
-
-var _Info = __webpack_require__(270);
-
-var _Info2 = _interopRequireDefault(_Info);
-
-var _BigPhone = __webpack_require__(271);
-
-var _BigPhone2 = _interopRequireDefault(_BigPhone);
-
-var _Team = __webpack_require__(274);
-
-var _Team2 = _interopRequireDefault(_Team);
-
-var _Application = __webpack_require__(276);
-
-var _Application2 = _interopRequireDefault(_Application);
-
-var _video = __webpack_require__(117);
-
-var _video2 = _interopRequireDefault(_video);
+var _Contact2 = _interopRequireDefault(_Contact);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -38363,294 +38339,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 __webpack_require__(278);
 
-var HomePage = function (_React$Component) {
-    _inherits(HomePage, _React$Component);
-
-    function HomePage(props) {
-        _classCallCheck(this, HomePage);
-
-        var _this = _possibleConstructorReturn(this, (HomePage.__proto__ || Object.getPrototypeOf(HomePage)).call(this, props));
-
-        _this.handleChange = function () {
-            if (_this.state.change === '') {
-                _this.setState({
-                    navDisplay: 'flex',
-                    change: 'change'
-                });
-            } else {
-                _this.setState({
-                    navDisplay: 'none',
-                    change: ''
-                });
-            }
-        };
-
-        _this.handleLink = function () {
-            _this.setState({
-                navDisplay: 'none',
-                change: ''
-            });
-        };
-
-        _this.handleAbout = function () {
-            var about = _reactDom2.default.findDOMNode(_this.refs.about);
-            window.scrollTo(0, about.offsetTop);
-            _this.setState({
-                navDisplay: 'none',
-                change: ''
-            });
-        };
-
-        _this.handleTeam = function () {
-            var team = _reactDom2.default.findDOMNode(_this.refs.team);
-            window.scrollTo(0, team.offsetTop);
-            _this.setState({
-                navDisplay: 'none',
-                change: ''
-            });
-        };
-
-        _this.state = {
-            navDisplay: 'none',
-            change: ''
-        };
-        return _this;
-    }
-
-    _createClass(HomePage, [{
-        key: "render",
-        value: function render() {
-            _aos2.default.init();
-            return _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(
-                    "header",
-                    null,
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(121) }),
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "logo" },
-                            _react2.default.createElement(
-                                _reactRouter.Link,
-                                { onClick: this.handleLink, className: "link", to: "/" },
-                                _react2.default.createElement(
-                                    "svg",
-                                    { id: "Warstwa_1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 1000 1000", fill: "#ffffff" },
-                                    _react2.default.createElement(
-                                        "linearGradient",
-                                        { id: "SVGID_1_", gradientUnits: "userSpaceOnUse", x1: "348.819",
-                                            y1: "500", x2: "660.914", y2: "500" },
-                                        _react2.default.createElement("stop", { offset: "0", stopColor: "#6a67ce" }),
-                                        _react2.default.createElement("stop", { offset: "1", stopColor: "#be00ff" })
-                                    ),
-                                    _react2.default.createElement("path", { className: "st0", d: "M614.9,347.5c-31.7-31.6-77.1-45.2-135-40.6c-58,4.7-103.8,41.3-122.6,97.8c-20.1,60.6-3.8,127.6,40.6,166.6 c29.6,26,95.3,59.8,214.5,13.1l-18.8,68.7l-32.7-34.8c-6.6-7-17.7-7.4-24.8-0.8c-7,6.6-7.4,17.7-0.8,24.8l43.4,46.2l2.8,1.4 c5.8,2.9,10.9,3.9,15.4,3.9c4.7,0,8.7-1.2,11.6-2.6c11.8-5.5,15.6-17.3,16.5-20.5l23-84.1c16.4-59.9-17.2-48.6-17.2-48.6 c-90.8,43.6-165.3,46-209.8,6.9c-34-29.9-46.2-81.8-30.5-129.3c14.4-43.4,48-70.4,92.2-74c47.1-3.8,83.2,6.4,107.2,30.3 c40.1,39.8,35.7,106.2,35.7,106.9c-0.7,9.6,6.5,18,16.1,18.8c9.6,0.7,18.1-6.4,18.8-16.1C660.9,478.4,666.5,399,614.9,347.5z"
-                                    })
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "nav",
-                            null,
-                            _react2.default.createElement(
-                                "div",
-                                { onClick: this.handleChange, className: "menu" },
-                                _react2.default.createElement("div", { className: this.state.change }),
-                                _react2.default.createElement("div", { className: this.state.change })
-                            ),
-                            _react2.default.createElement(
-                                "ul",
-                                { className: "desktop" },
-                                _react2.default.createElement(
-                                    "li",
-                                    { onClick: this.handleAbout },
-                                    "About"
-                                ),
-                                _react2.default.createElement(
-                                    "li",
-                                    { onClick: this.handleTeam },
-                                    "Team"
-                                ),
-                                _react2.default.createElement(
-                                    "li",
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { onClick: this.handleLink, className: "link", to: "/contact" },
-                                        "Contact"
-                                    )
-                                )
-                            ),
-                            _react2.default.createElement(
-                                "ul",
-                                { style: { display: this.state.navDisplay } },
-                                _react2.default.createElement(
-                                    "li",
-                                    { onClick: this.handleAbout },
-                                    "About"
-                                ),
-                                _react2.default.createElement(
-                                    "li",
-                                    { onClick: this.handleTeam },
-                                    "Team"
-                                ),
-                                _react2.default.createElement(
-                                    "li",
-                                    null,
-                                    _react2.default.createElement(
-                                        _reactRouter.Link,
-                                        { onClick: this.handleLink, className: "link", to: "/contact" },
-                                        "Contact"
-                                    )
-                                )
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(_Main2.default, null),
-                _react2.default.createElement(_About2.default, { ref: "about" }),
-                _react2.default.createElement(_Info2.default, null),
-                _react2.default.createElement(_BigPhone2.default, null),
-                _react2.default.createElement(_Team2.default, { ref: "team" }),
-                _react2.default.createElement(_Application2.default, null)
-            );
-        }
-    }]);
-
-    return HomePage;
-}(_react2.default.Component);
-
-var Contact = function (_React$Component2) {
-    _inherits(Contact, _React$Component2);
-
-    function Contact(props) {
-        _classCallCheck(this, Contact);
-
-        var _this2 = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
-
-        _this2.handleSubmit = function (e) {
-            e.preventDefault();
-            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        };
-
-        _this2.handleName = function () {
-            if (_this2.state.name.length === 0) {
-                _this2.setState({
-                    error: 'nie tak'
-                });
-            }
-        };
-
-        _this2.state = {
-            name: '',
-            email: '',
-            message: ''
-        };
-        return _this2;
-    }
-
-    _createClass(Contact, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                null,
-                _react2.default.createElement(
-                    "header",
-                    null,
-                    _react2.default.createElement("img", { className: "background", src: __webpack_require__(121) }),
-                    _react2.default.createElement(
-                        "div",
-                        { className: "container" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "logo" },
-                            _react2.default.createElement(
-                                _reactRouter.Link,
-                                { onClick: this.handleLink, className: "link", to: "/" },
-                                _react2.default.createElement(
-                                    "svg",
-                                    { id: "Warstwa_1", xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 1000 1000", fill: "#ffffff" },
-                                    _react2.default.createElement(
-                                        "linearGradient",
-                                        { id: "SVGID_1_", gradientUnits: "userSpaceOnUse", x1: "348.819",
-                                            y1: "500", x2: "660.914", y2: "500" },
-                                        _react2.default.createElement("stop", { offset: "0", stopColor: "#6a67ce" }),
-                                        _react2.default.createElement("stop", { offset: "1", stopColor: "#be00ff" })
-                                    ),
-                                    _react2.default.createElement("path", { className: "st0", d: "M614.9,347.5c-31.7-31.6-77.1-45.2-135-40.6c-58,4.7-103.8,41.3-122.6,97.8c-20.1,60.6-3.8,127.6,40.6,166.6 c29.6,26,95.3,59.8,214.5,13.1l-18.8,68.7l-32.7-34.8c-6.6-7-17.7-7.4-24.8-0.8c-7,6.6-7.4,17.7-0.8,24.8l43.4,46.2l2.8,1.4 c5.8,2.9,10.9,3.9,15.4,3.9c4.7,0,8.7-1.2,11.6-2.6c11.8-5.5,15.6-17.3,16.5-20.5l23-84.1c16.4-59.9-17.2-48.6-17.2-48.6 c-90.8,43.6-165.3,46-209.8,6.9c-34-29.9-46.2-81.8-30.5-129.3c14.4-43.4,48-70.4,92.2-74c47.1-3.8,83.2,6.4,107.2,30.3 c40.1,39.8,35.7,106.2,35.7,106.9c-0.7,9.6,6.5,18,16.1,18.8c9.6,0.7,18.1-6.4,18.8-16.1C660.9,478.4,666.5,399,614.9,347.5z"
-                                    })
-                                )
-                            )
-                        )
-                    )
-                ),
-                _react2.default.createElement(
-                    "section",
-                    { className: "contact" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "text" },
-                        _react2.default.createElement(
-                            "h1",
-                            null,
-                            "Contact us"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "form",
-                        null,
-                        _react2.default.createElement("input", {
-                            autoFocus: true,
-                            onChange: this.handleName,
-                            type: "text",
-                            placeholder: "Name"
-                        }),
-                        _react2.default.createElement("input", { type: "text", placeholder: "E-mail" }),
-                        _react2.default.createElement("textarea", { placeholder: "Message" }),
-                        _react2.default.createElement(
-                            "div",
-                            null,
-                            _react2.default.createElement("input", { onSubmit: this.handleSubmit, type: "submit", value: "Send" })
-                        )
-                    )
-                )
-            );
-        }
-    }]);
-
-    return Contact;
-}(_react2.default.Component);
-
-var Template = function (_React$Component3) {
-    _inherits(Template, _React$Component3);
-
-    function Template() {
-        _classCallCheck(this, Template);
-
-        return _possibleConstructorReturn(this, (Template.__proto__ || Object.getPrototypeOf(Template)).apply(this, arguments));
-    }
-
-    _createClass(Template, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "div",
-                null,
-                this.props.children,
-                _react2.default.createElement(_Footer2.default, null)
-            );
-        }
-    }]);
-
-    return Template;
-}(_react2.default.Component);
-
-var App = function (_React$Component4) {
-    _inherits(App, _React$Component4);
+var App = function (_React$Component) {
+    _inherits(App, _React$Component);
 
     function App() {
         _classCallCheck(this, App);
@@ -38666,9 +38356,9 @@ var App = function (_React$Component4) {
                 { history: _reactRouter.hashHistory },
                 _react2.default.createElement(
                     _reactRouter.Route,
-                    { path: "/", component: Template },
-                    _react2.default.createElement(_reactRouter.IndexRoute, { component: HomePage }),
-                    _react2.default.createElement(_reactRouter.Route, { path: "/contact", component: Contact })
+                    { path: "/", component: _Template2.default },
+                    _react2.default.createElement(_reactRouter.IndexRoute, { component: _HomePage2.default }),
+                    _react2.default.createElement(_reactRouter.Route, { path: "/contact", component: _Contact2.default })
                 )
             );
         }
@@ -55225,7 +54915,7 @@ exports = module.exports = __webpack_require__(280)(false);
 
 
 // module
-exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}p{line-height:140%}header{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;height:300px;width:100%;color:#fff;position:relative}header,header .container{display:-webkit-box;display:-ms-flexbox;display:flex}header .container{width:53%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:absolute;margin-top:-1%;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}header .container .logo{height:120px;width:100px}header .container nav{width:26%;margin-right:5.46%;margin-top:33px}header .container nav,header .container nav ul{display:-webkit-box;display:-ms-flexbox;display:flex}header .container nav ul{width:100%;height:27px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-size:20px;font-family:Roboto Slab,serif;font-weight:700}header .container nav ul li{cursor:pointer}header .container nav ul li .link{color:#fff;text-decoration:none}header .container nav div.mobile{display:none}header .background{width:100%;position:absolute;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}main{height:80vh;display:-webkit-box;display:-ms-flexbox;display:flex}main .phones{width:50%;height:auto;margin-left:7.5%;margin-right:7.5%}main .phones img{vertical-align:middle;display:block;height:auto;max-width:100%}main .download{width:25%;height:383px;margin-top:107px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .download h1{font-size:60px;font-family:Roboto Slab,serif;font-weight:400;color:#6a67ce;margin-bottom:36px}main .download p{font-size:24px;font-family:Open Sans,sans-serif;color:#7a7a7a;line-height:120%}section.about{height:100vh;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#f1f1f1}section.about,section.about .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.about .container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:1700px;height:791px}section.about .container h2{-ms-flex-item-align:center;align-self:center;font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce}section.about .container h2,section.about .container p{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:36px}section.about .container p{text-align:center;font-size:24px;font-family:Open Sans,sans-serif;color:#7a7a7a}section.about .container .movie .vjs-poster{background-color:#fff}section.about .container .movie .vjs-big-play-button{background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff)}section.about .container .movie .vjs-tech{background-color:#fff}section.about .container .movie .vjs-control-bar{background-color:#661156}section.info{height:1773px;width:100%;background-color:#fff;position:relative}section.info .box{height:450px;width:390px;position:absolute;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.info .box:first-of-type{margin-top:8.1%;margin-left:16.77%}section.info .box:nth-of-type(2){margin-top:16%;margin-left:57.19%}section.info .box:nth-of-type(3){margin-top:37%;margin-left:26.15%}section.info .box:last-of-type{margin-top:55.44%;margin-left:50%}section.info .box .circle{width:200px;height:200px;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.info .box .circle.first{-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1)}section.info .box .circle.second{background-color:#7d00ca}section.info .box h3{margin-top:50px;margin-bottom:36px;font-weight:700;font-size:36px;color:#6a67ce}section.info .box h3,section.info .box p{font-family:Open Sans,sans-serif;text-align:center}section.info .box p{font-weight:lighter;font-size:24px;color:#7a7a7a}section.big{height:1080px;width:100%;background-color:#ecf0f3;position:relative}section.big .background{width:100%;position:absolute;top:-350px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.big div{height:100%;width:100%;position:absolute}section.big div img{max-width:100%}section.team{height:1080px;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);color:#fff;position:relative}section.team .background{width:100%;position:absolute;top:-360px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:62.5%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute}section.team .container h4{font-size:36px;font-family:Roboto Slab,serif;text-align:center;font-weight:400;margin-bottom:36px}section.team .container p{font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;text-align:center}section.team .container .description{height:150px;margin-top:83px;margin-bottom:35px}section.team .container .description h4{margin-bottom:36px}section.team .container .people{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:124px}section.team .container .people .person{height:437px;width:500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.team .container .people .person:first-of-type{margin-right:200px}section.team .container .people .person .photo{height:200px;width:200px;border-radius:50%;margin-bottom:47px}section.team .container .people .person .photo img{height:200px;width:200px}section.team .container .circles{width:200px;height:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:100px}section.team .container .circles .circle{height:50px;width:50px;border-radius:50%;background-color:#fff}.application{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:1100px;width:100%}.application .chat{max-height:100%;max-width:100%;margin-left:216px;margin-top:205px}.application .download{height:903.5px;width:705px;margin-top:232px}.application .download,.application .download .text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.application .download .text{width:100%;height:975px}.application .download .text h5{font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce}.application .download .text p{padding-top:36px;width:700px;font-size:24px;font-family:Open Sans,sans-serif;font-weight:400;color:#7a7a7a}@media only screen and (min-width:1055px) and (max-width:1315px){.application .download .text p{width:400px}}.application .download .text button{height:60px;width:200px;border:none;border-radius:30px;margin-top:36px;color:#fff;font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);margin-bottom:130px;cursor:pointer;outline:none}.application .download .text button:hover .tooltip{visibility:visible}.application .download .text .tooltip{visibility:hidden;width:200px;background-color:#6a67ce;color:#fff;text-align:center;border-radius:5px;margin-top:20px;margin-left:-5px;padding:5px 0;position:absolute;z-index:1}footer{height:450px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;overflow:hidden}footer .background{width:100%;position:absolute;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}footer .socials{position:absolute;margin-top:90px;height:200px;width:300px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:106px;width:106px}footer .socials .media{height:31px}footer .socials .media svg{width:72px;height:60px}footer .socials .media path{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out}footer .socials .media a:hover svg path{fill:#6a67ce}@media only screen and (min-width:769px) and (max-width:1055px){header{width:100%}header .container{width:50%;margin-top:-2%}header .container nav{width:45%;margin-right:5%;margin-top:6%}header .container svg{width:70%;margin-right:5%;margin-top:6%}main{width:100%;height:1080px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .phones{height:60%;width:100%}main .download{height:400px;width:90%;margin:0;margin-top:150px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{text-align:center}section.about p{width:90%}section.info{height:1573px;width:100%}section.info .box:first-of-type{margin-top:5%;margin-left:1%}section.info .box:nth-of-type(2){margin-top:25%;margin-left:47%}section.info .box:nth-of-type(3){margin-top:65%;margin-left:1%}section.info .box:last-of-type{margin-top:85%;margin-left:47%}section.big{display:none}section.team{width:100%;height:1708px;position:relative}section.team .background{width:100%;position:absolute;top:-220px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}section.team .container .people .person:first-of-type{margin:0}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download button{display:none}section.application .download img{margin:0}}@media only screen and (max-device-width:769px){header{width:100%;height:220px;display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:7%}header .background{height:170%}header .container{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}header .container svg{margin-top:-35px;margin-left:-50px;width:300px}header .container nav{margin-top:-3%;margin-right:3%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}header .container nav .menu{display:block;margin-top:70px;margin-right:30px}header .container nav .menu div{width:130px;height:20px;background-color:#fff;margin:4px 0;border-radius:5px;-webkit-transition:.2s;-o-transition:.2s;transition:.2s}header .container nav .menu .change:first-of-type{-webkit-transform:rotate(-45deg) translate(-12px,4px);-ms-transform:rotate(-45deg) translate(-12px,4px);transform:rotate(-45deg) translate(-12px,4px)}header .container nav .menu .change:last-of-type{-webkit-transform:rotate(45deg) translate(-12px,-4px);-ms-transform:rotate(45deg) translate(-12px,-4px);transform:rotate(45deg) translate(-12px,-4px)}header .container nav ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:300px;width:100vw;opacity:.7;margin-left:30px;margin-top:500px;position:absolute}header .container nav ul,header .container nav ul li{-webkit-box-align:center;-ms-flex-align:center;align-items:center}header .container nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:60px;height:100px;overflow:hidden;width:100%;background-color:#7d00ca;-webkit-animation:menuanimation .5s;animation:menuanimation .5s}@-webkit-keyframes menuanimation{0%{height:0}to{height:100px}}@keyframes menuanimation{0%{height:0}to{height:100px}}header .container nav .desktop{display:none}main{width:100%;height:980px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .phones{height:60%;width:100%;margin-bottom:100px}main .download{height:317px;width:90%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{font-size:40px;text-align:center}section.about{width:100%}section.about .container{width:90%}section.about .container h2{font-size:60px}section.about .container p{font-size:40px}section.about .container button{margin:0}section.info{width:100%;height:3350px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:static}section.info .box{height:710px;width:680px;position:static}section.info .box:first-of-type{margin:0;margin-top:61px;margin-bottom:52px}section.info .box:nth-of-type(2){margin-top:0;margin-left:0;margin-bottom:52px}section.info .box:last-of-type,section.info .box:nth-of-type(3){margin-top:0;margin-bottom:52px}section.info .box:last-of-type{height:800px;margin-left:0}section.info .box .circle{height:400px;width:400px}section.info .box .circle svg{width:300px;height:200px}section.info .box h3{font-size:60px}section.info .box p{font-size:40px}section.big{display:none}section.team{width:100%;height:2308px}section.team .container{width:90%}section.team .container h4,section.team .container h5{font-size:60px}section.team .container p{font-size:40px}section.team .container .description{height:100px}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:928px;width:100%}section.team .container .people .person:first-of-type{margin:0}section.team .container .people .person .photo,section.team .container .people .person .photo img{height:300px;width:300px}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{width:100%;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download .text h5{font-size:60px}section.application .download .text p{width:100%;font-size:40px}section.application .download button{display:none}section.application .download img{margin:0}footer{margin-top:100px;width:100%}footer .socials{width:300px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .media{margin-top:0}footer .socials .media svg{height:68px!important;width:60px!important}footer .socials .media svg:first-of-type{margin-right:15px}footer .socials .media svg:last-of-type{margin-left:15px}}@media only screen and (min-width:770px) and (max-width:1055px){footer{height:270px}footer .socials{position:absolute;margin-top:40px;height:157.5px;width:400px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:106px;width:106px}footer .socials .media{height:60px}footer .socials .media svg{width:62px;height:50px}}@media only screen and (min-width:1056px) and (max-width:1440px){header{width:100%}header .container{width:50%;margin-top:-2%}header .container nav{width:40%}main{height:700px}section.info .box:first-of-type{margin-top:8.1%;margin-left:16.77%}section.info .box:nth-of-type(2){margin-top:16%;margin-left:57.19%}section.info .box:nth-of-type(3){margin-top:57%;margin-left:16.77%}section.info .box:last-of-type{margin-top:64.9%;margin-left:57.19%}section.big img{width:140%}}@media only screen and (min-width:1056px) and (max-width:1215px){section.team{width:100%;height:1708px}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}footer,section.team .container .people .person:first-of-type{margin:0}footer{height:300px}footer .socials{margin-top:35px}}@media only screen and (min-device-width:770px) and (max-device-width:1055px){header{width:100%}header .container{width:53%}header .container nav{width:45%;margin-right:10%}main{width:100%;height:1080px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .phones{height:60%;width:100%}main .download{height:317px;width:90%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:30px}main .download p{text-align:center}section.info{height:1473px;width:100%}section.info .box:first-of-type{margin-top:5%;margin-left:1%}section.info .box:nth-of-type(2){margin-top:25%;margin-left:47%}section.info .box:nth-of-type(3){margin-top:65%;margin-left:1%}section.info .box:last-of-type{margin-top:85%;margin-left:47%}section.big{display:none}section.team{width:100%;height:1708px;position:relative}section.team .background{width:100%;position:absolute;top:-220px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}section.team .container .people .person:first-of-type{margin:0}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download button{display:none}section.application .download img{margin:0}}section.contact{height:820px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}section.contact .text{width:1200px}section.contact .text h1{font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce;text-align:center;margin-bottom:36px}section.contact form{height:717px;width:1053px}section.contact form input[type=text]{height:70px;width:499px;padding-left:37px;border:none;border-radius:30px;-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1);font-size:20px}section.contact form input[type=text]:first-of-type{margin-right:53px}section.contact form input[type=text]:focus{outline:none;border:2px solid #6a67ce}section.contact form textarea{font-family:Open Sans,sans-serif;resize:none;height:341.75px;font-size:20px;width:100%;padding-left:37px;padding-top:24px;margin-top:80px;border:none;border-radius:30px;-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1)}section.contact form textarea:focus{outline:none;border:2px solid #6a67ce}section.contact form div{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-top:60px}section.contact form div input[type=submit]{height:60px;width:200px;border:none;border-radius:30px;color:#fff;font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);cursor:pointer;outline:none}section.contact form div input[type=submit]:hover{background:-webkit-gradient(linear,right top,left top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(right,#6a67ce,#be00ff);background:-o-linear-gradient(right,#6a67ce 0,#be00ff 100%);background:linear-gradient(270deg,#6a67ce 0,#be00ff)}@media only screen and (max-width:769px){section.contact{width:100%;overflow:hidden}section.contact .text{width:60%}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.contact form input[type=text]{height:50px;width:30%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:200px;width:30%}section.contact form div{width:30%}}@media only screen and (max-width:1215px){section.contact{height:1120px;width:100%;overflow:hidden}section.contact .text{width:80%}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.contact form input[type=text]{height:50px;width:70%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:200px;width:70%}section.contact form div{width:70%}}@media only screen and (max-device-width:1055px){section.contact{height:1080px;width:100vw;overflow:hidden}section.contact .text{width:80%}section.contact .text h1{font-size:60px}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:Roboto Slab,serif}section.contact form input[type=text]{height:80px;width:85%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:300px;width:85%}section.contact form div{width:85%}}@media only screen and (max-width:769px){header{width:100%;height:220px;display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:7%}header .background{height:170%}header .container{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}header .container svg{margin-top:0;width:200px}header .container nav{margin-top:-3%;margin-right:3%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}header .container nav .menu{display:block;margin-top:70px;margin-right:30px}header .container nav .menu div{width:130px;height:20px;background-color:#fff;margin:4px 0;border-radius:5px;-webkit-transition:.2s;-o-transition:.2s;transition:.2s}header .container nav .menu .change:first-of-type{-webkit-transform:rotate(-45deg) translate(-12px,4px);-ms-transform:rotate(-45deg) translate(-12px,4px);transform:rotate(-45deg) translate(-12px,4px)}header .container nav .menu .change:last-of-type{-webkit-transform:rotate(45deg) translate(-12px,-4px);-ms-transform:rotate(45deg) translate(-12px,-4px);transform:rotate(45deg) translate(-12px,-4px)}header .container nav ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:300px;width:100vw;opacity:.7;margin-left:30px;margin-top:500px;position:absolute}header .container nav ul,header .container nav ul li{-webkit-box-align:center;-ms-flex-align:center;align-items:center}header .container nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:60px;height:100px;overflow:hidden;width:100%;background-color:#7d00ca;-webkit-animation:menuanimation .5s;animation:menuanimation .5s}@-webkit-keyframes menuanimation{0%{height:0}to{height:100px}}@keyframes menuanimation{0%{height:0}to{height:100px}}header .container nav .desktop{display:none}main{width:100%;height:980px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .phones{height:60%;width:90%;margin-bottom:5%}main .download{height:317px;width:100%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{font-size:40px;text-align:center}section.about{overflow:hidden;width:100%}section.about .container{width:90%}section.about .container h2{font-size:60px}section.about .container p{font-size:40px}section.about .container button{margin:0}section.info{width:100%;height:3500px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:static}section.info .box{height:710px;width:90%;position:static}section.info .box:first-of-type{margin:0;margin-top:61px;margin-bottom:52px}section.info .box:nth-of-type(2),section.info .box:nth-of-type(3){margin-top:0;margin-left:0;margin-bottom:52px}section.info .box:nth-of-type(3){height:800px}section.info .box:last-of-type{height:900px;margin-top:0;margin-left:0;margin-bottom:52px}section.info .box .circle{height:400px;width:400px}section.info .box .circle svg{width:300px;height:200px}section.info .box h3{width:90%;font-size:60px}section.info .box p{width:90%;font-size:40px}section.big{display:none}section.team{width:100%;height:2908px}section.team .background{top:-150px}section.team .container{width:90%}section.team .container h4,section.team .container h5{font-size:60px}section.team .container p{font-size:40px}section.team .container .description{height:100px}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:1208px;width:100%}section.team .container .people .person:first-of-type{margin:0}section.team .container .people .person .photo,section.team .container .people .person .photo img{height:300px;width:300px}section.application{width:100%;height:2000px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{width:100%;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download .text h5{font-size:60px;text-align:center}section.application .download .text p{width:100%;font-size:40px}section.application .download button{display:none}footer{height:25vh;width:100%}footer .socials{position:absolute;margin-top:35px;height:107.5px;width:200px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:86px;width:86px}footer .socials .media{height:31px}footer .socials .media svg{width:46px;height:40px}}@media only screen and (max-width:595px){section.team{width:100%;height:2808px}section.team .background{margin-top:250px}}@media only screen and (min-width:1401px) and (max-width:1530px){main{height:700px}}@media only screen and (min-width:1201px) and (max-width:1400px){main{height:600px}}@media only screen and (min-width:1056px) and (max-width:1200px){main{height:500px}}", ""]);
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}p{line-height:140%}header{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;height:300px;width:100%;color:#fff;position:relative}header,header .container{display:-webkit-box;display:-ms-flexbox;display:flex}header .container{width:53%;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:absolute;margin-top:-1%;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}header .container .logo{height:120px;width:100px}header .container nav{width:26%;margin-right:5.46%;margin-top:33px}header .container nav,header .container nav ul{display:-webkit-box;display:-ms-flexbox;display:flex}header .container nav ul{width:100%;height:27px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-size:20px;font-family:Roboto Slab,serif;font-weight:700}header .container nav ul li{cursor:pointer}header .container nav ul li .link{color:#fff;text-decoration:none}header .container nav div.mobile{display:none}header .background{width:100%;position:absolute;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}main{height:80vh;display:-webkit-box;display:-ms-flexbox;display:flex}main .phones{width:50%;height:auto;margin-left:7.5%;margin-right:7.5%}main .phones img{vertical-align:middle;display:block;height:auto;max-width:100%}main .download{width:25%;height:383px;margin-top:107px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .download h1{font-size:60px;font-family:Roboto Slab,serif;font-weight:400;color:#6a67ce;margin-bottom:36px}main .download p{font-size:24px;font-family:Open Sans,sans-serif;color:#7a7a7a;line-height:120%}section.about{height:100vh;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#f1f1f1}section.about,section.about .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.about .container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:1700px;height:791px}section.about .container h2{-ms-flex-item-align:center;align-self:center;font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce}section.about .container h2,section.about .container p{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:36px}section.about .container p{text-align:center;font-size:24px;font-family:Open Sans,sans-serif;color:#7a7a7a}section.about .container .movie .vjs-poster{background-color:#fff}section.about .container .movie .vjs-big-play-button{background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff)}section.about .container .movie .vjs-tech{background-color:#fff}section.about .container .movie .vjs-control-bar{background-color:#661156}section.info{height:1773px;width:100%;background-color:#fff;position:relative}section.info .box{height:450px;width:390px;position:absolute;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.info .box:first-of-type{margin-top:8.1%;margin-left:16.77%}section.info .box:nth-of-type(2){margin-top:16%;margin-left:57.19%}section.info .box:nth-of-type(3){margin-top:37%;margin-left:26.15%}section.info .box:last-of-type{margin-top:55.44%;margin-left:50%}section.info .box .circle{width:200px;height:200px;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.info .box .circle.first{-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1)}section.info .box .circle.second{background-color:#7d00ca}section.info .box h3{margin-top:50px;margin-bottom:36px;font-weight:700;font-size:36px;color:#6a67ce}section.info .box h3,section.info .box p{font-family:Open Sans,sans-serif;text-align:center}section.info .box p{font-weight:lighter;font-size:24px;color:#7a7a7a}section.big{height:1080px;width:100%;background-color:#ecf0f3;position:relative}section.big .background{width:100%;position:absolute;top:-350px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.big div{height:100%;width:100%;position:absolute}section.big div img{max-width:100%}section.team{height:1080px;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);color:#fff;position:relative}section.team .background{width:100%;position:absolute;top:-360px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:62.5%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute}section.team .container h4{font-size:36px;font-family:Roboto Slab,serif;text-align:center;font-weight:400;margin-bottom:36px}section.team .container p{font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;text-align:center}section.team .container .description{height:150px;margin-top:83px;margin-bottom:35px}section.team .container .description h4{margin-bottom:36px}section.team .container .people{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:124px}section.team .container .people .person{height:437px;width:500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.team .container .people .person:first-of-type{margin-right:200px}section.team .container .people .person .photo{height:200px;width:200px;border-radius:50%;margin-bottom:47px}section.team .container .people .person .photo img{height:200px;width:200px}section.team .container .circles{width:200px;height:50px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:100px}section.team .container .circles .circle{height:50px;width:50px;border-radius:50%;background-color:#fff}.application{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:1100px;width:100%}.application .chat{max-height:100%;max-width:100%;margin-left:216px;margin-top:205px}.application .download{height:903.5px;width:705px;margin-top:232px}.application .download,.application .download .text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.application .download .text{width:100%;height:975px}.application .download .text h5{font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce}.application .download .text p{padding-top:36px;width:700px;font-size:24px;font-family:Open Sans,sans-serif;font-weight:400;color:#7a7a7a}@media only screen and (min-width:1055px) and (max-width:1315px){.application .download .text p{width:400px}}.application .download .text button{height:60px;width:200px;border:none;border-radius:30px;margin-top:36px;color:#fff;font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);margin-bottom:130px;cursor:pointer;outline:none}.application .download .text button:hover .tooltip{visibility:visible}.application .download .text .tooltip{visibility:hidden;width:200px;background-color:#6a67ce;color:#fff;text-align:center;border-radius:5px;margin-top:20px;margin-left:-5px;padding:5px 0;position:absolute;z-index:1}footer{height:450px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;overflow:hidden}footer .background{width:100%;position:absolute;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}footer .socials{position:absolute;margin-top:90px;height:200px;width:300px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:106px;width:106px}footer .socials .media{height:31px}footer .socials .media svg{width:72px;height:60px}footer .socials .media path{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out}footer .socials .media a:hover svg path{fill:#6a67ce}@media only screen and (min-width:1056px) and (max-width:1440px){header{width:100%}header .container{width:50%;margin-top:-2%}header .container nav{width:40%}main{height:700px}section.info .box:first-of-type{margin-top:8.1%;margin-left:16.77%}section.info .box:nth-of-type(2){margin-top:16%;margin-left:57.19%}section.info .box:nth-of-type(3){margin-top:57%;margin-left:16.77%}section.info .box:last-of-type{margin-top:64.9%;margin-left:57.19%}section.big img{width:140%}}@media only screen and (min-width:1056px) and (max-width:1215px){section.team{width:100%;height:1708px}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}footer,section.team .container .people .person:first-of-type{margin:0}footer{height:300px}footer .socials{margin-top:35px}}@media only screen and (min-width:770px) and (max-width:1055px){header{width:100%}header .container{width:50%;margin-top:-2%}header .container nav{width:45%;margin-right:5%;margin-top:6%}header .container svg{width:70%;margin-right:5%;margin-top:6%}main{width:100%;height:1080px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .phones{height:60%;width:100%}main .download{height:400px;width:90%;margin:0;margin-top:150px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{text-align:center}section.about p{width:90%}section.info{height:1573px;width:100%}section.info .box:first-of-type{margin-top:5%;margin-left:1%}section.info .box:nth-of-type(2){margin-top:25%;margin-left:47%}section.info .box:nth-of-type(3){margin-top:65%;margin-left:1%}section.info .box:last-of-type{margin-top:85%;margin-left:47%}section.big{display:none}section.team{width:100%;height:1708px;position:relative}section.team .background{width:100%;position:absolute;top:-220px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}section.team .container .people .person:first-of-type{margin:0}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download button{display:none}footer{height:270px}footer .socials{position:absolute;margin-top:40px;height:157.5px;width:400px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:106px;width:106px}footer .socials .media{height:60px}footer .socials .media svg{width:62px;height:50px}}@media only screen and (min-device-width:770px) and (max-device-width:1055px){header{width:100%}header .container{width:53%}header .container nav{width:45%;margin-right:10%}main{width:100%;height:1080px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .phones{height:60%;width:100%}main .download{height:317px;width:90%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:30px}main .download p{text-align:center}section.info{height:1473px;width:100%}section.info .box:first-of-type{margin-top:5%;margin-left:1%}section.info .box:nth-of-type(2){margin-top:25%;margin-left:47%}section.info .box:nth-of-type(3){margin-top:65%;margin-left:1%}section.info .box:last-of-type{margin-top:85%;margin-left:47%}section.big{display:none}section.team{width:100%;height:1708px;position:relative}section.team .background{width:100%;position:absolute;top:-220px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}section.team .container{width:90%}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:628px}section.team .container .people .person:first-of-type{margin:0}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download button{display:none}}section.contact{height:820px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}section.contact .text{width:1200px}section.contact .text h1{font-size:36px;font-family:Roboto Slab,serif;color:#6a67ce;text-align:center;margin-bottom:36px}section.contact form{height:717px;width:1053px}section.contact form input[type=text]{height:70px;width:499px;padding-left:37px;border:none;border-radius:30px;-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1);font-size:20px}section.contact form input[type=text]:first-of-type{margin-right:53px}section.contact form input[type=text]:focus{outline:none;border:2px solid #6a67ce}section.contact form textarea{font-family:Open Sans,sans-serif;resize:none;height:341.75px;font-size:20px;width:100%;padding-left:37px;padding-top:24px;margin-top:80px;border:none;border-radius:30px;-webkit-box-shadow:0 5px 5px 3px rgba(0,0,0,.1);box-shadow:0 5px 5px 3px rgba(0,0,0,.1)}section.contact form textarea:focus{outline:none;border:2px solid #6a67ce}section.contact form div{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;margin-top:60px}section.contact form div input[type=submit]{height:60px;width:200px;border:none;border-radius:30px;color:#fff;font-size:24px;font-family:Open Sans,sans-serif;font-weight:lighter;background:-webkit-gradient(linear,left top,right top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(left,#6a67ce,#be00ff);background:-o-linear-gradient(left,#6a67ce 0,#be00ff 100%);background:linear-gradient(90deg,#6a67ce 0,#be00ff);cursor:pointer;outline:none}section.contact form div input[type=submit]:hover{background:-webkit-gradient(linear,right top,left top,from(#6a67ce),to(#be00ff));background:-webkit-linear-gradient(right,#6a67ce,#be00ff);background:-o-linear-gradient(right,#6a67ce 0,#be00ff 100%);background:linear-gradient(270deg,#6a67ce 0,#be00ff)}@media only screen and (max-width:769px){section.contact{width:100%;overflow:hidden}section.contact .text{width:60%}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.contact form input[type=text]{height:50px;width:30%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:200px;width:30%}section.contact form div{width:30%}}@media only screen and (max-width:1215px){section.contact{height:1120px;width:100%;overflow:hidden}section.contact .text{width:80%}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.contact form input[type=text]{height:50px;width:70%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:200px;width:70%}section.contact form div{width:70%}}@media only screen and (max-device-width:1055px){section.contact{height:1080px;width:100vw;overflow:hidden}section.contact .text{width:80%}section.contact .text h1{font-size:60px}section.contact form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:Roboto Slab,serif}section.contact form input[type=text]{height:80px;width:85%;margin-bottom:30px}section.contact form input[type=text]:first-of-type{margin-right:0}section.contact form textarea{margin-top:0;margin-bottom:30px;height:300px;width:85%}section.contact form div{width:85%}}@media only screen and (max-width:595px){section.team{width:100%;height:2808px}section.team .background{margin-top:250px}}@media only screen and (min-width:1401px) and (max-width:1530px){main{height:700px}}@media only screen and (min-width:1201px) and (max-width:1400px){main{height:600px}}@media only screen and (min-width:1056px) and (max-width:1200px){main{height:500px}}@media only screen and (max-device-width:769px){header{width:100%;height:220px;display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:7%}header .background{height:170%}header .container{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}header .container svg{margin-top:-35px;margin-left:-50px;width:300px}header .container nav{margin-top:-3%;margin-right:3%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}header .container nav .menu{display:block;margin-top:70px;margin-right:30px}header .container nav .menu div{width:130px;height:20px;background-color:#fff;margin:4px 0;border-radius:5px;-webkit-transition:.2s;-o-transition:.2s;transition:.2s}header .container nav .menu .change:first-of-type{-webkit-transform:rotate(-45deg) translate(-12px,4px);-ms-transform:rotate(-45deg) translate(-12px,4px);transform:rotate(-45deg) translate(-12px,4px)}header .container nav .menu .change:last-of-type{-webkit-transform:rotate(45deg) translate(-12px,-4px);-ms-transform:rotate(45deg) translate(-12px,-4px);transform:rotate(45deg) translate(-12px,-4px)}header .container nav ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:300px;width:100vw;opacity:.7;margin-left:30px;margin-top:500px;position:absolute}header .container nav ul,header .container nav ul li{-webkit-box-align:center;-ms-flex-align:center;align-items:center}header .container nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:60px;height:100px;overflow:hidden;width:100%;background-color:#7d00ca;-webkit-animation:menuanimation .5s;animation:menuanimation .5s}@-webkit-keyframes menuanimation{0%{height:0}to{height:100px}}@keyframes menuanimation{0%{height:0}to{height:100px}}header .container nav .desktop{display:none}main{width:100%;height:980px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .phones{height:60%;width:100%;margin-bottom:100px}main .download{height:317px;width:90%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{font-size:40px;text-align:center}section.about{width:100%}section.about .container{width:90%}section.about .container h2{font-size:60px}section.about .container p{font-size:40px}section.about .container button{margin:0}section.info{width:100%;height:3350px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:static}section.info .box{height:710px;width:680px;position:static}section.info .box:first-of-type{margin:0;margin-top:61px;margin-bottom:52px}section.info .box:nth-of-type(2){margin-top:0;margin-left:0;margin-bottom:52px}section.info .box:last-of-type,section.info .box:nth-of-type(3){margin-top:0;margin-bottom:52px}section.info .box:last-of-type{height:800px;margin-left:0}section.info .box .circle{height:400px;width:400px}section.info .box .circle svg{width:300px;height:200px}section.info .box h3{font-size:60px}section.info .box p{font-size:40px}section.big{display:none}section.team{width:100%;height:2308px}section.team .container{width:90%}section.team .container h4,section.team .container h5{font-size:60px}section.team .container p{font-size:40px}section.team .container .description{height:100px}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:928px;width:100%}section.team .container .people .person:first-of-type{margin:0}section.team .container .people .person .photo,section.team .container .people .person .photo img{height:300px;width:300px}section.application{width:100%;height:1500px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{width:100%;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download .text h5{font-size:60px}section.application .download .text p{width:100%;font-size:40px}section.application .download button{display:none}section.application .download img{margin:0}footer{margin-top:100px;width:100%}footer .socials{width:300px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .media{margin-top:0}footer .socials .media svg{height:68px!important;width:60px!important}footer .socials .media svg:first-of-type{margin-right:15px}footer .socials .media svg:last-of-type{margin-left:15px}}@media only screen and (max-width:769px){header{width:100%;height:220px;display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:7%}header .background{height:170%}header .container{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}header .container svg{margin-top:0;width:200px}header .container nav{margin-top:-3%;margin-right:3%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}header .container nav .menu{display:block;margin-top:70px;margin-right:30px}header .container nav .menu div{width:130px;height:20px;background-color:#fff;margin:4px 0;border-radius:5px;-webkit-transition:.2s;-o-transition:.2s;transition:.2s}header .container nav .menu .change:first-of-type{-webkit-transform:rotate(-45deg) translate(-12px,4px);-ms-transform:rotate(-45deg) translate(-12px,4px);transform:rotate(-45deg) translate(-12px,4px)}header .container nav .menu .change:last-of-type{-webkit-transform:rotate(45deg) translate(-12px,-4px);-ms-transform:rotate(45deg) translate(-12px,-4px);transform:rotate(45deg) translate(-12px,-4px)}header .container nav ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:300px;width:100vw;opacity:.7;margin-left:30px;margin-top:500px;position:absolute}header .container nav ul,header .container nav ul li{-webkit-box-align:center;-ms-flex-align:center;align-items:center}header .container nav ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:60px;height:100px;overflow:hidden;width:100%;background-color:#7d00ca;-webkit-animation:menuanimation .5s;animation:menuanimation .5s}@-webkit-keyframes menuanimation{0%{height:0}to{height:100px}}@keyframes menuanimation{0%{height:0}to{height:100px}}header .container nav .desktop{display:none}main{width:100%;height:980px;padding:0;margin:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}main .phones{height:60%;width:90%;margin-bottom:5%}main .download{height:317px;width:100%;margin:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center}main .download h1{font-size:60px}main .download p{font-size:40px;text-align:center}section.about{overflow:hidden;width:100%}section.about .container{width:90%}section.about .container h2{font-size:60px}section.about .container p{font-size:40px}section.about .container button{margin:0}section.info{width:100%;height:3500px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:static}section.info .box{height:710px;width:90%;position:static}section.info .box:first-of-type{margin:0;margin-top:61px;margin-bottom:52px}section.info .box:nth-of-type(2),section.info .box:nth-of-type(3){margin-top:0;margin-left:0;margin-bottom:52px}section.info .box:nth-of-type(3){height:800px}section.info .box:last-of-type{height:900px;margin-top:0;margin-left:0;margin-bottom:52px}section.info .box .circle{height:400px;width:400px}section.info .box .circle svg{width:300px;height:200px}section.info .box h3{width:90%;font-size:60px}section.info .box p{width:90%;font-size:40px}section.big{display:none}section.team{width:100%;height:2908px}section.team .background{top:-150px}section.team .container{width:90%}section.team .container h4,section.team .container h5{font-size:60px}section.team .container p{font-size:40px}section.team .container .description{height:100px}section.team .container .people{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0}section.team .container .people .person{height:1208px;width:100%}section.team .container .people .person:first-of-type{margin:0}section.team .container .people .person .photo,section.team .container .people .person .photo img{height:300px;width:300px}section.application{width:100%;height:2000px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .chat{margin-top:75px;margin-bottom:75.5px;margin-left:0}section.application .download{width:90%;height:657px;margin-top:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}section.application .download .text{width:100%;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}section.application .download .text h5{font-size:60px;text-align:center}section.application .download .text p{width:100%;font-size:40px}section.application .download button{display:none}footer{height:25vh;width:100%}footer .socials{position:absolute;margin-top:35px;height:107.5px;width:200px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}footer .socials .logo{height:86px;width:86px}footer .socials .media{height:31px}footer .socials .media svg{width:46px;height:40px}}", ""]);
 
 // exports
 
@@ -55778,6 +55468,417 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 283 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(138);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _aos = __webpack_require__(71);
+
+var _aos2 = _interopRequireDefault(_aos);
+
+var _reactRouter = __webpack_require__(224);
+
+var _Main = __webpack_require__(253);
+
+var _Main2 = _interopRequireDefault(_Main);
+
+var _About = __webpack_require__(255);
+
+var _About2 = _interopRequireDefault(_About);
+
+var _Info = __webpack_require__(270);
+
+var _Info2 = _interopRequireDefault(_Info);
+
+var _BigPhone = __webpack_require__(271);
+
+var _BigPhone2 = _interopRequireDefault(_BigPhone);
+
+var _Team = __webpack_require__(274);
+
+var _Team2 = _interopRequireDefault(_Team);
+
+var _Application = __webpack_require__(276);
+
+var _Application2 = _interopRequireDefault(_Application);
+
+var _video = __webpack_require__(117);
+
+var _video2 = _interopRequireDefault(_video);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var HomePage = function (_React$Component) {
+    _inherits(HomePage, _React$Component);
+
+    function HomePage(props) {
+        _classCallCheck(this, HomePage);
+
+        var _this = _possibleConstructorReturn(this, (HomePage.__proto__ || Object.getPrototypeOf(HomePage)).call(this, props));
+
+        _this.handleChange = function () {
+            if (_this.state.change === '') {
+                _this.setState({
+                    navDisplay: 'flex',
+                    change: 'change'
+                });
+            } else {
+                _this.setState({
+                    navDisplay: 'none',
+                    change: ''
+                });
+            }
+        };
+
+        _this.handleLink = function () {
+            _this.setState({
+                navDisplay: 'none',
+                change: ''
+            });
+        };
+
+        _this.handleAbout = function () {
+            var about = _reactDom2.default.findDOMNode(_this.refs.about);
+            window.scrollTo(0, about.offsetTop);
+            _this.setState({
+                navDisplay: 'none',
+                change: ''
+            });
+        };
+
+        _this.handleTeam = function () {
+            var team = _reactDom2.default.findDOMNode(_this.refs.team);
+            window.scrollTo(0, team.offsetTop);
+            _this.setState({
+                navDisplay: 'none',
+                change: ''
+            });
+        };
+
+        _this.state = {
+            navDisplay: 'none',
+            change: ''
+        };
+        return _this;
+    }
+
+    _createClass(HomePage, [{
+        key: 'render',
+        value: function render() {
+            _aos2.default.init();
+            return _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                    'header',
+                    null,
+                    _react2.default.createElement('img', { className: 'background', src: __webpack_require__(121) }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'container' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'logo' },
+                            _react2.default.createElement(
+                                _reactRouter.Link,
+                                { onClick: this.handleLink, className: 'link', to: '/' },
+                                _react2.default.createElement(
+                                    'svg',
+                                    { id: 'Warstwa_1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 1000 1000', fill: '#ffffff' },
+                                    _react2.default.createElement(
+                                        'linearGradient',
+                                        { id: 'SVGID_1_', gradientUnits: 'userSpaceOnUse', x1: '348.819',
+                                            y1: '500', x2: '660.914', y2: '500' },
+                                        _react2.default.createElement('stop', { offset: '0', stopColor: '#6a67ce' }),
+                                        _react2.default.createElement('stop', { offset: '1', stopColor: '#be00ff' })
+                                    ),
+                                    _react2.default.createElement('path', { className: 'st0', d: 'M614.9,347.5c-31.7-31.6-77.1-45.2-135-40.6c-58,4.7-103.8,41.3-122.6,97.8c-20.1,60.6-3.8,127.6,40.6,166.6 c29.6,26,95.3,59.8,214.5,13.1l-18.8,68.7l-32.7-34.8c-6.6-7-17.7-7.4-24.8-0.8c-7,6.6-7.4,17.7-0.8,24.8l43.4,46.2l2.8,1.4 c5.8,2.9,10.9,3.9,15.4,3.9c4.7,0,8.7-1.2,11.6-2.6c11.8-5.5,15.6-17.3,16.5-20.5l23-84.1c16.4-59.9-17.2-48.6-17.2-48.6 c-90.8,43.6-165.3,46-209.8,6.9c-34-29.9-46.2-81.8-30.5-129.3c14.4-43.4,48-70.4,92.2-74c47.1-3.8,83.2,6.4,107.2,30.3 c40.1,39.8,35.7,106.2,35.7,106.9c-0.7,9.6,6.5,18,16.1,18.8c9.6,0.7,18.1-6.4,18.8-16.1C660.9,478.4,666.5,399,614.9,347.5z'
+                                    })
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'nav',
+                            null,
+                            _react2.default.createElement(
+                                'div',
+                                { onClick: this.handleChange, className: 'menu' },
+                                _react2.default.createElement('div', { className: this.state.change }),
+                                _react2.default.createElement('div', { className: this.state.change })
+                            ),
+                            _react2.default.createElement(
+                                'ul',
+                                { className: 'desktop' },
+                                _react2.default.createElement(
+                                    'li',
+                                    { onClick: this.handleAbout },
+                                    'About'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    { onClick: this.handleTeam },
+                                    'Team'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    _react2.default.createElement(
+                                        _reactRouter.Link,
+                                        { onClick: this.handleLink, className: 'link', to: '/contact' },
+                                        'Contact'
+                                    )
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'ul',
+                                { style: { display: this.state.navDisplay } },
+                                _react2.default.createElement(
+                                    'li',
+                                    { onClick: this.handleAbout },
+                                    'About'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    { onClick: this.handleTeam },
+                                    'Team'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    _react2.default.createElement(
+                                        _reactRouter.Link,
+                                        { onClick: this.handleLink, className: 'link', to: '/contact' },
+                                        'Contact'
+                                    )
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(_Main2.default, null),
+                _react2.default.createElement(_About2.default, { ref: 'about' }),
+                _react2.default.createElement(_Info2.default, null),
+                _react2.default.createElement(_BigPhone2.default, null),
+                _react2.default.createElement(_Team2.default, { ref: 'team' }),
+                _react2.default.createElement(_Application2.default, null)
+            );
+        }
+    }]);
+
+    return HomePage;
+}(_react2.default.Component);
+
+exports.default = HomePage;
+
+/***/ }),
+/* 284 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(224);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Contact = function (_React$Component) {
+    _inherits(Contact, _React$Component);
+
+    function Contact(props) {
+        _classCallCheck(this, Contact);
+
+        var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+
+        _this.handleSubmit = function (e) {
+            e.preventDefault();
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        };
+
+        _this.handleName = function () {
+            if (_this.state.name.length === 0) {
+                _this.setState({
+                    error: 'nie tak'
+                });
+            }
+        };
+
+        _this.state = {
+            name: '',
+            email: '',
+            message: ''
+        };
+        return _this;
+    }
+
+    _createClass(Contact, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                    'header',
+                    null,
+                    _react2.default.createElement('img', { className: 'background', src: __webpack_require__(121) }),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'container' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'logo' },
+                            _react2.default.createElement(
+                                _reactRouter.Link,
+                                { onClick: this.handleLink, className: 'link', to: '/' },
+                                _react2.default.createElement(
+                                    'svg',
+                                    { id: 'Warstwa_1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 1000 1000', fill: '#ffffff' },
+                                    _react2.default.createElement(
+                                        'linearGradient',
+                                        { id: 'SVGID_1_', gradientUnits: 'userSpaceOnUse', x1: '348.819',
+                                            y1: '500', x2: '660.914', y2: '500' },
+                                        _react2.default.createElement('stop', { offset: '0', stopColor: '#6a67ce' }),
+                                        _react2.default.createElement('stop', { offset: '1', stopColor: '#be00ff' })
+                                    ),
+                                    _react2.default.createElement('path', { className: 'st0', d: 'M614.9,347.5c-31.7-31.6-77.1-45.2-135-40.6c-58,4.7-103.8,41.3-122.6,97.8c-20.1,60.6-3.8,127.6,40.6,166.6 c29.6,26,95.3,59.8,214.5,13.1l-18.8,68.7l-32.7-34.8c-6.6-7-17.7-7.4-24.8-0.8c-7,6.6-7.4,17.7-0.8,24.8l43.4,46.2l2.8,1.4 c5.8,2.9,10.9,3.9,15.4,3.9c4.7,0,8.7-1.2,11.6-2.6c11.8-5.5,15.6-17.3,16.5-20.5l23-84.1c16.4-59.9-17.2-48.6-17.2-48.6 c-90.8,43.6-165.3,46-209.8,6.9c-34-29.9-46.2-81.8-30.5-129.3c14.4-43.4,48-70.4,92.2-74c47.1-3.8,83.2,6.4,107.2,30.3 c40.1,39.8,35.7,106.2,35.7,106.9c-0.7,9.6,6.5,18,16.1,18.8c9.6,0.7,18.1-6.4,18.8-16.1C660.9,478.4,666.5,399,614.9,347.5z'
+                                    })
+                                )
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'section',
+                    { className: 'contact' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'text' },
+                        _react2.default.createElement(
+                            'h1',
+                            null,
+                            'Contact us'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'form',
+                        null,
+                        _react2.default.createElement('input', {
+                            autoFocus: true,
+                            onChange: this.handleName,
+                            type: 'text',
+                            placeholder: 'Name'
+                        }),
+                        _react2.default.createElement('input', { type: 'text', placeholder: 'E-mail' }),
+                        _react2.default.createElement('textarea', { placeholder: 'Message' }),
+                        _react2.default.createElement(
+                            'div',
+                            null,
+                            _react2.default.createElement('input', { onSubmit: this.handleSubmit, type: 'submit', value: 'Send' })
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Contact;
+}(_react2.default.Component);
+
+exports.default = Contact;
+
+/***/ }),
+/* 285 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Footer = __webpack_require__(251);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Template = function (_React$Component) {
+    _inherits(Template, _React$Component);
+
+    function Template() {
+        _classCallCheck(this, Template);
+
+        return _possibleConstructorReturn(this, (Template.__proto__ || Object.getPrototypeOf(Template)).apply(this, arguments));
+    }
+
+    _createClass(Template, [{
+        key: "render",
+        value: function render() {
+            return _react2.default.createElement(
+                "div",
+                null,
+                this.props.children,
+                _react2.default.createElement(_Footer2.default, null)
+            );
+        }
+    }]);
+
+    return Template;
+}(_react2.default.Component);
+
+exports.default = Template;
 
 /***/ })
 /******/ ]);
