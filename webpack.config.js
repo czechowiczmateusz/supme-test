@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     entry: ["whatwg-fetch", "./js/app.jsx"],
     output: {
@@ -9,21 +11,38 @@ module.exports = {
         port: 3001
     },
     watch: true,
-
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+            }
+        }),
+        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.optimize.AggressiveMergingPlugin()
+    ],
     module: {
         loaders: [{
             test: /\.jsx$/,
             exclude: /node_modules/,
-            loader: 'babel-loader?cacheDirectory=true',
+            loader: 'babel-loader',
             query: {
                 presets: ['es2015','stage-2', 'react']
             }
         }, {
             test: /\.scss$/,
-            loader: ['style-loader', { loader: 'css-loader', options: { minimize: true } } , 'sass-loader',]
+            use: [{
+                loader: 'style-loader'
+            }, {
+                loader: 'css-loader',
+                options: {
+                    minimize: true
+                }
+            }, {
+                loader: 'sass-loader'
+            }]
         },
             {
-                test: /\.(jpe?g|png|gif|svg)$/i,
+                test: /\.(jpe?g|png|gif|svg|mp4)$/i,
                 exclude: /node_modules/,
                 use: [
                     {

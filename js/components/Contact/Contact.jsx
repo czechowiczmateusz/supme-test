@@ -2,28 +2,6 @@ import React from 'react';
 import { Link } from 'react-router';
 
 class Contact extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: ''
-        }
-    }
-
-    handleSubmit = (e) => {
-        e.preventDefault();
-        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    };
-
-    handleName = () => {
-        if(this.state.name.length === 0) {
-            this.setState({
-                error: 'nie tak'
-            })
-        }
-    };
-
     render() {
         return (
             <div>
@@ -52,13 +30,24 @@ class Contact extends React.Component {
                     <form>
                         <input
                             autoFocus
-                            onChange={this.handleName}
+                            required
+                            name="name"
                             type="text"
                             placeholder="Name"
                         />
-                        <input type="text" placeholder="E-mail"/>
-                        <textarea placeholder="Message"></textarea>
-                        <div><input onSubmit={this.handleSubmit} type="submit" value="Send"/></div>
+                        <input
+                            required
+                            name="email"
+                            type="email"
+                            placeholder="E-mail"
+                        />
+                        <textarea
+                            required
+                            name="message"
+                            placeholder="Message"
+                        >
+                        </textarea>
+                        <div><input type="submit" value="Send"/></div>
                     </form>
                 </section>
             </div>
