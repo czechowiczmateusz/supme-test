@@ -18,7 +18,11 @@ module.exports = {
             }
         }),
         new webpack.optimize.UglifyJsPlugin(),
-        new webpack.optimize.AggressiveMergingPlugin()
+        new webpack.optimize.AggressiveMergingPlugin(),
+        new webpack.ProvidePlugin({
+            videojs: 'video.js', 'window.videojs': 'video.js',
+            RecordRTC: 'recordrtc', 'window.RecordRTC': 'recordrtc'
+        }),
     ],
     module: {
         loaders: [{

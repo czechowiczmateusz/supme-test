@@ -1,24 +1,34 @@
 import React from 'react';
-import videojs from 'video.js';
 
 class About extends React.Component {
+    componentDidMount() {
+        this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
+        });
+    }
+
+    componentWillUnmount() {
+        if (this.player) {
+            this.player.dispose()
+        }
+    }
     render(){
         return (
             <section className="about">
                 <div className="container">
                     <h2>About</h2>
-                    <p>Supme is the ultimate Client to Business app to start chat conversation with any business.</p>
+                    <p>Supme is the ultimate Client to Business app for chat conversation with any business.</p>
                     <div className="movie">
                         <video
+                            ref={ node => this.videoNode = node }
                             width="720"
                             height="480"
                             id="my-player"
                             className="video-js"
                             controls
                             preload="auto"
-                            poster={require('./../../../styles/images/SUPME-KOLOR.png')}
+                            poster='https://storage.googleapis.com/supmeiostatic/images/SUPME-KOLOR.png'
                             data-setup='{}'>
-                            <source src="https://dl.dropboxusercontent.com/s/2ogrkywk1t9qgdz/SUPME%20FINAL.mp4" type="video/mp4"></source>
+                            <source src="https://storage.googleapis.com/supmeiostatic/images/SUPMEFINAL.mp4" type="video/mp4"></source>
                             <p className="vjs-no-js">
                                 To view this video please enable JavaScript, and consider upgrading to a
                                 web browser that

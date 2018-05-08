@@ -6,21 +6,23 @@ class Team extends React.Component {
         AOS.init();
         return (
             <section className="team">
-                <img className="background" src={require('./../../../styles/images/wave-02.png')} alt="Background" />
+                <img className="background" src='https://storage.googleapis.com/supmeiostatic/images/wave-02.png' alt="Background" />
                 <div className="container">
                     <div className="description">
                         <h4>Team</h4>
                     </div>
                     <div className="people">
                         <div className="person">
-                            <div className="photo"><img src={require('./../../../styles/images/leszekwojnarski.jpg')} alt="Man"/></div>
+                            <div className="photo"><img src='https://storage.googleapis.com/supmeiostatic/images/leszekwojnarski.jpg' alt="Man"/></div>
                             <h4>Leszek Wojnarski</h4>
-                            <p>Leszek has more than 10 year experiance and great passion to Unified Communication sollutions, with the strong push to changing, simplify this area of technology. Leszek has worked with vendors that deliver and use work class communication solution to expand and fulfill enterpise' needs.</p>
+                            <span>Founder</span>
+                            <p>Leszek has more than 10 years of experiance in Unified Communication business, which has allowed him to develop a technical background, and a passion for this technology. Leszek likes to challenge the way things are done, to make them simpler and easier. He worked with the best companies in the industry in the Communication business, designing, implementing and supporting Unified Communication solutions.
+                                Leszek holds a master of engineering degree in Mathematics and Computer Science from the Silesian University of Technology, Gliwice Poland.</p>
                         </div>
                         <div className="person">
-                            <div className="photo"><img src={require('./../../../styles/images/softwarehouse.PNG')} alt="Man"/></div>
+                            <div className="photo"><img src='https://storage.googleapis.com/supmeiostatic/images/softwarehouse.png' alt="Man"/></div>
                             <h4>Software House</h4>
-                            <p>Team of young and creative people who have experience not only in creating excellent graphic design but also in implementing the newest leading solutions, ensuring both highest quality of our projects and satisfaction of our clients. </p>
+                            <p>Team of young and creative people who have experience not only in creating excellent mobile applications but also in implementing the newest leading solutions, ensuring always highest quality for the projects.</p>
                         </div>
                     </div>
                     <div className="circles">

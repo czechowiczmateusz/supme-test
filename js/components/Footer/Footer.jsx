@@ -4,7 +4,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <img className="background" src={require('./../../../styles/images/wave-04.svg')} alt="Background" />
+                <img className="background" src='https://storage.googleapis.com/supmeiostatic/images/wave-04.svg' alt="Background" />
                 <div className="socials">
                     <div className="logo">
                         <svg fill="#ffffff" id='Warstwa_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000'>

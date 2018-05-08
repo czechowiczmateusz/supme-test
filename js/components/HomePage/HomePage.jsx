@@ -8,35 +8,42 @@ import Info from "./../../components/Info/";
 import BigPhone from "./../../components/BigPhone/";
 import Team from "./../../components/Team/";
 import Application from "./../../components/Application/";
-import videojs from "video.js";
 
 class HomePage extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             navDisplay: 'none',
-            change: ''
         }
     }
 
     handleChange = () => {
-        if(this.state.change === '') {
+        if(this.state.navDisplay === 'none') {
             this.setState({
                 navDisplay: 'flex',
-                change: 'change'
             })
         } else {
             this.setState({
                 navDisplay: 'none',
-                change: ''
             })
         }
     };
 
+    handleChangeWidth = () => {
+      if(window.innerWidth > 769) {
+          this.setState({
+              navDisplay: 'none',
+          })
+      }
+    };
+
+    componentDidMount() {
+        window.addEventListener("resize", this.handleChangeWidth);
+    }
+
     handleLink = () => {
         this.setState({
             navDisplay: 'none',
-            change: ''
         })
     };
 
@@ -45,7 +52,6 @@ class HomePage extends React.Component {
         window.scrollTo(0, about.offsetTop);
         this.setState({
             navDisplay: 'none',
-            change: ''
         })
     };
 
@@ -53,8 +59,7 @@ class HomePage extends React.Component {
         const team = ReactDOM.findDOMNode(this.refs.team);
         window.scrollTo(0, team.offsetTop);
         this.setState({
-            navDisplay: 'none',
-            change: ''
+            navDisplay: 'none'
         })
     };
 
@@ -63,7 +68,7 @@ class HomePage extends React.Component {
         return (
             <div>
                 <header>
-                    <img className="background" src={require('./../../../styles/images/wave-011.svg')} />
+                    <img className="background" src='https://storage.googleapis.com/supmeiostatic/images/wave-011.svg' />
                     <div className="container">
                         <div className="logo">
                             <Link onClick={this.handleLink} className="link" to="/">
@@ -80,8 +85,8 @@ class HomePage extends React.Component {
                         </div>
                         <nav>
                             <div onClick={this.handleChange} className="menu">
-                                <div className={this.state.change}></div>
-                                <div className={this.state.change}></div>
+                                <div></div>
+                                <div></div>
                             </div>
                             <ul className="desktop" >
                                 <li onClick={this.handleAbout}>About</li>

@@ -5,7 +5,7 @@ class Main extends React.Component {
         return (
             <main>
                 <div className="phones">
-                    <img src={require('./../../../styles/images/1.jpg?noresize')} alt="Phones"/>
+                    <img src='https://storage.googleapis.com/supmeiostatic/images/1.jpg' alt="Phones"/>
                 </div>
                 <div className="download">
                     <h1>Supme.io</h1>
