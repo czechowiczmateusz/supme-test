@@ -17,7 +17,27 @@ module.exports = {
                 'NODE_ENV': JSON.stringify('production')
             }
         }),
-        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.optimize.UglifyJsPlugin({
+            output: {
+                comments: false
+            },
+            mangle: true,
+            sourcemap: false,
+            debug: false,
+            minimize: true,
+            compress: {
+                warnings: false,
+                screw_ie8: true,
+                conditionals: true,
+                unused: true,
+                comparisons: true,
+                sequences: true,
+                dead_code: true,
+                evaluate: true,
+                if_return: true,
+                join_vars: true
+            }
+        }),
         new webpack.optimize.AggressiveMergingPlugin(),
         new webpack.ProvidePlugin({
             videojs: 'video.js', 'window.videojs': 'video.js',
@@ -46,7 +66,7 @@ module.exports = {
             }]
         },
             {
-                test: /\.(jpe?g|png|gif|svg|mp4)$/i,
+                test: /\.(jpe?g|png|gif|svg|mp4|ttf)$/i,
                 exclude: /node_modules/,
                 use: [
                     {
