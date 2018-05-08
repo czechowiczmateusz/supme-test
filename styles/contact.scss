@@ -7,8 +7,16 @@ $mobile-fontsize-p: 40px;
 $fontsize-h: 36px;
 $fontsize-p: 24px;
 $color-p: #7a7a7a;
-$fontfamily-h: 'Roboto Slab', serif;
-$fontfamily-p: 'Open Sans', sans-serif;
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto_Slab/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(./fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+$fontfamily-h: Roboto;
+$fontfamily-p: OpenSans;
 
 section.contact {
   height: 820px;

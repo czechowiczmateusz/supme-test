@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 import AOS from 'aos';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import Main from "./../../components/Main/";
 import About from "./../../components/About/";
 import Info from "./../../components/Info/";
@@ -30,11 +30,11 @@ class HomePage extends React.Component {
     };
 
     handleChangeWidth = () => {
-      if(window.innerWidth > 769) {
-          this.setState({
-              navDisplay: 'none',
-          })
-      }
+        if(window.innerWidth > 769) {
+            this.setState({
+                navDisplay: 'none',
+            })
+        }
     };
 
     componentDidMount() {

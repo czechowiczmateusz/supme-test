@@ -1,24 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Router,
-    Route,
-    IndexRoute,
-    hashHistory
-} from 'react-router';
+import { BrowserRouter, Route } from "react-router-dom";
 require('.././styles/style.scss');
-import HomePage from "./components/HomePage";
+require('aos/src/sass/aos.scss');
 import Template from "./components/Template/";
-import Contact from "./components/Contact/";
 
 class App extends React.Component{
     render(){
         return (
-            <Router history={hashHistory}>
-                <Route path="/" component={Template}>
-                    <IndexRoute component={HomePage}></IndexRoute>
-                    <Route path="/contact" component={Contact}></Route>
-                </Route>
-            </Router>
+            <BrowserRouter>
+                    <Route path="/" component={Template}/>
+            </BrowserRouter>
         )
     }
 }

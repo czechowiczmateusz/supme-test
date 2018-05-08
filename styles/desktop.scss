@@ -53,14 +53,14 @@ header {
       margin-right: 5.46%;
       margin-top: 33px;
       @media only screen and (min-width: 770px) and (max-width: 900px) {
-          width: 55%;
-          margin-right: 5%;
-          margin-top: 6%;
+        width: 55%;
+        margin-right: 5%;
+        margin-top: 6%;
       }
       @media only screen and (min-width: 901px) and (max-width: $tablet-breakpoint) {
-          width: 45%;
-          margin-right: 5%;
-          margin-top: 6%;
+        width: 45%;
+        margin-right: 5%;
+        margin-top: 6%;
       }
       ul {
         width: 100%;
@@ -569,8 +569,8 @@ footer {
     .media {
       height: 31px;
       svg {
-        width: 72px;
-        height: 60px;
+        width: 62px;
+        height: 50px;
       }
       path {
         -webkit-transition: 300ms;
