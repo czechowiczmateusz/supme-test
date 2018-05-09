@@ -11,7 +11,7 @@ class Application extends React.Component {
                         <p>Open an app, login with your Google or Facebook account, or continue without login.</p>
                         <p>Share your location details.</p>
                         <p>Search for the company you want to communicate with, pick the subject, and simply start chatting. If the business supports attachments, voice/video call escalation, etc. it is also supported from supme application.</p>
-                        <button>Get App<div className="tooltip">App will be available soon</div></button>
+                        <button>Get App<div className="tooltip">We are working on it</div></button>
                     </div>
                 </div>
             </section>
